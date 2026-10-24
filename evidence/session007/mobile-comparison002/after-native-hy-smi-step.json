@@ -1,0 +1,11 @@
+{
+  "name": "after-native-hy-smi",
+  "command": [
+    "hy-smi"
+  ],
+  "started_utc": "2026-10-24T07:31:06.804073+00:00",
+  "timeout_seconds": 20.0,
+  "status": "PASS",
+  "returncode": 0,
+  "elapsed_seconds": 0.068641462828964
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "mobilevla-comparison007-003-independent-audit-v1",
+  "audit_integrity_passed": true,
+  "same_input_1_and_8_frame_comparison_completed": true,
+  "raw_generated_tokens_equal": true,
+  "run_id": "d80323e361d3489d7b68090b7a2a3ac2",
+  "controller_elapsed_seconds": 359.7061917758547,
+  "comparisons": [
+    {
+      "frames": 1,
+      "expanded_input_tokens": 269,
+      "raw_generated_tokens": 32,
+      "native_finish_reason": "length",
+      "HF_finish_reason": "length",
+      "raw_generated_token_ids_equal": true,
+      "first_divergence": null
+    },
+    {
+      "frames": 8,
+      "expanded_input_tokens": 1648,
+      "raw_generated_tokens": 32,
+      "native_finish_reason": "length",
+      "HF_finish_reason": "length",
+      "raw_generated_token_ids_equal": true,
+      "first_divergence": null
+    }
+  ],
+  "source_lock_sha256": "f27db0276bc887eeb0c14f5e9deff9af40657017c2caa00cb07d596ac2ef33b9",
+  "derived_adapter_source_modules_bound": 7,
+  "actual_native_source_files": {
+    "backend": {
+      "path": "/root/private_data/guoxin-mobilevla-tools-007-003/candidates/mobilevla-r1-session006/mobilevla_bw006/backend.py",
+      "sha256": "5d529bd662867463d2f7f3fabb24dc5c8629976a136cbdeab5aff8b349e2c0d8"
+    },
+    "native_tokens_main": {
+      "path": "/usr/local/lib/python3.10/dist-packages/vllm/multimodal/processing/processor.py",
+      "sha256": "900283f4fabd65449ac76b8a08d3d8e546321d4c88d046c3d510cfc5fabde1bf"
+    },
+    "native_tokenizer_class": {
+      "path": "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_tokenizers.py",
+      "sha256": "2a41b4e2ab5a3f467ce6ab9efa818cbd9442260c08b2d6e16eec33a4a56b3883"
+    }
+  },
+  "actual_tokenizer_classes": {
+    "publisher": "TokenizersBackend",
+    "derived": "TokenizersBackend"
+  },
+  "actual_native_package_versions": {
+    "transformers": "5.5.0",
+    "tokenizers": "0.22.2",
+    "vllm": "0.18.1+das.fa71803.dtk2604",
+    "vllm-hcu": "0.18.1+das.dtk2604"
+  },
+  "new_derived_receipt_schema": "mobilevla-derived-hf-view-007-bos003-v1",
+  "cleanup_records": {
+    "native-stop": {
+      "status": "PASS",
+      "captured_utc": "2026-10-24T07:31:06.791684+00:00",
+      "run_id": "d80323e361d3489d7b68090b7a2a3ac2",
+      "terminal_state_recorded": true,
+      "processes": {
+        "supervisor": {
+          "status": "absent",
+          "pid": 4908,
+          "running": false,
+          "expected_start_token": "285428146",
+          "same_owned_process_running": false
+        },
+        "server": {
+          "status": "absent",
+          "pid": 4909,
+          "running": false,
+          "expected_start_token": "285428157",
+          "same_owned_process_running": false
+        }
+      },
+      "owned_process_group_live_members": [],
+      "process_probe_errors": [],
+      "loopback_port": 30139,
+      "connect_ex": 111,
+      "port_refused_connection": true,
+      "GPU_memory_idle_claimed": false,
+      "stop_error": null
+    },
+    "final-stop": {
+      "status": "PASS",
+      "captured_utc": "2026-10-24T07:32:27.487692+00:00",
+      "run_id": "d80323e361d3489d7b68090b7a2a3ac2",
+      "terminal_state_recorded": true,
+      "processes": {
+        "supervisor": {
+          "status": "absent",
+          "pid": 4908,
+          "running": false,
+          "expected_start_token": "285428146",
+          "same_owned_process_running": false
+        },
+        "server": {
+          "status": "absent",
+          "pid": 4909,
+          "running": false,
+          "expected_start_token": "285428157",
+          "same_owned_process_running": false
+        }
+      },
+      "owned_process_group_live_members": [],
+      "process_probe_errors": [],
+      "loopback_port": 30139,
+      "connect_ex": 111,
+      "port_refused_connection": true,
+      "GPU_memory_idle_claimed": false,
+      "stop_error": null
+    }
+  },
+  "EOS_runtime_trigger_observed": false,
+  "navigation_accuracy_verified": false,
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "official_acceptance": false,
+  "submitted": false,
+  "scope": "Downloaded actual BW records audited locally; no new GPU execution, no local rehash of remote17GB weights, no official evaluator",
+  "raw_archive": {
+    "path": "E:\\hg20261019\\dist\\000-session007-mobile-comparison002.zip",
+    "bytes": 82473,
+    "sha256": "df35fd6707b67956b573130c71f394f84df57b496b6c6df7bbd870892a233634",
+    "verified_payload_files": 69
+  }
+}

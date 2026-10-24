@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "payload_files": 104,
+  "strict_helper_readback": true,
+  "overwrite_refused": true,
+  "installed_source_identity": {
+    "status": "PASS",
+    "verified_payload_file_counts": {
+      "frozen": 70,
+      "comparison": 5
+    },
+    "lock_sha256": "63e70e6a2fff22b7339e70878ecab85844bbca822574da3038fbe1fc686be414"
+  },
+  "helper_sha256": "22ce374fc083b1ff804fbc11f28f0da946b0a50f845ef53a97c1ff408076b01a",
+  "GPU_used": false
+}

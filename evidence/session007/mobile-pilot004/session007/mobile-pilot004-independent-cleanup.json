@@ -1,0 +1,17 @@
+{
+  "UTC": "2026-10-24T08:25:04.877407+00:00",
+  "run_id": "4171b0333672dac2f12a25dbbba9de60",
+  "processes": {
+    "supervisor": {
+      "pid": 19454,
+      "proc_exists": false,
+      "expected_start_token": "285740963"
+    },
+    "server": {
+      "pid": 19455,
+      "proc_exists": false,
+      "expected_start_token": "285740973"
+    }
+  },
+  "port30139closed": true
+}

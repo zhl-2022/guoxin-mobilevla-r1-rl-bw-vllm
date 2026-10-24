@@ -1,0 +1,190 @@
+{
+  "schema": "mobilevla-selected-rgb-rl-entry-plan-006-v1",
+  "repo": "AIGeeksGroup/MobileVLA-R1",
+  "revision": "0c757f3e9d1b95d8416b42e7089e1c04f3e6118a",
+  "selection": "weight/rl/",
+  "selected_entries": 16,
+  "compressed_payload_bytes": 13434605378,
+  "uncompressed_bytes": 16997621949,
+  "central_directory_sha256": "4abb56a8a5710e7a7b2ec6664146ae57bc02d67c7b67a9eefb1bf4ae20a73373",
+  "full_lfs_parts_sha_verified": false,
+  "integrity": "Fixed-revision HTTPS exact Range, ZIP local-header + central-directory size/name/method/CRC32; locally calculated compressed and extracted SHA256 recorded. Partial ranges cannot verify publisher full-part LFS SHA256.",
+  "entries": [
+    {
+      "path": "weight/rl/llm/model-00004-of-00004.safetensors",
+      "uncompressed_size": 1168163384,
+      "compressed_size": 922412356,
+      "crc32": "d315fef9",
+      "compression_method": 8,
+      "local_header_logical_offset": 13437155897,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/model-00001-of-00004.safetensors",
+      "uncompressed_size": 4976723248,
+      "compressed_size": 3935314642,
+      "crc32": "1d6ad087",
+      "compression_method": 8,
+      "local_header_logical_offset": 14359568357,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/tokenizer_config.json",
+      "uncompressed_size": 51539,
+      "compressed_size": 2157,
+      "crc32": "6d04a147",
+      "compression_method": 8,
+      "local_header_logical_offset": 18294883123,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/special_tokens_map.json",
+      "uncompressed_size": 434,
+      "compressed_size": 129,
+      "crc32": "8f2047a8",
+      "compression_method": 8,
+      "local_header_logical_offset": 18294885373,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/config.json",
+      "uncompressed_size": 843,
+      "compressed_size": 442,
+      "crc32": "dfc70e4f",
+      "compression_method": 8,
+      "local_header_logical_offset": 18294885597,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/tokenizer.json",
+      "uncompressed_size": 9086220,
+      "compressed_size": 2334961,
+      "crc32": "e00ca629",
+      "compression_method": 8,
+      "local_header_logical_offset": 18294886122,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/generation_config.json",
+      "uncompressed_size": 194,
+      "compressed_size": 134,
+      "crc32": "372d6432",
+      "compression_method": 8,
+      "local_header_logical_offset": 18297221169,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/model-00003-of-00004.safetensors",
+      "uncompressed_size": 4915916176,
+      "compressed_size": 3884326780,
+      "crc32": "0fcba740",
+      "compression_method": 8,
+      "local_header_logical_offset": 18297221397,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/model.safetensors.index.json",
+      "uncompressed_size": 23950,
+      "compressed_size": 1135,
+      "crc32": "24141e0c",
+      "compression_method": 8,
+      "local_header_logical_offset": 22181548301,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/llm/model-00002-of-00004.safetensors",
+      "uncompressed_size": 4999802720,
+      "compressed_size": 3952515642,
+      "crc32": "38568f6c",
+      "compression_method": 8,
+      "local_header_logical_offset": 22181549536,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/vision_tower/model.safetensors",
+      "uncompressed_size": 856506120,
+      "compressed_size": 681685561,
+      "crc32": "97d28100",
+      "compression_method": 8,
+      "local_header_logical_offset": 26134066862,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/vision_tower/config.json",
+      "uncompressed_size": 582,
+      "compressed_size": 334,
+      "crc32": "25841162",
+      "compression_method": 8,
+      "local_header_logical_offset": 26815752521,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/vision_tower/preprocessor_config.json",
+      "uncompressed_size": 368,
+      "compressed_size": 184,
+      "crc32": "cb4812cc",
+      "compression_method": 8,
+      "local_header_logical_offset": 26815752947,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/config.json",
+      "uncompressed_size": 7365,
+      "compressed_size": 1467,
+      "crc32": "1b120725",
+      "compression_method": 8,
+      "local_header_logical_offset": 26815753236,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/mm_projector/model.safetensors",
+      "uncompressed_size": 71338512,
+      "compressed_size": 56009255,
+      "crc32": "755f92f7",
+      "compression_method": 8,
+      "local_header_logical_offset": 26815754863,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    },
+    {
+      "path": "weight/rl/mm_projector/config.json",
+      "uncompressed_size": 294,
+      "compressed_size": 199,
+      "crc32": "406eb8d5",
+      "compression_method": 8,
+      "local_header_logical_offset": 26871764216,
+      "flag_bits": 0,
+      "external_attr": 2175008768,
+      "is_dir": false
+    }
+  ]
+}

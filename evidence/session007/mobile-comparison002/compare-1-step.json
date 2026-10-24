@@ -1,0 +1,19 @@
+{
+  "name": "compare-1",
+  "command": [
+    "/usr/bin/python",
+    "-B",
+    "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/mobilevla_compare_records006_003.py",
+    "--native",
+    "/root/private_data/mobilevla-comparison-evidence007-run002/native-1.json",
+    "--reference",
+    "/root/private_data/mobilevla-comparison-evidence007-run002/hf-1.json",
+    "--output",
+    "/root/private_data/mobilevla-comparison-evidence007-run002/comparison-1.json"
+  ],
+  "started_utc": "2026-10-24T07:32:27.209705+00:00",
+  "timeout_seconds": 15.0,
+  "status": "PASS",
+  "returncode": 0,
+  "elapsed_seconds": 0.06847780244424939
+}

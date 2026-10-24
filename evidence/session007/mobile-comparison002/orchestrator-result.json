@@ -1,0 +1,537 @@
+{
+  "run_id": "d80323e361d3489d7b68090b7a2a3ac2",
+  "status": "completed_equal_raw_tokens",
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "submitted": false,
+  "native_cleanup": {
+    "status": "PASS",
+    "captured_utc": "2026-10-24T07:31:06.791684+00:00",
+    "run_id": "d80323e361d3489d7b68090b7a2a3ac2",
+    "terminal_state_recorded": true,
+    "processes": {
+      "supervisor": {
+        "status": "absent",
+        "pid": 4908,
+        "running": false,
+        "expected_start_token": "285428146",
+        "same_owned_process_running": false
+      },
+      "server": {
+        "status": "absent",
+        "pid": 4909,
+        "running": false,
+        "expected_start_token": "285428157",
+        "same_owned_process_running": false
+      }
+    },
+    "owned_process_group_live_members": [],
+    "process_probe_errors": [],
+    "loopback_port": 30139,
+    "connect_ex": 111,
+    "port_refused_connection": true,
+    "GPU_memory_idle_claimed": false,
+    "stop_error": null
+  },
+  "comparisons": [
+    {
+      "schema": "mobilevla-development-token-comparison006-v3",
+      "comparable": true,
+      "contract_problems": [],
+      "raw_generated_token_ids_equal": true,
+      "first_generated_divergence": null,
+      "native_generated_tokens": 32,
+      "reference_generated_tokens": 32,
+      "terminal_EOS_comparison": "included in raw token IDs on both sides",
+      "official_accuracy_verified": false,
+      "official_performance_verified": false,
+      "scope": "Exact same-input development comparison; equality is not navigation accuracy or an official score",
+      "input_records": {
+        "native": {
+          "path": "/root/private_data/mobilevla-comparison-evidence007-run002/native-1.json",
+          "sha256": "e717990152bd52ba52e94830bcfcdadbb6840a4e1c377c57d548a75bc87b6497"
+        },
+        "reference": {
+          "path": "/root/private_data/mobilevla-comparison-evidence007-run002/hf-1.json",
+          "sha256": "3a40ed0293f1f97ed56e785639657df5ae6c4eae47e8ed7e947d0ac29c518446"
+        }
+      }
+    },
+    {
+      "schema": "mobilevla-development-token-comparison006-v3",
+      "comparable": true,
+      "contract_problems": [],
+      "raw_generated_token_ids_equal": true,
+      "first_generated_divergence": null,
+      "native_generated_tokens": 32,
+      "reference_generated_tokens": 32,
+      "terminal_EOS_comparison": "included in raw token IDs on both sides",
+      "official_accuracy_verified": false,
+      "official_performance_verified": false,
+      "scope": "Exact same-input development comparison; equality is not navigation accuracy or an official score",
+      "input_records": {
+        "native": {
+          "path": "/root/private_data/mobilevla-comparison-evidence007-run002/native-8.json",
+          "sha256": "af3bd33541cc5bacf13d75ca2b30eba693f144145f73690178321dfd95aa4015"
+        },
+        "reference": {
+          "path": "/root/private_data/mobilevla-comparison-evidence007-run002/hf-8.json",
+          "sha256": "9fc24e039d4a8033b2cab63956d475f2a03769e6a3fba8e503c534eeb6748fc0"
+        }
+      }
+    }
+  ],
+  "final_cleanup": {
+    "status": "PASS",
+    "captured_utc": "2026-10-24T07:32:27.487692+00:00",
+    "run_id": "d80323e361d3489d7b68090b7a2a3ac2",
+    "terminal_state_recorded": true,
+    "processes": {
+      "supervisor": {
+        "status": "absent",
+        "pid": 4908,
+        "running": false,
+        "expected_start_token": "285428146",
+        "same_owned_process_running": false
+      },
+      "server": {
+        "status": "absent",
+        "pid": 4909,
+        "running": false,
+        "expected_start_token": "285428157",
+        "same_owned_process_running": false
+      }
+    },
+    "owned_process_group_live_members": [],
+    "process_probe_errors": [],
+    "loopback_port": 30139,
+    "connect_ex": 111,
+    "port_refused_connection": true,
+    "GPU_memory_idle_claimed": false,
+    "stop_error": null
+  },
+  "source_identity_after": {
+    "status": "PASS",
+    "verified_payload_file_counts": {
+      "frozen": 70,
+      "comparison": 5
+    },
+    "lock_sha256": "f27db0276bc887eeb0c14f5e9deff9af40657017c2caa00cb07d596ac2ef33b9"
+  },
+  "ended_utc": "2026-10-24T07:32:27.566141+00:00",
+  "elapsed_seconds": 359.7061917758547,
+  "steps": [
+    {
+      "name": "prepare-derived",
+      "command": [
+        "/usr/bin/python",
+        "-B",
+        "-m",
+        "mobilevla_bw006.prepare",
+        "--source",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+        "--receipt",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/extraction-receipt.json",
+        "--output",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-derived007-bos003"
+      ],
+      "started_utc": "2026-10-24T07:26:27.979744+00:00",
+      "timeout_seconds": 240.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 58.85232506599277
+    },
+    {
+      "name": "native-tokenizer-probe",
+      "command": [
+        "/usr/bin/python",
+        "-B",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/probe_mobilevla_tokens007_003.py",
+        "--source",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+        "--derived",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-derived007-bos003",
+        "--output",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/native-tokenizer-probe.json"
+      ],
+      "started_utc": "2026-10-24T07:27:26.857724+00:00",
+      "timeout_seconds": 90.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 32.55086748022586
+    },
+    {
+      "name": "native-start",
+      "command": [
+        "bash",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/run.sh",
+        "--run-id",
+        "d80323e361d3489d7b68090b7a2a3ac2"
+      ],
+      "started_utc": "2026-10-24T07:27:59.416239+00:00",
+      "timeout_seconds": 700.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 130.13013371126726
+    },
+    {
+      "name": "native-1",
+      "command": [
+        "/usr/bin/python",
+        "-B",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/mobilevla_reference_http006_003.py",
+        "--source",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+        "--max-new-tokens",
+        "32",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--output",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/native-1.json"
+      ],
+      "started_utc": "2026-10-24T07:30:09.564950+00:00",
+      "timeout_seconds": 245.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 25.014471424743533
+    },
+    {
+      "name": "native-8",
+      "command": [
+        "/usr/bin/python",
+        "-B",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/mobilevla_reference_http006_003.py",
+        "--source",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+        "--max-new-tokens",
+        "32",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png",
+        "--output",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/native-8.json"
+      ],
+      "started_utc": "2026-10-24T07:30:34.586515+00:00",
+      "timeout_seconds": 245.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 24.109971165191382
+    },
+    {
+      "name": "native-stop",
+      "command": [
+        "bash",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/stop.sh",
+        "--run-id",
+        "d80323e361d3489d7b68090b7a2a3ac2"
+      ],
+      "started_utc": "2026-10-24T07:30:58.703328+00:00",
+      "timeout_seconds": 45.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 8.080287602730095
+    },
+    {
+      "name": "after-native-hy-smi",
+      "command": [
+        "hy-smi"
+      ],
+      "started_utc": "2026-10-24T07:31:06.804073+00:00",
+      "timeout_seconds": 20.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 0.068641462828964
+    },
+    {
+      "name": "hf-1",
+      "command": [
+        "/usr/bin/python",
+        "-B",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/mobilevla_reference_hf006_003.py",
+        "--source",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+        "--max-new-tokens",
+        "32",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--output",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/hf-1.json"
+      ],
+      "started_utc": "2026-10-24T07:31:06.878212+00:00",
+      "timeout_seconds": 480.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 38.54042206984013
+    },
+    {
+      "name": "hf-8",
+      "command": [
+        "/usr/bin/python",
+        "-B",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/mobilevla_reference_hf006_003.py",
+        "--source",
+        "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+        "--max-new-tokens",
+        "32",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png",
+        "--image",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png",
+        "--output",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/hf-8.json"
+      ],
+      "started_utc": "2026-10-24T07:31:45.425228+00:00",
+      "timeout_seconds": 480.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 41.77832360705361
+    },
+    {
+      "name": "compare-1",
+      "command": [
+        "/usr/bin/python",
+        "-B",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/mobilevla_compare_records006_003.py",
+        "--native",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/native-1.json",
+        "--reference",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/hf-1.json",
+        "--output",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/comparison-1.json"
+      ],
+      "started_utc": "2026-10-24T07:32:27.209705+00:00",
+      "timeout_seconds": 15.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 0.06847780244424939
+    },
+    {
+      "name": "compare-8",
+      "command": [
+        "/usr/bin/python",
+        "-B",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/mobilevla_compare_records006_003.py",
+        "--native",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/native-8.json",
+        "--reference",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/hf-8.json",
+        "--output",
+        "/root/private_data/mobilevla-comparison-evidence007-run002/comparison-8.json"
+      ],
+      "started_utc": "2026-10-24T07:32:27.285148+00:00",
+      "timeout_seconds": 15.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 0.06825408898293972
+    },
+    {
+      "name": "final-stop",
+      "command": [
+        "bash",
+        "/root/private_data/guoxin-mobilevla-tools-007-003/tasks/mobilevla-r1-rl-bw-vllm/stop.sh",
+        "--run-id",
+        "d80323e361d3489d7b68090b7a2a3ac2"
+      ],
+      "started_utc": "2026-10-24T07:32:27.360644+00:00",
+      "timeout_seconds": 45.0,
+      "status": "PASS",
+      "returncode": 0,
+      "elapsed_seconds": 0.12026562169194221
+    }
+  ],
+  "files": {
+    "prepare-derived.log": {
+      "bytes": 2792,
+      "sha256": "a7bf56d8da5410dfb7f5c1cbd22efefc2b144ae45ab97856fe3b6006b73aead4"
+    },
+    "derived-prepare-receipt.json": {
+      "bytes": 170882,
+      "sha256": "ba41fc9ca72acf320bab5e76d5cabfde9d6436a6024c2bce5ffcef35b045e301"
+    },
+    "native-start.log": {
+      "bytes": 1565,
+      "sha256": "a5f5fc76b7b7165e6e11634620bdf360fe0a4e65191c72adfac9d4b1a23e4675"
+    },
+    "native-1-step.json": {
+      "bytes": 682,
+      "sha256": "35609b696d72cae33187a49f8eebe44d6f497b0e2708285ffd53b8dd0b0ebdc0"
+    },
+    "native-8.log": {
+      "bytes": 368,
+      "sha256": "0bfad2519377320918f6e94a7d66880eb3eda07bb8d802e39e9e653cb4962b64"
+    },
+    "native-8-step.json": {
+      "bytes": 1519,
+      "sha256": "0c34b955e9cd6bcc7ba73fd51c7397c55bb566a2f5ac900298f9a6b79a954562"
+    },
+    "native-stop.log": {
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    "native-stop-state.json": {
+      "bytes": 1607,
+      "sha256": "afa62e85b1196c92ccfda96a77feb76eb9d152f4e4f74ddb35aab9fb686489fd"
+    },
+    "native-stop-verification.json": {
+      "bytes": 750,
+      "sha256": "bcd361fae5205fd455b810ded884b3a3b0f2f4f18eac40bd9f67114e387ff84c"
+    },
+    "after-native-hy-smi.log": {
+      "bytes": 588,
+      "sha256": "cb6dbbf02ff23723804aa5ae75ab7bfa02caa3e6eaf8e066210832414bb29c1b"
+    },
+    "after-native-hy-smi-step.json": {
+      "bytes": 227,
+      "sha256": "34e00e1187833a3bab92ed6f14d43ff3b513230d4a68e09e648af1f72cc34a83"
+    },
+    "hf-1.log": {
+      "bytes": 2234,
+      "sha256": "5932bc2aad3d91809c19345e4c1e98510911d761d3a534004e76ddd1e667016b"
+    },
+    "hf-1.json": {
+      "bytes": 6925,
+      "sha256": "3a40ed0293f1f97ed56e785639657df5ae6c4eae47e8ed7e947d0ac29c518446"
+    },
+    "hf-8.log": {
+      "bytes": 2236,
+      "sha256": "35e634073aa1fc139b2d9c1879c5de87c5f3c0d596e43a181e12e422dde578dd"
+    },
+    "hf-8.json": {
+      "bytes": 25254,
+      "sha256": "9fc24e039d4a8033b2cab63956d475f2a03769e6a3fba8e503c534eeb6748fc0"
+    },
+    "hf-8-step.json": {
+      "bytes": 1508,
+      "sha256": "8b3f2bf3b5f2c694e43d2b82448f11b52740922ee3da38f3aaa6a4dd1eaff704"
+    },
+    "comparison-1.json": {
+      "bytes": 940,
+      "sha256": "bd7cbd10c09a1c4cad4519afe5073b01682993c50574799a60aa5f2c9e8313b1"
+    },
+    "comparison-8.json": {
+      "bytes": 940,
+      "sha256": "0feb815c360f6ba450414e68f459ec24fa384453b54ae1dbbc4be05ee323535e"
+    },
+    "final-stop-state.json": {
+      "bytes": 1607,
+      "sha256": "afa62e85b1196c92ccfda96a77feb76eb9d152f4e4f74ddb35aab9fb686489fd"
+    },
+    "native-runtime-state.json": {
+      "bytes": 1608,
+      "sha256": "ba746e00a7c0ad300cde66aca16e7feb3f0f770fa6639837af3f76cce1689143"
+    },
+    "native-runtime-server.log": {
+      "bytes": 16793,
+      "sha256": "20d19e2658fa730b6c43bc5395bca93df2f2f446b5d00c7ce888248522fae49b"
+    },
+    "orchestrator-plan.json": {
+      "bytes": 738,
+      "sha256": "03d2bd30cf0a30592c8b51d1c7b0d8acda1c86b5cb304adb95ec02adeaf3bddb"
+    },
+    "prepare-derived-step.json": {
+      "bytes": 589,
+      "sha256": "f1c58458679d3930365a5105517dbb291425a87568a5e7c8c8bea41669fa0c8b"
+    },
+    "native-tokenizer-probe.log": {
+      "bytes": 910,
+      "sha256": "3c1aff28e8a7e8b79c027961cee7643c02987f84ad68afcb70ce9c5e3c140e19"
+    },
+    "native-tokenizer-probe.json": {
+      "bytes": 8436,
+      "sha256": "e33816f99bab822e4c6dd0b2b14863762abe16fdbfc1dace4ad10d8ddc877abe"
+    },
+    "native-tokenizer-probe-step.json": {
+      "bytes": 652,
+      "sha256": "ade5f8f939b8030195bed0d100eeedebb49dc06554284da531123291fe103772"
+    },
+    "native-start-step.json": {
+      "bytes": 370,
+      "sha256": "3c180403bfa6851993db14a74af91fea7c833821d1d8323353f24143829a26f3"
+    },
+    "native-ready-state.json": {
+      "bytes": 1495,
+      "sha256": "c29ed32ce50c5b82e9c66897010fb13f1aa5dcc19debf00770653de47a94c189"
+    },
+    "native-config.json": {
+      "bytes": 1996,
+      "sha256": "5c3f08bea1483c2be55e10df499eaf03f3cf2a319ee2688b64a03dc05fd4f17e"
+    },
+    "native-1.log": {
+      "bytes": 366,
+      "sha256": "6cf767c90886d32c5acb7be0dba9b3364325fc0618a514fc68456816d33800eb"
+    },
+    "native-1.json": {
+      "bytes": 15254,
+      "sha256": "e717990152bd52ba52e94830bcfcdadbb6840a4e1c377c57d548a75bc87b6497"
+    },
+    "native-8.json": {
+      "bytes": 69382,
+      "sha256": "af3bd33541cc5bacf13d75ca2b30eba693f144145f73690178321dfd95aa4015"
+    },
+    "native-stop-step.json": {
+      "bytes": 368,
+      "sha256": "906026e434b42cb9989c2932a7a865e8537bf2aea90638a98089f81852380de5"
+    },
+    "hf-1-step.json": {
+      "bytes": 671,
+      "sha256": "e7d76df524bf7fbe30c25e46edd700d0f2271f82670d72cba74b77a688686084"
+    },
+    "compare-1.log": {
+      "bytes": 867,
+      "sha256": "c92254edec1ce4987f39cc597f1019c655b79bb4a6d5e0f5d12cee0744844058"
+    },
+    "compare-1-step.json": {
+      "bytes": 630,
+      "sha256": "0c944bb5898ca54e9ec1166a5dc160e2f73a333b4cfe05302cb96d6cf319bbf6"
+    },
+    "compare-8.log": {
+      "bytes": 867,
+      "sha256": "66c721c225f9b35d6af66900bf47e69c35f77d6eb3d499e8436070f468ec3c7d"
+    },
+    "compare-8-step.json": {
+      "bytes": 630,
+      "sha256": "aaab05f2dc622f06128cb3143c1c2c046903e57606678b0e7a662aacad118f3a"
+    },
+    "final-stop.log": {
+      "bytes": 71,
+      "sha256": "9cab7f8f9c0c46d44e6e3d8eafea7f7e3595cc906ff7ed47f8fbb2137fedbcf3"
+    },
+    "final-stop-step.json": {
+      "bytes": 369,
+      "sha256": "cc473b5f084dc22be24af143da56eccfe5cf44d1c9080a2e6392bff3b9432dcb"
+    },
+    "final-stop-verification.json": {
+      "bytes": 750,
+      "sha256": "29be03edecc32e8f775b6bd2d26390e06aedaf09ab3bee71909f85c4731bd762"
+    },
+    "native-runtime-supervisor.log": {
+      "bytes": 2770,
+      "sha256": "0b664e52b8bd5553837c2cf9ebe4ced4edd5af9aec17a57f100817a937dabafd"
+    }
+  }
+}

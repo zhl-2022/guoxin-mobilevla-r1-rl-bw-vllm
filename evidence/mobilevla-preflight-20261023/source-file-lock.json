@@ -1,0 +1,1704 @@
+{
+  "schema": "mobilevla-official-full-source-lock-v1",
+  "repository": "https://github.com/AIGeeksGroup/MobileVLA-R1",
+  "commit": "9d98cce3b623dfddf479740d78869ec30364b75a",
+  "archive_url": "https://codeload.github.com/AIGeeksGroup/MobileVLA-R1/zip/9d98cce3b623dfddf479740d78869ec30364b75a",
+  "archive_size": 4363353,
+  "archive_sha256": "d719c691217e628ed112365f9aad7c6640da114297dac2761ee0f8a1ac3579e1",
+  "git_tree_complete": true,
+  "files": [
+    {
+      "path": ".flake8",
+      "size": 196,
+      "sha256": "81a4852deb1c6723e1754c274fa2c35f229b9685ee7b472478798a899196f280",
+      "git_blob_sha1": "77404ae71169b9b9c1bf0e44df63335dad43de4c"
+    },
+    {
+      "path": ".gitignore",
+      "size": 511,
+      "sha256": "68d56811eaf7e8152e4a784a1cb3d988c3a9ba8ec0f6f56f34a67fdf166a9dcc",
+      "git_blob_sha1": "e352f608b0844b1b7cd771f88df903fe3b58f43d"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "size": 2025,
+      "sha256": "0319edd67b3e9de6db01c3d4ad8f0f9e2037770ef0e7b56cbbce5547635a24ca",
+      "git_blob_sha1": "194b3fbecd27014baef3ca5de2e0bd7a6baaaa6f"
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "size": 12062,
+      "sha256": "fb0a1f8f547e6d50d4bb69af245152706a57a6ec0433a35d91a2879fb4f9b5ba",
+      "git_blob_sha1": "4753491f04d17e9e5190414a9019478e428c8ec0"
+    },
+    {
+      "path": "action_extractor.py",
+      "size": 549,
+      "sha256": "b4c3dae587290dfcb0f78de05ba78b7392a9486a09f38731439a6b5e66b43212",
+      "git_blob_sha1": "904bd52e426f3ed602ac6b27b6c0b5c32b8b0c98"
+    },
+    {
+      "path": "assets/mobilevlar1_logo.png",
+      "size": 204125,
+      "sha256": "90bdf347efd65133fafb547fae6a4fdd928839b68ceddd48dd1f0a04858b5df7",
+      "git_blob_sha1": "89c9748ca3c7e1dae58e0463cdead4cfec766190"
+    },
+    {
+      "path": "assets/structure.png",
+      "size": 3424677,
+      "sha256": "2342aec077934609923665bc35289f15e7d3a345358474aab42e899807093140",
+      "git_blob_sha1": "94be06eecd823b493bd0ba8fce69b04896aa20a2"
+    },
+    {
+      "path": "environment_setup.sh",
+      "size": 1081,
+      "sha256": "b90d77be071f4246fe465aece6afc1674f2f586020ce1cb929c95312de41952a",
+      "git_blob_sha1": "c68bd5567f4a82931fe631724ef0cd9ee0258253"
+    },
+    {
+      "path": "evaluation/habitat_extensions/__init__.py",
+      "size": 193,
+      "sha256": "01ebe35eb97331c83df91b51a2f8717535557eae5287657a32e5a0f18a817ec7",
+      "git_blob_sha1": "72967c01d734a127cd801caf5fea80e7d06507d1"
+    },
+    {
+      "path": "evaluation/habitat_extensions/actions.py",
+      "size": 2435,
+      "sha256": "a123416b68d37650361b983bce7c24d2911b3b570bbae173b6accde1376ebd64",
+      "git_blob_sha1": "35b47adce5569daefdf8eb26d73f38013aa53fa9"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/default.py",
+      "size": 8131,
+      "sha256": "a8dc9538e64e4c670452feafe7e9d5a2e4150f9112271461c346571a05c1ded4",
+      "git_blob_sha1": "828571e37218feba3a697410ec4a9635ea20cfd8"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/rxr_vlnce_english_task.yaml",
+      "size": 1064,
+      "sha256": "92aedfd18aa640bf33698ae9994f7c412fbc77a89445e1bd7e1a08222b6958c8",
+      "git_blob_sha1": "d7096e41ce0fc948fa09972909b4d2fff064a7b5"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/rxr_vlnce_hindi_task.yaml",
+      "size": 1203,
+      "sha256": "b6ecc5bb83b5d19315eca539c9b3bd296dfb05e9a60f48864376509845aae9ec",
+      "git_blob_sha1": "b630e5b1226b2c5089fcee9547ded52a2c9262c9"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/rxr_vlnce_telugu_task.yaml",
+      "size": 1203,
+      "sha256": "382539f311eab1f74b1b61770326eb7369e1c2781f3d0133ce1863e86d7940d5",
+      "git_blob_sha1": "8d7d0e1fa9ab4cd079dff9c025450e5e9edd1ecc"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/vlnce_task.yaml",
+      "size": 1116,
+      "sha256": "8f388794570d3b2f54c9b87132a8a77ebdcba74448fb561bb2ef5f3a899b7940",
+      "git_blob_sha1": "98aa2a044b84f17b5075a47301b93e63543098b1"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/vlnce_task_aug.yaml",
+      "size": 1226,
+      "sha256": "3db89318f80bb464bb38867aab6edc1053ca651c063ca6f6ee5a833463dd20fd",
+      "git_blob_sha1": "3b55977138515bbd48c21f7d9284c3c615895b13"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/vlnce_waypoint_DN.yaml",
+      "size": 365,
+      "sha256": "515703a1a1a6aded2fd52f4c9ac2438389e096c962bd903f027ddc75ea85d44f",
+      "git_blob_sha1": "3d03867ac0c2c2b95a9f3b78a53e57de98f6f169"
+    },
+    {
+      "path": "evaluation/habitat_extensions/config/vlnce_waypoint_task.yaml",
+      "size": 1369,
+      "sha256": "1295e9a342688a2f9c4d33c5e32b93bc75ac21b8131f174e8f12480a636c133c",
+      "git_blob_sha1": "eb43ee875357e6447a96fb0fcc707509d906e982"
+    },
+    {
+      "path": "evaluation/habitat_extensions/discrete_planner.py",
+      "size": 4310,
+      "sha256": "1d5537e112d524dbe0d2e063dbd80513e48c7a028f0f347834ed439b05fd4908",
+      "git_blob_sha1": "a5cb0f2ff1ec1de04b4b1c130640f3d64e3e0a0e"
+    },
+    {
+      "path": "evaluation/habitat_extensions/maps.py",
+      "size": 11556,
+      "sha256": "fb29946e3e7a383dfad2a398d71e4f1c9df7836f422cef230417ceacaa5a37dc",
+      "git_blob_sha1": "067701a3f85f43bfc907cfffd811ed5bf53ab916"
+    },
+    {
+      "path": "evaluation/habitat_extensions/measures.py",
+      "size": 18172,
+      "sha256": "f2d40a10fb5b3b0352e70ab778f614ef7af11c346b7cd320fe56d072163044ea",
+      "git_blob_sha1": "e79cb9d3423eab0dd35910ddb88c886808913fea"
+    },
+    {
+      "path": "evaluation/habitat_extensions/obs_transformers.py",
+      "size": 4556,
+      "sha256": "3e1987b7925f354c5c3cee310e2d36d1a49c24e56255d3796cb680b18b9546d4",
+      "git_blob_sha1": "cf1525defbe1b43af9172342511ea95298147977"
+    },
+    {
+      "path": "evaluation/habitat_extensions/sensors.py",
+      "size": 6546,
+      "sha256": "3f9b04146eaf5e1ac654e1a074dbf9e2565ea4422f96f8c1b360b4cfd31eb4fd",
+      "git_blob_sha1": "998e637864ff7a3dd175481a25742ec1cb0c8588"
+    },
+    {
+      "path": "evaluation/habitat_extensions/shortest_path_follower.py",
+      "size": 6746,
+      "sha256": "cf2b0b8f0377e79c809a693ec29425b29df78fc6886c0919f4b53ed6fc26cb21",
+      "git_blob_sha1": "269ce0dbe49286541cd1a81b7f0d90041035ef2f"
+    },
+    {
+      "path": "evaluation/habitat_extensions/task.py",
+      "size": 8732,
+      "sha256": "dec90e94df9f0f693501c75d6382c6e100d1ae92fa0ea85bc18c6ac6bdd462b2",
+      "git_blob_sha1": "af97343402ebed730c3398c6f949d143111674d1"
+    },
+    {
+      "path": "evaluation/habitat_extensions/utils.py",
+      "size": 26100,
+      "sha256": "5bdda5f240c9646f5994a535c48ce773f1a6db48da36c8f360c2ca2e04fdebe9",
+      "git_blob_sha1": "beb06650cf1b2bf6fd7d3fd4d80423f8a5442603"
+    },
+    {
+      "path": "evaluation/replace/common.py",
+      "size": 6906,
+      "sha256": "1ef101e2e8d6e5a31321bdfca6a2a74fae38b6941c6deaa9f3e6823dab9506e0",
+      "git_blob_sha1": "011e4ed0a81df54f0f85c8ad37707f591586ef43"
+    },
+    {
+      "path": "evaluation/requirements.txt",
+      "size": 177,
+      "sha256": "8fe85b231bf02d4667774f8478265252591d2344b05a7f0af7286edb8fbfd872",
+      "git_blob_sha1": "123ad83541309f7772c928e5f457261a9d6eff4a"
+    },
+    {
+      "path": "evaluation/run.py",
+      "size": 2628,
+      "sha256": "096bcab7c954e254775624b50b9a4fc4bb780b78af7cfd7354284e2442df21e2",
+      "git_blob_sha1": "092befa3191537bcbc7c9b3cd935b446503ee29f"
+    },
+    {
+      "path": "evaluation/scripts/ckpt_to_interrupted_state.py",
+      "size": 1232,
+      "sha256": "bf1a0ae7682e063a368394049ea43e3dd2283b231b7177eb9a0e6cf271571473",
+      "git_blob_sha1": "2475ab7e603dbec97e6d70580793ba06a3b8e09a"
+    },
+    {
+      "path": "evaluation/scripts/eval/r2r.sh",
+      "size": 638,
+      "sha256": "6172e56d117b4f28cc732769b24cfec441f0dad73465b73176e6035392904d73",
+      "git_blob_sha1": "9695265bb74312bb0f3f9741f1ea850a93c668ee"
+    },
+    {
+      "path": "evaluation/scripts/eval_jsons.py",
+      "size": 2918,
+      "sha256": "f43876becb20cd9c342427570f0559b3c33ba159c14a0366bc497833067fc0b1",
+      "git_blob_sha1": "a9f76c4d72fa3f0836e8983d66542fb5ab912a24"
+    },
+    {
+      "path": "evaluation/scripts/habitat_sim_autofix.py",
+      "size": 689,
+      "sha256": "f4a2988ead40bf61688c0ec852c14daa6d808bd7597989e0e872cf59fb207ad8",
+      "git_blob_sha1": "b8516039490c01ae38eb5900fed1a287251a1a35"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/__init__.py",
+      "size": 242,
+      "sha256": "203358f6ce4c7ad8bba6c0b85d1f47fd78822e907460b11f6752507baacf383e",
+      "git_blob_sha1": "3dee0ac7eb49682d3e6d5805f0b824c69ee1a616"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/cma_trainer.py",
+      "size": 22548,
+      "sha256": "10319bc30de8dbaa1440c3faca796d40246eab6c39813cb326f7269e202e3b22",
+      "git_blob_sha1": "e5ce190433cf4ea61db2a3f0cbbc61188d714b78"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/common/aux_losses.py",
+      "size": 982,
+      "sha256": "aa2db2cdef9034eaf19733f11c03e948f92a44ba1572f3a58d74da40e13f567b",
+      "git_blob_sha1": "81e34d3668be489f0944f23c04efb301b2df99b4"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/common/base_il_trainer.py",
+      "size": 21146,
+      "sha256": "c7cb12ce983fbba38c216db46355d0edd44f167d1cc0a4d1f96b131a72d70858",
+      "git_blob_sha1": "a1b02b4be99f347e3aa02b3553291cbf009b5603"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/common/ddppo_alg.py",
+      "size": 5088,
+      "sha256": "ec3d6e92d0ee52a426b39d5918859010cd01ee90f92abcd0b18901e8424c6c2e",
+      "git_blob_sha1": "77f370b19b3a7bc209b204fcf60b95c0670c5254"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/common/env_utils.py",
+      "size": 3626,
+      "sha256": "4551c87bad4018b64b687bd9d5584b0f51723cbec2427a9dce19421d2474940b",
+      "git_blob_sha1": "3c8631ff2c727f8eee0f6420597eed150a565934"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/common/environments.py",
+      "size": 8089,
+      "sha256": "14ac32025a7d6085350aad590a58c550a71745494d924fb8fc53ad051863e9bb",
+      "git_blob_sha1": "7dcca61e83ef727fd79bcbd0499ab75b2f219aa3"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/common/recollection_dataset.py",
+      "size": 8922,
+      "sha256": "13aa7d0e41b2976470bfaffcf9d49ff4c239768617c23521ca9b35def961b450",
+      "git_blob_sha1": "cb6b2e594bdac040afd1f1958d4cf3abe144f4e3"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/common/rollout_storage.py",
+      "size": 9954,
+      "sha256": "d54a20b5983ad8a1caee859d94958afb7d06711c3efb0f0cd135cfdf6925758d",
+      "git_blob_sha1": "e3ce5a9637769d621cc07d6d8c007c871409bd85"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/common/utils.py",
+      "size": 1175,
+      "sha256": "e60c55b2b03e7d7c27a9829d2c884e606456600d4d3f8dfd1a2c8fbf781ddeaf",
+      "git_blob_sha1": "24897b9fd922f78d624ed1d2645ec6f32475f224"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/config/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/config/default.py",
+      "size": 14671,
+      "sha256": "61fe6631dfa162522d437e1124719166534cadccb936e30bfb7450e9da8c17c8",
+      "git_blob_sha1": "e31d87442aed28ea0c8c7b0561ee729b2f3c1f09"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/config/r2r_baselines/mobilevla.yaml",
+      "size": 511,
+      "sha256": "508d7aaa17b09e749d797c3b3b31dfd6bb3bde593c5ec5ec077f9d8a59980764",
+      "git_blob_sha1": "ea175a3e1c756d5c9f56089abf0bf9ccae4a5ea9"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/config/r2r_baselines/navila.yaml",
+      "size": 322,
+      "sha256": "74596ab622c0a2125d914bed6aed51951118ac112c525abfd8bba1fc91c3f61c",
+      "git_blob_sha1": "0524db8b6899ec402b354a9288382fa8457b68c0"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/config/rxr_baselines/mobilevla.yaml",
+      "size": 780,
+      "sha256": "ce60ad443b4929626bb52c7d298ad1490a024a2e88a15a9ab816b4166845582e",
+      "git_blob_sha1": "a268731203dc8e293302ac7c97fa18418e6e2964"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/config/rxr_baselines/navila.yaml",
+      "size": 653,
+      "sha256": "0248c55832ec534cbfd6f55a673d131bcdba4c3ae65dec84384134d00d19e3ee",
+      "git_blob_sha1": "6232b7d39059750f8e93766f73ac7c5434a1c43e"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/dagger_trainer.py",
+      "size": 20250,
+      "sha256": "5bc13431c8022f5831353ddf57436bb9781727e252462033e8a2d8a1759cb884",
+      "git_blob_sha1": "9f1278ceab66188af7b30f1a5e9c1f42e4d1acd6"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/ddppo_waypoint_trainer.py",
+      "size": 34559,
+      "sha256": "d628c54e5f0f59383f69e838f66df75df585fcd3c27a2cf094dda0cf365ffa56",
+      "git_blob_sha1": "a83801a128682a5b9a1d5984046b379fbcd02b15"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/cma_policy.py",
+      "size": 9641,
+      "sha256": "e3c4becdb6280c902ce4b1ad8338566ba9cc15e4f2ab21492d25c54adc06173e",
+      "git_blob_sha1": "a7cb7ed8419f66c3657a5d63c8f0eca8a4f7386a"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/encoders/instruction_encoder.py",
+      "size": 3391,
+      "sha256": "e296cb64a4c93419dbafa1395346c7d413ec7e0337f69755257b0d2b90418ef1",
+      "git_blob_sha1": "6c06ce6bd0aca903e20003909f3c49778e639a37"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/encoders/resnet_encoders.py",
+      "size": 7874,
+      "sha256": "6bb994901129be559020dccb345265e4b1c2c51365ec7c6e8647e68fb47d68c1",
+      "git_blob_sha1": "613512dd6302a6688e345c43f30dc47920a44c9c"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/policy.py",
+      "size": 1547,
+      "sha256": "00b32ba7360902940874b1d6a7b091fdcb48238e9e9409655588d9ca10c38da3",
+      "git_blob_sha1": "8796cc5ca8486e4f93a1efb3e4b107958bdf5eac"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/seq2seq_policy.py",
+      "size": 5769,
+      "sha256": "093cc09572abd2d081587504b7b5db7972b2e4de7172b6f6f83372f8882e87a2",
+      "git_blob_sha1": "b6d4a319ad3d088a973b6e7ab2fd513219595ee9"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/utils.py",
+      "size": 10377,
+      "sha256": "3b88a4b2853f3cd2b74595ffd53e8c2fa6165db9989b77408884626d68a9123f",
+      "git_blob_sha1": "fdda20f317fc352c027d25d34e5de9d84611037f"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/waypoint_policy.py",
+      "size": 10806,
+      "sha256": "ce090de24b3b82979ae5c1307d9bcf61347835c96e3e46456034c16e4608447e",
+      "git_blob_sha1": "a49474f7848572cec65bf5752af0d4d19faa3104"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/models/waypoint_predictors.py",
+      "size": 20282,
+      "sha256": "4774ba319df7d83bdcf9904ffaf936b827d9af6d32c1acf38dc0c6626584d041",
+      "git_blob_sha1": "1311d496aca48d8f3cfff227f83b4a72e76f4147"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/navila_trainer.py",
+      "size": 19453,
+      "sha256": "02992f33d741c502b86216789e1ca9c4290971dbf39a946c540694f1c476afa7",
+      "git_blob_sha1": "4a525435af1e981fc1367d69240a32abf92116e1"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/nonlearning_agents.py",
+      "size": 4954,
+      "sha256": "cbac14eeddb734ce59f6ebe1d3c4d0f9d3e0e42f80b029ea8a3c96e6522de38e",
+      "git_blob_sha1": "5643c6acd094e2bb2ff405d1583bed4dea3adc49"
+    },
+    {
+      "path": "evaluation/vlnce_baselines/recollect_trainer.py",
+      "size": 7514,
+      "sha256": "c78b27477bab135c61fa6116da53e8e7669948ed0a4376c7b5100f1dba5053a0",
+      "git_blob_sha1": "6c13430101cc49721a7658e802d36d10333dd788"
+    },
+    {
+      "path": "gen_worker.py",
+      "size": 7578,
+      "sha256": "2d26e382416580fcd0e7fa1b3b3d105d0f9d3cdbb1dd9ae2a66e3f22718add36",
+      "git_blob_sha1": "f13144ea24a45611090ababfcd1ac25442d0d2e5"
+    },
+    {
+      "path": "inference.py",
+      "size": 15088,
+      "sha256": "0586180f1d9805200f5946ee7d5a8e85a03bbb55771c563e7726c45f7a2e8d98",
+      "git_blob_sha1": "84a7e844bc3e3d10f62e8e575d1cf673c83ed9c4"
+    },
+    {
+      "path": "inference_remote.py",
+      "size": 7545,
+      "sha256": "0b0581c5d1f0f04050328c627fe0ab60660e9b2df0b4da603e7b6e55fe04e13f",
+      "git_blob_sha1": "82f0e35531070ddff006b943a12155eda9e83689"
+    },
+    {
+      "path": "llava/__init__.py",
+      "size": 42,
+      "sha256": "ab4913c72ea58cde0a44f2bc75b6f71894cefdfc89b012ac8d627ea826119837",
+      "git_blob_sha1": "37a40560d67364a3d85ee334723fd334c1b6395d"
+    },
+    {
+      "path": "llava/cli/eval.py",
+      "size": 4282,
+      "sha256": "abedf715b706aaa43725558b5dd44d2fb7048176db8dd2b280227afca42f0736",
+      "git_blob_sha1": "bfa0997ff1902b9811c0fdd93f94b16f5da8f750"
+    },
+    {
+      "path": "llava/cli/run.py",
+      "size": 2441,
+      "sha256": "fbb12a940d7e26f99692dfea2e396e97fd1deb113b072a0c9144906d436e9526",
+      "git_blob_sha1": "cdf25674d2a2a878436c097b6c75c25b09cc0ca7"
+    },
+    {
+      "path": "llava/constants.py",
+      "size": 1076,
+      "sha256": "eb2d293a06404c5e380d8d419d410e4c5831c29468dff4f70475587540bda36d",
+      "git_blob_sha1": "2edbb280dc02bacb8721578afc6e1db61870ee04"
+    },
+    {
+      "path": "llava/conversation.py",
+      "size": 19436,
+      "sha256": "5995bc8d45e153395bdeaa31ca7f6c0d1f637135c24e66a1947e9d56ebaa39a1",
+      "git_blob_sha1": "de5fe599a41601a3d2bb61f1ab39313d37145494"
+    },
+    {
+      "path": "llava/data/__init__.py",
+      "size": 157,
+      "sha256": "1756ae00f53973a116e301da71765cb25d87972e629b6327a72525c6710300fd",
+      "git_blob_sha1": "87b1dc8bf6b1136cd4ba9aefb6a1e458d1015d5f"
+    },
+    {
+      "path": "llava/data/base.py",
+      "size": 1764,
+      "sha256": "1a0effef8143e18fdd46d1784d8f5e3ae4636d08787f0ab54460132ff6b42fef",
+      "git_blob_sha1": "e1188781dccd6ec5b4b7c27977aed820b6baa4a6"
+    },
+    {
+      "path": "llava/data/builder.py",
+      "size": 3197,
+      "sha256": "5570eb0baee53b8ef6e6966a709279b6bedf28c650ba88e14def29bb790093ed",
+      "git_blob_sha1": "fde95e2a30d6207844e54ca746c1826455cb07a7"
+    },
+    {
+      "path": "llava/data/dataset.py",
+      "size": 114228,
+      "sha256": "56156fcada649b6fb1f60079127dba776d3761d326124c66af60ac5ae7cb4957",
+      "git_blob_sha1": "51d3c07665a65b4f368aa501a56b4338e514e491"
+    },
+    {
+      "path": "llava/data/dataset_impl/__init__.py",
+      "size": 20,
+      "sha256": "ebb32acb5431b677337d8556af2dfd6909490a902386ab11f6428949703e9e10",
+      "git_blob_sha1": "7f4171899cea5a693163e0d45f48f4a4f855a6cf"
+    },
+    {
+      "path": "llava/data/dataset_impl/llava.py",
+      "size": 1478,
+      "sha256": "2e5553867e2cb12d142271bee543d662d0dc4f76aa96bf6f08fd8a36e8acbb09",
+      "git_blob_sha1": "2369263e92550a0c9de98d08a1af177e71f45462"
+    },
+    {
+      "path": "llava/data/datasets_mixture.py",
+      "size": 5735,
+      "sha256": "72cf47451313ec8c6926c262d0dc4932100e109161b2ab6b926af55e956a69dd",
+      "git_blob_sha1": "73671ff4f06f3f409d9d5ae607e5580108f56ac9"
+    },
+    {
+      "path": "llava/data/nav_cot_utils.py",
+      "size": 2446,
+      "sha256": "9f155c2e99d8ef2d2dee4f7b84f7e40dc563ab2f8c8f56968da2998975f8a6e3",
+      "git_blob_sha1": "fb74de51611337b16f90cdef451e6667792674e0"
+    },
+    {
+      "path": "llava/data/registry/default.yaml",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "llava/data/simple_vila_webdataset.py",
+      "size": 11229,
+      "sha256": "7ad613a5341d59d65e1d5989daa67562b392ad586fa30ddc447dd6bcbc96a2d0",
+      "git_blob_sha1": "60b41ddafea76a38a0832fb9f503543c72bca833"
+    },
+    {
+      "path": "llava/data/utils.py",
+      "size": 1482,
+      "sha256": "a7ea32d3d7a11b676abf097252507b5e1b5e26122744246075fa46bc117cc137",
+      "git_blob_sha1": "9572f53003d3a02c06ed225aa03610fee7ec56be"
+    },
+    {
+      "path": "llava/data_aug/caption2qa.py",
+      "size": 6257,
+      "sha256": "3ab4514cd189e59fcac1cb1213f0e21d7b23bc278496ccad272b6fff8343fc98",
+      "git_blob_sha1": "038182f85c00c3db16d0f135a3a367b31fcbdde6"
+    },
+    {
+      "path": "llava/data_aug/dev.py",
+      "size": 2120,
+      "sha256": "6cb3d105b9dab4402c9861fa430d025d87baca424087bd38bb4644781e596ddf",
+      "git_blob_sha1": "b4ca5c6cce598afcf246e701651b8e39d11de014"
+    },
+    {
+      "path": "llava/data_aug/reformat_tar.py",
+      "size": 1706,
+      "sha256": "9570a3cd234cb86a70a5715fc11ec45a7801927b111327ec7b43fc8b4bee4351",
+      "git_blob_sha1": "8527df817d2ff1df867f898f0efdd398dd723449"
+    },
+    {
+      "path": "llava/data_aug/seval.sh",
+      "size": 2867,
+      "sha256": "82f0f6624b712dc3e6711e0e412aa08917bd9a9142dc342af9ba073684fe5544",
+      "git_blob_sha1": "c31a9720877a62fd6f06e2191a0c97d566f6ee6c"
+    },
+    {
+      "path": "llava/data_aug/srun_cap2qa.sh",
+      "size": 1972,
+      "sha256": "f90eb464c721c7bb0a2f5bbffaa06c106319c7abfba6e4b5d3428ee77c2076d1",
+      "git_blob_sha1": "6b5fe610748dc66ee17e418952e0618a7a2030c1"
+    },
+    {
+      "path": "llava/data_aug/video_eval.py",
+      "size": 8452,
+      "sha256": "235632378837b8215dbe4480466f89b2cd1ed6c0dc891977e3198912a6d68a57",
+      "git_blob_sha1": "52ee47b939ad24e81696ee38365ec328daa79e21"
+    },
+    {
+      "path": "llava/data_aug/video_inference.py",
+      "size": 5606,
+      "sha256": "1bb7b9715947ab093661f410da97956a3d1182e2b32d3c0777c19dd1f1f141df",
+      "git_blob_sha1": "6eb25c4b5ca5d8e3aae0330cd7e4d981cf7b659f"
+    },
+    {
+      "path": "llava/entry.py",
+      "size": 1186,
+      "sha256": "da3808fda2ca0bacac419210650e762351869cd28fd205cb2367118b636ac98f",
+      "git_blob_sha1": "bb2f105cd540e07a485282b5c50d1d01f2298d61"
+    },
+    {
+      "path": "llava/eval/__init__.py",
+      "size": 180,
+      "sha256": "99d1a2c67d67419d37a7640699130f68c692292f2b2466e62bb3848be4a3adb4",
+      "git_blob_sha1": "1c4ce5f832d2963759e2d32fd2c480aa95e3eac0"
+    },
+    {
+      "path": "llava/eval/cinepile.py",
+      "size": 4401,
+      "sha256": "35b37d8f41c85661eee0f1ed95bfe889632c469b6acbdc12aa343bc51ca310dd",
+      "git_blob_sha1": "0f26bced1880e22b9ac90a24f6508a508bffd325"
+    },
+    {
+      "path": "llava/eval/eval_mathvista.py",
+      "size": 494,
+      "sha256": "a47d41a3ba29962ac5745dca8702d21fbb30e23be6e94e7f478a229320e39684",
+      "git_blob_sha1": "c86415b37ea888d52427e2195a2ada1adfa26612"
+    },
+    {
+      "path": "llava/eval/eval_mmmu.py",
+      "size": 4037,
+      "sha256": "56963413a71b61fd5ab820db11cd2f17e10d12f7c5e820ef64cc2d3fde8e285d",
+      "git_blob_sha1": "674ef3882b6bd15b7aea9a2fef7dc4cde6e4e1b4"
+    },
+    {
+      "path": "llava/eval/eval_refcoco.py",
+      "size": 2919,
+      "sha256": "6e86ada8c4b674a49be5cf83eae55bbb4e418fe4948a9e302e971e892e8fa8b3",
+      "git_blob_sha1": "c2adb7a76f28687960f6bf632fa0549404a6f60c"
+    },
+    {
+      "path": "llava/eval/eval_textvqa.py",
+      "size": 2318,
+      "sha256": "b6a56c2d5198f1afb48e4d5288392fdd78f267c115f4f760ee4f488f8862d350",
+      "git_blob_sha1": "736234bd47229c8db61409711f357a70c8a0213f"
+    },
+    {
+      "path": "llava/eval/lmms/models/__init__.py",
+      "size": 52,
+      "sha256": "bdd0e7daf474c5df01a0708428af5c652e6ac404ab27e9375344b03f9d00bd64",
+      "git_blob_sha1": "a965cc8895ddee8612d8c2102d83e085d2ace884"
+    },
+    {
+      "path": "llava/eval/lmms/models/vila_internal.py",
+      "size": 1941,
+      "sha256": "0a56c423759690b6c9a2330d3ace51a74cdacd4edb1ec00625a95da5962239ac",
+      "git_blob_sha1": "3714afd765d7dc1848f1cd7fd5e44f1d19885ff8"
+    },
+    {
+      "path": "llava/eval/lmms/tasks/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "llava/eval/m4c_evaluator.py",
+      "size": 10167,
+      "sha256": "138c491f796506737005d1e7a866abfb8cb1d567ecc7951e3afc8904e305a7ae",
+      "git_blob_sha1": "9f6225a8edfc15e7d502d87e143cadb5c8b9837a"
+    },
+    {
+      "path": "llava/eval/mathvista_utils/calculate_score.py",
+      "size": 5896,
+      "sha256": "4c8e4b67831ecab09cfa01870604d34e35912f18e86df3f176b4f49b72fe5309",
+      "git_blob_sha1": "196e919a86a31f23e159a4eb6142cf347348b077"
+    },
+    {
+      "path": "llava/eval/mathvista_utils/extract_answer.py",
+      "size": 1983,
+      "sha256": "a692e990f9d75a4c3e6719d6d8227b89897e06c09f3c61707732cd70294e6d29",
+      "git_blob_sha1": "39e6528f7d421b90dc4e4c9fde1fdee8a4b4c467"
+    },
+    {
+      "path": "llava/eval/mathvista_utils/prompts/ext_ans.py",
+      "size": 1762,
+      "sha256": "867c6dae0a9e31bd1a34c533527061e6ba6d74feb257f1f9133dde1c7bd148ff",
+      "git_blob_sha1": "0e9963289adf81830f0b042079d2c3d418151e14"
+    },
+    {
+      "path": "llava/eval/mathvista_utils/utilities.py",
+      "size": 5949,
+      "sha256": "1b31a841c1326d4282ea73f89fec9094f612756cd1e23dfca763ac487526ee80",
+      "git_blob_sha1": "b00f044517ca6fdd0d0980ab53653a8d6754f280"
+    },
+    {
+      "path": "llava/eval/mmmu_utils/data_utils.py",
+      "size": 6482,
+      "sha256": "9ae92b858a7e44c76c560aa14c1b47d8044809c8485e99652363655bdb856283",
+      "git_blob_sha1": "256d9bb030a68c3431e7d1f27a152a08d3b6c342"
+    },
+    {
+      "path": "llava/eval/mmmu_utils/eval_utils.py",
+      "size": 9122,
+      "sha256": "8c592ddc46450a11465ac7434885865a10c6eef6b326b402c5955afa69a75d0c",
+      "git_blob_sha1": "68b18240f01602928e27ce83d71fd40e67b85886"
+    },
+    {
+      "path": "llava/eval/mmmu_utils/merge_jsons.py",
+      "size": 872,
+      "sha256": "4345413b10e5132a0d2bf2eb343ffc1deaaa437b02b427bf20f5423aba4f1435",
+      "git_blob_sha1": "04b939cc5b35601801a82e6f276949c8728265dd"
+    },
+    {
+      "path": "llava/eval/mmmu_utils/model_utils.py",
+      "size": 3772,
+      "sha256": "f8aed4bbdef626f45f6ea1ab51f5b1156726b743b3b4c9d372c026e27f82179b",
+      "git_blob_sha1": "a248f46296ab926690c7c57a512fdde05bfad8be"
+    },
+    {
+      "path": "llava/eval/model_refcoco.py",
+      "size": 15423,
+      "sha256": "74f6bc8298ac6843899606d2259183cf85f6503e32a9c4e29fde9375235cdbaa",
+      "git_blob_sha1": "d2d48081e594204dab1d72c168b4595665ee6443"
+    },
+    {
+      "path": "llava/eval/model_videochatgpt_benchmark.py",
+      "size": 8010,
+      "sha256": "61f3990822e92612b0ed5cfda731a830ebbe4db684b898509aa4d6b306b81faa",
+      "git_blob_sha1": "474def324e024f794de579c537e80f64137b1add"
+    },
+    {
+      "path": "llava/eval/model_vqa_ego_schema.py",
+      "size": 3558,
+      "sha256": "c28fdcb3e47d2d86a7cbe6c8193c42ae361e5066e462fd6736aaf3dd414d1636",
+      "git_blob_sha1": "23faf748c3e7677ae443139fc619ad8551a661e3"
+    },
+    {
+      "path": "llava/eval/model_vqa_loader.py",
+      "size": 2480,
+      "sha256": "a49509df481b91c2ed395d0cd7d76bb53ef1f2c19d984a6ffec0e83d48796890",
+      "git_blob_sha1": "decbfc636cc66f059befc8163083d93d8ad8ddec"
+    },
+    {
+      "path": "llava/eval/model_vqa_mmmu.py",
+      "size": 3812,
+      "sha256": "07290d482a83fa3ad9b472d2164a2b11f955cde2020acdf6535beeb6d72bd8e0",
+      "git_blob_sha1": "6ae1a10c40b9c4a6d39e4609f49362fb8fe95a7d"
+    },
+    {
+      "path": "llava/eval/model_vqa_nextqa.py",
+      "size": 8360,
+      "sha256": "98be841c82083f823943f1ece6ba50426cfd3c498e9584af912fa2ef7a11e096",
+      "git_blob_sha1": "d409894b9e0e2c3589cef4760b85f61a949538bc"
+    },
+    {
+      "path": "llava/eval/model_vqa_video.py",
+      "size": 8266,
+      "sha256": "d50d008b4f54fe087f3db720f33cb704b8f5422b676389c6129bb88de426b669",
+      "git_blob_sha1": "758a1399736942ffeaf06370d99a4873c7dba7f1"
+    },
+    {
+      "path": "llava/eval/model_vqa_videodemo.py",
+      "size": 8685,
+      "sha256": "65e562b8e6374460bd1f8cb34b2048e6fd3a0e3d7e938334080b1a2b31641ea7",
+      "git_blob_sha1": "feb68aeb21716101e72e59b8748a9d8178202259"
+    },
+    {
+      "path": "llava/eval/model_vqa_videomme.py",
+      "size": 8497,
+      "sha256": "0460e8ca78ac635b78c18462d882f863a0744d70291abd4716e0007373bfa931",
+      "git_blob_sha1": "e21be3b6c9bc0758aca2f390d2beb97dd503f98a"
+    },
+    {
+      "path": "llava/eval/model_vqa_videoperception.py",
+      "size": 8943,
+      "sha256": "97b700f16cbfd7033591e1b3e91569457e3ba5c5432ec99f5abfebfd320bb30b",
+      "git_blob_sha1": "4390d38083fee3376f6ac220d5da31d5f0526e0a"
+    },
+    {
+      "path": "llava/eval/registry.yaml",
+      "size": 2622,
+      "sha256": "457306988265a244083fa5f10e8cf2ac5d2e39824da660d658b9550d16c8f339",
+      "git_blob_sha1": "05b482e33dc894cf1e681effff21270e76075d80"
+    },
+    {
+      "path": "llava/eval/rtl.py",
+      "size": 4704,
+      "sha256": "88bc42d03ad41970d4f80396dc66d32d471d3fea23a491f1298f65d27839c37a",
+      "git_blob_sha1": "99eb00a968d4e2cfab49df51f98ecf3f8b862095"
+    },
+    {
+      "path": "llava/eval/run_navigation.py",
+      "size": 5248,
+      "sha256": "85f2ffb86bb72f6c5c67bea2ad76e155cd552cab39272b14fb8154f746cb5d03",
+      "git_blob_sha1": "ee0779b4f3387b4d26f6c43a6386af5b996e1678"
+    },
+    {
+      "path": "llava/eval/run_vila.py",
+      "size": 5693,
+      "sha256": "f7c42b5fabd2a3a4510006b3d8756e006e7fd4a593e214b43056066d584d736f",
+      "git_blob_sha1": "dadac27988eaeb9df7e31fcad7fa0e7cfa04a7fe"
+    },
+    {
+      "path": "llava/eval/vision_niah_vila/eval_vision_niah.py",
+      "size": 16491,
+      "sha256": "8aa3e1fe74b9adf119af8a48396f48b9036901f40db4f5ffd11169621e893a8d",
+      "git_blob_sha1": "080fa51ba46bcbad0855a7baa86eb584aae66622"
+    },
+    {
+      "path": "llava/eval/vision_niah_vila/produce_haystack_embedding.py",
+      "size": 4211,
+      "sha256": "afc4a65a1a0fbd1077ca04460324e3220c60ff50e70e00397f087d091a1e9104",
+      "git_blob_sha1": "bf512eb123bf7920b137ac9b30caee23f5359b46"
+    },
+    {
+      "path": "llava/eval/vision_niah_vila/produce_needle_embedding.py",
+      "size": 2733,
+      "sha256": "9737128a0d040f245b736413ec330f5ae34fc11064c58dd3441827c217ddd1e5",
+      "git_blob_sha1": "8c7285b0defefad5fc871470f91538e5c6cd1853"
+    },
+    {
+      "path": "llava/eval/vision_niah_vila/zigzag_ring_attn/monkey_patch.py",
+      "size": 4164,
+      "sha256": "d1794ebcd59f8b6b302e38689baed3dfd44ab9ca3ab04a104536b2437b1ad4f3",
+      "git_blob_sha1": "57dea6599788de3dd8e097d17c3d970fbbaa271a"
+    },
+    {
+      "path": "llava/eval/vision_niah_vila/zigzag_ring_attn/prepare_inputs.py",
+      "size": 1674,
+      "sha256": "ff09ecee2f6b16733e5390ec158a1fd965e45311731b4c317ea9bb60f225ee4d",
+      "git_blob_sha1": "54018edff43b3f28ebf4089faa5598ab4fcebf79"
+    },
+    {
+      "path": "llava/media.py",
+      "size": 219,
+      "sha256": "2aa398c62155b584dedd0124c2aa423b463844f433672d5c5f29accf1b22a9d6",
+      "git_blob_sha1": "8c82b17f679cd63e0ce3ec81b401bbe103284397"
+    },
+    {
+      "path": "llava/mm_utils.py",
+      "size": 17802,
+      "sha256": "117d382783c3eba5f6336ff1ee6ee7adedec737fa440a2f8834f40f7ddf7de81",
+      "git_blob_sha1": "58a2b09e9acf40fd6cd407f5a4a436e9ff1dbe50"
+    },
+    {
+      "path": "llava/model/__init__.py",
+      "size": 246,
+      "sha256": "7a2d4f12560ddebe2dfaa41518b33b4b5f07c3d442719d8b0b0032eb79afc2d7",
+      "git_blob_sha1": "b87c5d4fdb77ebd45eb8aefed23fc8811fb981db"
+    },
+    {
+      "path": "llava/model/apply_delta.py",
+      "size": 2730,
+      "sha256": "ad9865ba0129a75ad62dfe8010c0ec110e9873d3d6b19d7fe557c1d2c6f02fb2",
+      "git_blob_sha1": "1b5475397c45653cd7a6e8b750ba19d11dffcf7d"
+    },
+    {
+      "path": "llava/model/builder.py",
+      "size": 10217,
+      "sha256": "7df26111b6ccb5dfc9698b13de260f84193bc60e58258a2737576296ed94a64e",
+      "git_blob_sha1": "9a23035dc03685b008a1b27e37d62d6f3213eb4d"
+    },
+    {
+      "path": "llava/model/configuration_llava.py",
+      "size": 3035,
+      "sha256": "f789013374d0bc0309ff374b78694b9f14e78c7a0c05a7e9695852bdd14885fc",
+      "git_blob_sha1": "ed395439540acdc68502074ccc1b17fc73266bc4"
+    },
+    {
+      "path": "llava/model/consolidate.py",
+      "size": 1551,
+      "sha256": "bc5d028d82511dffae3933da0c65e44dfd444ef587d5a7ec7b6c631e0824b1c8",
+      "git_blob_sha1": "2e86ed17764760dcca80aa71e5b7e42522fcd068"
+    },
+    {
+      "path": "llava/model/language_model/builder.py",
+      "size": 4400,
+      "sha256": "90847af5a9353ea002589c528b63b1a1f47fee55cc20b4d6709831ef86acccf8",
+      "git_blob_sha1": "daf6f287a662acf25d5357899e1b5e4c3dc563bf"
+    },
+    {
+      "path": "llava/model/language_model/chat_templates/qwen2.jinja",
+      "size": 406,
+      "sha256": "4479f9a46f0d88d73ac224157122f749a5b335a1247933c5b2bc2a172a5d9dd9",
+      "git_blob_sha1": "7235fe97fc42bf37fb95249edd731129fdf1aad1"
+    },
+    {
+      "path": "llava/model/language_model/llava_gemma.py",
+      "size": 5831,
+      "sha256": "c42d67da03a734ac83426a86618b18a7ff50ca6dab7d9ac4718c25ec6a29a754",
+      "git_blob_sha1": "56e46c5bb99c455910d2497cfcc56cf2e3180559"
+    },
+    {
+      "path": "llava/model/language_model/llava_llama.py",
+      "size": 7269,
+      "sha256": "2686f9b1bc5ddd12fddc2fbf7ac5605fc9eaafa28d71182ffa19ea537df694ad",
+      "git_blob_sha1": "c6c46be3d5d5b15bea25435fb5bbb1852de6f6aa"
+    },
+    {
+      "path": "llava/model/language_model/llava_mistral.py",
+      "size": 5053,
+      "sha256": "0230df1e84e2bc9719e4421be5b060d7ef73985b1f87eae9e0e7376feabe6989",
+      "git_blob_sha1": "5a00146831aceaa1d686792bcbd9cdd36e2e951a"
+    },
+    {
+      "path": "llava/model/language_model/llava_mixtral.py",
+      "size": 4977,
+      "sha256": "53441f42b9b949be0f170410a975075bb602cd2b133a775127d70eab8c8dbbd7",
+      "git_blob_sha1": "21097d3414a3b6994d7631f52f7a97964817e0cf"
+    },
+    {
+      "path": "llava/model/language_model/llava_mpt.py",
+      "size": 6444,
+      "sha256": "422afc729b6c234611786ff0da1d7e81ed0c422fa6eaec17ccaa7560a0ecd98b",
+      "git_blob_sha1": "12f5fea04ae57f59deccd2a355d5d50990122e57"
+    },
+    {
+      "path": "llava/model/language_model/modeling_mixtral_long_context.py",
+      "size": 76053,
+      "sha256": "26430dd907bc0826603fee45dad0328336a1d8f137432eefc73a9b5ba1b3c23f",
+      "git_blob_sha1": "4db51570fbb5427764cd79838b2fc4aa8fe06c40"
+    },
+    {
+      "path": "llava/model/language_model/mpt/adapt_tokenizer.py",
+      "size": 2393,
+      "sha256": "4f87b2ce923fc95b1bf3283cceae71b68a5d35269770d340fba9804a8c68b2cb",
+      "git_blob_sha1": "af15fef3bd05100f4a8a32182c8b4769475e8ad1"
+    },
+    {
+      "path": "llava/model/language_model/mpt/attention.py",
+      "size": 19873,
+      "sha256": "672791d49b123c3b0efafd2644d1811cff49b46ab63c28786eced5f4d6e590cd",
+      "git_blob_sha1": "7531697571f8d55a7bf90e15527c4bcefe057937"
+    },
+    {
+      "path": "llava/model/language_model/mpt/blocks.py",
+      "size": 3623,
+      "sha256": "61cdc844bd3253c6fb779841a76b186af258c5b20d9c382dee7e2b964ea7b53b",
+      "git_blob_sha1": "5775fd082d9db92a3b2ab7921a6f3091047542e6"
+    },
+    {
+      "path": "llava/model/language_model/mpt/configuration_mpt.py",
+      "size": 10207,
+      "sha256": "2869a816679f547c1f1489af669d438c468d0bf0437d45681f736e9d9981deaf",
+      "git_blob_sha1": "a95cbfff9182441442b50685f8c791a5317516f1"
+    },
+    {
+      "path": "llava/model/language_model/mpt/custom_embedding.py",
+      "size": 944,
+      "sha256": "50f7980b4f25c3103c82e44a8d080ea145c4b54afb6c1c795bde06b09053eb34",
+      "git_blob_sha1": "1721cf13d6d2f22cefcdc8904694a2a11e2e1d0a"
+    },
+    {
+      "path": "llava/model/language_model/mpt/flash_attn_triton.py",
+      "size": 32567,
+      "sha256": "cab49bdb2ad905fac3a05e413159cfbdbb197a25f029d0f0168ed8513b42107b",
+      "git_blob_sha1": "e89dd981174c8d1bb5d8f7d62d419136b25bf734"
+    },
+    {
+      "path": "llava/model/language_model/mpt/hf_prefixlm_converter.py",
+      "size": 30575,
+      "sha256": "1237155f5e0e3a3ce3b9c13bcc4d18a912833e7ddf0d9a42c4633321dd813dec",
+      "git_blob_sha1": "bcf6569982b72220cec54bccdd2624ff32511292"
+    },
+    {
+      "path": "llava/model/language_model/mpt/meta_init_context.py",
+      "size": 4319,
+      "sha256": "1de56b902bd3f34bbc0cb482b128d4889ee8456698f35bb2f9439517e8be3238",
+      "git_blob_sha1": "f7f64813d57daac8c25172ac9a9c403f2075cb9d"
+    },
+    {
+      "path": "llava/model/language_model/mpt/modeling_mpt.py",
+      "size": 22166,
+      "sha256": "c15ce778556b7bcbd687f57131596b5f3b84b47cd8e85e105fcd22c979322c66",
+      "git_blob_sha1": "ade22085ce4305a1d9ed6ef0c7a50b100d15e6c4"
+    },
+    {
+      "path": "llava/model/language_model/mpt/norm.py",
+      "size": 3324,
+      "sha256": "6fd2fabeabb4634b46169a722b458a3003b271c589ebd1ca97102a3c068df2f7",
+      "git_blob_sha1": "62773b1720de064d93203872436d7a91f6066e25"
+    },
+    {
+      "path": "llava/model/language_model/mpt/param_init_fns.py",
+      "size": 14463,
+      "sha256": "39b88b1a9aa8ce22cc5d47f83e75c7b8858904b1a0ac5d32c9b0b49c640347c5",
+      "git_blob_sha1": "0fc60c70da7d1e146bee08fc3e2cf1c02989bd56"
+    },
+    {
+      "path": "llava/model/llava_arch.py",
+      "size": 45301,
+      "sha256": "bcc8243c58add2d501b1b70c442ee57bbe2bb056ced25be5e02f21a85334d542",
+      "git_blob_sha1": "607f1dfd979c63554a767ad7d0210d50b12c7d9f"
+    },
+    {
+      "path": "llava/model/loss.py",
+      "size": 1578,
+      "sha256": "69d92d61d0cb7ae8bc08f80b0be586ff7d24e8aa7fd148f22bde537780b4b197",
+      "git_blob_sha1": "47d683cdb5640f465b56bb8858f1237ee388f54f"
+    },
+    {
+      "path": "llava/model/make_delta.py",
+      "size": 3049,
+      "sha256": "713a216fbdef8ecb92e86aea2b8b30e5b221e609252c72a32c7ea64c52739840",
+      "git_blob_sha1": "5a18327b4a80df9046a9d2860ddbda7462c7f7e5"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/builder.py",
+      "size": 4083,
+      "sha256": "4a8d5be3e38694fb7664ee7775c4eec163e53b2e14b0d072340641464fac4ce6",
+      "git_blob_sha1": "4fab1360fe8c666c6e767aaea121faf1ee5706ad"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/clip_encoder.py",
+      "size": 1981,
+      "sha256": "950b6a7491ce3def3925df09dd7d45698b8fc419b386599bb0d1fb5f35d3f48d",
+      "git_blob_sha1": "a6c4c45b70a3d524aab0a221efe3d113ce649318"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/depth_encoder.py",
+      "size": 1537,
+      "sha256": "a2c212d0046a1423670a253c3490cdb33d23d25012a31423590fb0bc4b63f361",
+      "git_blob_sha1": "23d5cf3aae49dbfc1e9a5f01d9955681d27b88f4"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/image_processor.py",
+      "size": 25599,
+      "sha256": "c2009b05ed452047b95b9973a98e396216eb38e4175c6576859893eb9fa31f5b",
+      "git_blob_sha1": "393d29ec01a6afb0e6fb4e8061c6a5332fcf8b6d"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/intern/configuration_intern_vit.py",
+      "size": 5402,
+      "sha256": "e11ff9a9148baefdc773f619538dbaa509eb35c2065ec817ca84433d2ea6b850",
+      "git_blob_sha1": "c8b49d55f6fe1b62417f5c5039a524d011df88c3"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/intern/flash_attention.py",
+      "size": 4291,
+      "sha256": "31d8ef46da9ce4a9a4203e873ef7fa58784ecdcb958676e4de351c18443fdc58",
+      "git_blob_sha1": "cf5b162ff8f724f411ad026400e0aa7f5fc39f06"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/intern/modeling_intern_vit.py",
+      "size": 21434,
+      "sha256": "e5a8eabed2bc916926dc6ef799ede3890c8c20ae92483ac9621da859677b3d03",
+      "git_blob_sha1": "40cc3e82e986bf96678ca94b390430f30b171755"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/intern_encoder.py",
+      "size": 3454,
+      "sha256": "361245b3b066a3f4b5cb4011276dbb7099d4ff4c75dae1bdb9bba6ea6c862b2a",
+      "git_blob_sha1": "3645a1685a271080702ff957a1a7eb95e0500ce3"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/point_transformer_encoder.py",
+      "size": 2964,
+      "sha256": "21f0f50cfffd7f65aa668ad4a6f77b2b3a96e4605765f1d3d3f620c4b4a31b38",
+      "git_blob_sha1": "4322b62ae7849b6f73ca7c1cabb60957116da85b"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/radio_encoder.py",
+      "size": 13397,
+      "sha256": "5b28b9c090cd4d295f83a55c68d8f13aa1dba1c1b1282947bbeca53b13f99810",
+      "git_blob_sha1": "838eb392cfc4978e9325a2a5fc19b3cc1eb5c685"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/radio_torchhub_encoder.py",
+      "size": 14979,
+      "sha256": "10cf66efa5c4d4fdceecbe3cb17653c1e3a0add2910891722fcf7821217de262",
+      "git_blob_sha1": "05c07e7f9a3a36e11b5ad5f43318253364c99772"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/siglip_encoder.py",
+      "size": 2006,
+      "sha256": "85c48b61b70b4a6071d0cf261bb80f079b079f6cd2836935a57da288803d0215",
+      "git_blob_sha1": "b7f6cda134ef761236dd02f2c56abb39ee437fd1"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/vision_encoder.py",
+      "size": 8808,
+      "sha256": "9a24c3a46758bc611e4babbc5eee5bb79bb9164f61439249e311c4904c4e0f7e",
+      "git_blob_sha1": "384fd6a2f2f95434f4b888ee15e6549750fdf5d9"
+    },
+    {
+      "path": "llava/model/multimodal_encoder/visualize_features.py",
+      "size": 12926,
+      "sha256": "67a2866e39446192076b48fd9089c5ffc7886512e53d3f6066387d0151b2abee",
+      "git_blob_sha1": "e9b87f24f78ca6fea95c1f7b66fffe610c7815e1"
+    },
+    {
+      "path": "llava/model/multimodal_projector/base_projector.py",
+      "size": 4160,
+      "sha256": "52f699c2839870959c68f72b86a686cca07e81036a2ef4e0bc85930b91e064f4",
+      "git_blob_sha1": "4cf812ba00eef0303b6c25d0557269a5a69ea433"
+    },
+    {
+      "path": "llava/model/multimodal_projector/builder.py",
+      "size": 1544,
+      "sha256": "d4de28794ab1a84ce37f25c6625bdc4c11f38d7ab1dcd014c2b3f2acc0032de7",
+      "git_blob_sha1": "4fb0c832131bdafc5732ae1d5f3fd895944859a7"
+    },
+    {
+      "path": "llava/model/utils.py",
+      "size": 3385,
+      "sha256": "50b761eaaa52f0dd56a2590906650820d199694ca77b584c9fd74fbfb996b677",
+      "git_blob_sha1": "9d7ca7014df9a74f431de18dd2c813231e23b4a8"
+    },
+    {
+      "path": "llava/train/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "llava/train/args.py",
+      "size": 8262,
+      "sha256": "8ac81559a0c3366c5af38ba16f6bc3b9ef39c5e8d69e7f35c46dd8dbfcfa2300",
+      "git_blob_sha1": "19e785f35ced29ce5ba4e85d9050e918c71904b6"
+    },
+    {
+      "path": "llava/train/callbacks/autoresume_callback.py",
+      "size": 1726,
+      "sha256": "3dcb2c06275da083b7b1ae8ad69c8165fa8f18196fa7c1dd9f1e1b3e8f4b57f9",
+      "git_blob_sha1": "dd357d5c159289514f5e434f1f3202e6ed354ef2"
+    },
+    {
+      "path": "llava/train/deepspeed_distributed_attention.py",
+      "size": 3768,
+      "sha256": "bc932cde76f3e01846435614cadf83aa3192d6f1413316c923d6798658faf017",
+      "git_blob_sha1": "52e72ef615f6e828d5d8f618f63d0a3f063f61d7"
+    },
+    {
+      "path": "llava/train/deepspeed_replace/runtime/zero/mics.py",
+      "size": 22818,
+      "sha256": "673e405ce0783e63b9112af33f085e633166282c387b1ca57115b72b939519b3",
+      "git_blob_sha1": "f48880ee4a19a238f0140886dacdcad796b634c0"
+    },
+    {
+      "path": "llava/train/deepspeed_replace_deprecated/runtime/zero/mics.py",
+      "size": 31779,
+      "sha256": "35b3d672a835127d32ddd619936729f4fe1ddf9813116fddbacb37ef1d6d8b0f",
+      "git_blob_sha1": "529f85783bc2b6f3433d62781a88a3c6913f410b"
+    },
+    {
+      "path": "llava/train/deepspeed_replace_deprecated/runtime/zero/partition_parameters.py",
+      "size": 103068,
+      "sha256": "2fdc9d2498002359f6ec700662708a1d05ae5b47c214dab9fa55a5132c4b3fd7",
+      "git_blob_sha1": "a7225ab37db8fac295a37379ec7cb8061ded61aa"
+    },
+    {
+      "path": "llava/train/deepspeed_replace_deprecated/utils/groups.py",
+      "size": 24060,
+      "sha256": "268f76f235d862db3d5335ca3955180772d86124ea0cb1d041b82102fc51c8a4",
+      "git_blob_sha1": "1c3571a7c0b267459d037af37d91c40c84619292"
+    },
+    {
+      "path": "llava/train/llama_dpsp_attn_monkey_patch.py",
+      "size": 9063,
+      "sha256": "442c5dc7706c11e0ae90c99dc153ce50a05b860b081db648ebebd4b41d66e0e1",
+      "git_blob_sha1": "7875883e773ec51b158a4cc633f8dea5d6394136"
+    },
+    {
+      "path": "llava/train/llava_trainer.py",
+      "size": 34125,
+      "sha256": "baf4020e910e36cc965d373a8bb0b321709a492858e060828956041d09c75a23",
+      "git_blob_sha1": "563daba1036a3eb6aa0de527a2c274c6a96b819a"
+    },
+    {
+      "path": "llava/train/sequence_parallel/__init__.py",
+      "size": 154,
+      "sha256": "4da1c66337e94b4e09f1a5f12e454dce18ed3b8663fce02bf6b7bffdb819b355",
+      "git_blob_sha1": "960a2ba188f30e20b77be7b968cc0ba79a80dc05"
+    },
+    {
+      "path": "llava/train/sequence_parallel/all_to_all.py",
+      "size": 11676,
+      "sha256": "1e83a1a7bb333d7edb403cf2d266659aa8a455b7bae6e7a2591ff29a45b08980",
+      "git_blob_sha1": "e621d6e52c1c8992947d3c2ce33623ecbb3a3b96"
+    },
+    {
+      "path": "llava/train/sequence_parallel/globals.py",
+      "size": 9968,
+      "sha256": "b26a9d2b30ac00fdc7e9fe3370db628de1037e662bde96f2913a9135149b927a",
+      "git_blob_sha1": "44ccbbf0e771ad00e93b39f4fea2cd93558d8e35"
+    },
+    {
+      "path": "llava/train/sequence_parallel/hybrid_attn.py",
+      "size": 14942,
+      "sha256": "295b08759c79b796a1605f9fe7401974884fc02f10d7bb51ef93f67366170116",
+      "git_blob_sha1": "b89c7de10a858070cdb36c78f1fe40755189bcfc"
+    },
+    {
+      "path": "llava/train/sequence_parallel/input_utils.py",
+      "size": 3384,
+      "sha256": "f47b841ca27836f25f560061ee25b6e3b2e5223ca0e212f41551a6a1e7a1afed",
+      "git_blob_sha1": "294e837d00b5a3968bcd4aff806adc2b6a6b344f"
+    },
+    {
+      "path": "llava/train/sequence_parallel/monkey_patch.py",
+      "size": 18267,
+      "sha256": "d138394cdd17fa0efbcffade1ddadfd04d97693067f61b0f38690b8f84cd5787",
+      "git_blob_sha1": "240a8f1110cba20b3f32387fa04bc13b489e8584"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ring/__init__.py",
+      "size": 836,
+      "sha256": "f4251b1d60be09c00e79b863352335ce93798daff0d9e247a846001fc62cb649",
+      "git_blob_sha1": "841418b35e9dce02f5a8142d6e5a8de2234044e2"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ring/ring_flash_attn.py",
+      "size": 7768,
+      "sha256": "0b3d492921b803c8aebfd8026f925db80b0fe12799c29bb51130a0305e56e266",
+      "git_blob_sha1": "16140dd7b662578d1cc17c27449beae92a7b3e9b"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ring/ring_flash_attn_varlen.py",
+      "size": 8951,
+      "sha256": "9877a666217a2138c030c3ecf58fd6eb724228d88101127842b62bb2fed6d188",
+      "git_blob_sha1": "633e1819d9361bf31060c7ea6664e2a3995fd32b"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ring/stripe_flash_attn.py",
+      "size": 9627,
+      "sha256": "63eccefd35f0c8b676cdc97be3e1755c395d0cdf0983e38aa6c0fa2bb9253650",
+      "git_blob_sha1": "6e0e8f276e6cdb7978bfb6c4926483e7d8a8c44e"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ring/triton_utils.py",
+      "size": 4422,
+      "sha256": "0944359143d5e1d19e823ee1e6e06221f72b555d0990e0df1bb203ee8c266150",
+      "git_blob_sha1": "ca3aaad0bd3f2a4cba551b3b60a256c8328f5ec9"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ring/utils.py",
+      "size": 4360,
+      "sha256": "6bf381150afc61805bc832939be54e5e4952f4e65386f69be4ff4e26e7f2fbb6",
+      "git_blob_sha1": "bf6675064c0d386bebbb9e9ce12a94cb9080e194"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ring/zigzag_ring_flash_attn.py",
+      "size": 9494,
+      "sha256": "b269ea8137d76e2e54909d38ccd86a2333ab28ec4c31beeef4eeef7829b9367e",
+      "git_blob_sha1": "d3451313d15b2482d610161bb5a2f385ea0a5f0b"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ring/zigzag_ring_flash_attn_varlen.py",
+      "size": 13702,
+      "sha256": "c59619a1f657fed90b5b66100d2dd4bab30711c3956c74f5afe87693279a7ade",
+      "git_blob_sha1": "f20d37ccc1b27c3ea49b1309c0a60eabecbf9c2c"
+    },
+    {
+      "path": "llava/train/sequence_parallel/ulysses_attn.py",
+      "size": 8692,
+      "sha256": "8192ada72da8cbc6e9b131791a0d1951e9797d27251c576768a19c94bda39314",
+      "git_blob_sha1": "8ceb8f0f2a5bc6a96f7f2d2593f596c04fc2999c"
+    },
+    {
+      "path": "llava/train/slurm_utils.py",
+      "size": 2776,
+      "sha256": "fb5ac9d43c5c1ecbf16c0b2cfe08d2d21a97508e2694b93eb151cdcafd3ff5da",
+      "git_blob_sha1": "1cfca3a76bc42c8a1f42945c24278919a485d2fa"
+    },
+    {
+      "path": "llava/train/train.py",
+      "size": 32591,
+      "sha256": "af78402545711ad46b837968908355cb82dc86634392e4b1760f15dcb410378c",
+      "git_blob_sha1": "9e34da4c67ed3a9057cc94fea501c904b057a616"
+    },
+    {
+      "path": "llava/train/train_hybrid.py",
+      "size": 2697,
+      "sha256": "b7f8b39c244cdc0f5417baa28aea5db96fc489651be8ccee7d6b5dc92aab1d23",
+      "git_blob_sha1": "ec9e1ddc28114cee797b0104755a95085e8fbd2a"
+    },
+    {
+      "path": "llava/train/train_llm_to_long.py",
+      "size": 13906,
+      "sha256": "137f87158ba1d37d8af92b434efea3b688f34b0b7ab93cf8df55d84e8f3beb3c",
+      "git_blob_sha1": "37dcda1760dd7cc61014e7d104ef28f8ec6917f8"
+    },
+    {
+      "path": "llava/train/train_long.py",
+      "size": 1960,
+      "sha256": "b3dd18c6c0395cb973c5c78af6b22c2369c50c079dcc5effa1c23f13929b5ffa",
+      "git_blob_sha1": "7fc04588fefe1dd88d5e96fb8361040f7f440380"
+    },
+    {
+      "path": "llava/train/train_mem.py",
+      "size": 1291,
+      "sha256": "ee069fed5ce8ef50ea29663708ee5eb053109b454bbedb40e5c3ffac660f2f37",
+      "git_blob_sha1": "992e8c6ee0ca05f10276da8795343d3d81f769bf"
+    },
+    {
+      "path": "llava/train/transformer_normalize_monkey_patch.py",
+      "size": 3059,
+      "sha256": "ae83b5f8fdcd1c011c03ab110740a4d540bf29737c50064ccbdca5d2e9f3ebe3",
+      "git_blob_sha1": "363657a90104ec3f94f861a524cc8918ab14119a"
+    },
+    {
+      "path": "llava/train/transformers_replace/modeling_utils.py",
+      "size": 237214,
+      "sha256": "541f768a44cdf057281e5b94df4b28418c1cd249fceb9bdf0bed37390691e201",
+      "git_blob_sha1": "888192efe0fbbbb838bdedc8fd1e85bdb424ae50"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/gemma/__init__.py",
+      "size": 3228,
+      "sha256": "f34f75186ee602aaa7f88b55d35d185d4268b4dcc3dfaf47cd67c864e9e7e283",
+      "git_blob_sha1": "df0d993191ac7d4849a28e664e572606effe1c5c"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/gemma/configuration_gemma.py",
+      "size": 6661,
+      "sha256": "fabd091d6edf421b4e622dde280973e88f40eb54ac27aaf9db3964b29ff6cd42",
+      "git_blob_sha1": "a54f1bd7cd4461f83d5ae91cde2db93d5a199957"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/gemma/modeling_gemma.py",
+      "size": 61271,
+      "sha256": "b67e4ed00e58fb60016430dbb2d8b794931e4941e5906a82bb81b51038dcf96a",
+      "git_blob_sha1": "4ff4b52e90c43edc72ee984b55c79b52be1069f6"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/llama/configuring_llama.py",
+      "size": 9369,
+      "sha256": "4c679c37ffbb27f48aa10a75531222ad8807806a3fa73fc56a9e90b7c45b4d69",
+      "git_blob_sha1": "234767a6ad45e62d2be078b0c020832aab53ba4f"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/llama/modeling_llama.py",
+      "size": 55566,
+      "sha256": "d535184380e19a6ebdc6d725fc1bf2f00660a8919c2d356656f7e8e55d8db78c",
+      "git_blob_sha1": "dd8d1df3e463b7155d9590763b057c1652719711"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/llama/tokenization_llama.py",
+      "size": 22443,
+      "sha256": "3d99ed9427b716340c90283de8e83e2a37bf61403436fff207275aa79dd699ed",
+      "git_blob_sha1": "e15259efdd0b632b52d752091b6d76f725071db2"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/mistral/__init__.py",
+      "size": 1788,
+      "sha256": "d3c47cc7af1d13b866f2e0b9e7a31e7d97bd3cbeb8ba447e80a3d226358fdfdc",
+      "git_blob_sha1": "840af48de334f4df6f3a7d11c2ef7041dfdb6df1"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/mistral/configuration_mistral.py",
+      "size": 7154,
+      "sha256": "bb8f933b55f5f0002eaf48370e74b140fc52cbb114a88c01436e552694418779",
+      "git_blob_sha1": "834cb0dc2c03f322402ec5ef3caf6a25d7efb766"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/mistral/modeling_mistral.py",
+      "size": 63841,
+      "sha256": "625a611060601cbffaa9b4f417e6f0b7e911b4f5d5d8158d20ea933831c3d012",
+      "git_blob_sha1": "c234b410ce8c1b1d8750160b0cfe61da332a267f"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/mixtral/__init__.py",
+      "size": 1788,
+      "sha256": "1b90a4cd58cef7e7aca02a2af8ef9f30183457c6cccb54ae3ae59454a1da1483",
+      "git_blob_sha1": "09c0bea4917c19d3c417e1de9c659c8afe9dd72d"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/mixtral/configuration_mixtral.py",
+      "size": 8034,
+      "sha256": "463f6bd0bd8b855f43587ad4bfdca071ceb9ab09b9d33766f6b442ace2bc9c68",
+      "git_blob_sha1": "8c247e893cac956c0428d27c7384f08da8862dc7"
+    },
+    {
+      "path": "llava/train/transformers_replace/models/mixtral/modeling_mixtral.py",
+      "size": 77520,
+      "sha256": "73cee2ad90025cc8cce25657f776d5ec66f8e17391e25ba58b0d04b7348e335f",
+      "git_blob_sha1": "829fb139eb45909f020aa30edc480ca5393937a3"
+    },
+    {
+      "path": "llava/train/utils.py",
+      "size": 14328,
+      "sha256": "93816c8fa8c11ac306cfcfe51927ffb1375b9ada9064370e4c685a961cc577ca",
+      "git_blob_sha1": "f6fa5470ee40713c1cffea4769cbe6f2b25115bb"
+    },
+    {
+      "path": "llava/trl/__init__.py",
+      "size": 1065,
+      "sha256": "53cfd812e1e8a0668dadebdb200b59ac988a148b6c78b75cb7dcd53fb9e756b5",
+      "git_blob_sha1": "a8d6de2cee17dda3489adea0044de94b168ebcaa"
+    },
+    {
+      "path": "llava/trl/environment/__init__.py",
+      "size": 75,
+      "sha256": "529e719ba0104f36c05f3c44a94435c31769467ca05c14f394838f93acda37a3",
+      "git_blob_sha1": "ae1cda4ecb2e604cc990ce16d982df29846f5204"
+    },
+    {
+      "path": "llava/trl/environment/base_environment.py",
+      "size": 17534,
+      "sha256": "61d0a9ce138f94f4a4cfc48792bb149758f9584e80938a9e5594ad0a800ba503",
+      "git_blob_sha1": "f83a30bddcc4b483eb23cf2292566d3a2d7eceb7"
+    },
+    {
+      "path": "llava/trl/extras/__init__.py",
+      "size": 668,
+      "sha256": "921f64dc86a0956569fac6c94f08d5106b39431d8e5358ca6d95579595c991ab",
+      "git_blob_sha1": "6b3035db92af28f5d19d72813f08b06fdad50925"
+    },
+    {
+      "path": "llava/trl/extras/best_of_n_sampler.py",
+      "size": 5818,
+      "sha256": "3b6efba3e27fd0feacd3073ecb7971a78893b5f5418eac09162dca50725f4e39",
+      "git_blob_sha1": "808104331ae5d566d2b439ddcad52c8766e4b2e1"
+    },
+    {
+      "path": "llava/trl/extras/dataset_formatting.py",
+      "size": 4281,
+      "sha256": "9967c1903ac3a5a80112c181e9441871d9782ad3b8102413c1210ce0b79b5bfa",
+      "git_blob_sha1": "7583ce219c62e502d84a0372c8b6e70664790226"
+    },
+    {
+      "path": "llava/trl/import_utils.py",
+      "size": 3129,
+      "sha256": "757db053c8cbaf861468415055ab7ababe61abc4ef0b25c1fb87ebd9549a52dd",
+      "git_blob_sha1": "40d603b4ea67bb6f1602c72ca060aeab0845f05e"
+    },
+    {
+      "path": "llava/trl/models/__init__.py",
+      "size": 1207,
+      "sha256": "9bff8891ff48ea6ab0e635aa1ee1a94b8620159c80bc420680bf92aa614ed6d4",
+      "git_blob_sha1": "f3879d71859af0b980b99469752aacdcfae59c3b"
+    },
+    {
+      "path": "llava/trl/models/modeling_base.py",
+      "size": 28719,
+      "sha256": "9c7f7bacfd86b55711bb49d9c3a2d676434ec4616fd83c90c8b9adf26af57940",
+      "git_blob_sha1": "0a44a93ca1ef7933eb47851627f19bd3660d4c9c"
+    },
+    {
+      "path": "llava/trl/models/modeling_sd_base.py",
+      "size": 27678,
+      "sha256": "e1af1e6d572048c7fe527bc1d48bb051e975cbde14a452e1c5ec06bfa4bc1f05",
+      "git_blob_sha1": "6e5d30d59c4ff1381f78446c3aa1cf9aca2f8655"
+    },
+    {
+      "path": "llava/trl/models/modeling_value_head.py",
+      "size": 18571,
+      "sha256": "bba5606f553d5e161f20b61eca2c0114001ea3992dc02ad901560828e8a1241b",
+      "git_blob_sha1": "2771cc6ce2f5daad0a28933b94f39e670bd9350a"
+    },
+    {
+      "path": "llava/trl/models/utils.py",
+      "size": 3956,
+      "sha256": "84dea72be3e48fd9e03654f6124d3ea91b50546214abe229da7a037418f9ec48",
+      "git_blob_sha1": "87d7ef3942de74a8c315cf9b40eccd24a7b0ac83"
+    },
+    {
+      "path": "llava/trl/trainer/__init__.py",
+      "size": 1467,
+      "sha256": "d047b2c547bea41f3258cf3e90a129b9030106b9a1a4265e7a24144c481ca752",
+      "git_blob_sha1": "da33ad2398eb69f7df4c018ec4bd4ccc6151e0e9"
+    },
+    {
+      "path": "llava/trl/trainer/base.py",
+      "size": 1772,
+      "sha256": "e75600729b2327c82155b7e105770fec14f4ff25e79a18f41bfcdf66197782e1",
+      "git_blob_sha1": "f0314cb987fcf5a520ed1ab1ad0a7eb107f18acc"
+    },
+    {
+      "path": "llava/trl/trainer/ddpo_config.py",
+      "size": 5527,
+      "sha256": "cfb4b2400883664d6ae183cf007e870a810f98e53aebacac836bcf5cc96197af",
+      "git_blob_sha1": "6d6922874fcc9abf196e00ce9145903777e7cda6"
+    },
+    {
+      "path": "llava/trl/trainer/ddpo_trainer.py",
+      "size": 26792,
+      "sha256": "6732b486b1e906ab6fb5a82c4eb8733f4d4e5a88a4564ca14d6cf9a6d176614d",
+      "git_blob_sha1": "107b70d7a7046e74853127423c767cfb66471483"
+    },
+    {
+      "path": "llava/trl/trainer/dpo_trainer.py",
+      "size": 65237,
+      "sha256": "3d1d853f70b3ac38558f9a458052ce38915a3b937e1385f8c8f9bee9029056cf",
+      "git_blob_sha1": "9f6f230b87e86736277b01054648b5cd44828af4"
+    },
+    {
+      "path": "llava/trl/trainer/iterative_sft_trainer.py",
+      "size": 16668,
+      "sha256": "4db8850477efd9270494b19626e72bd1e7e455ffff639d773aadfdb0e15bde2c",
+      "git_blob_sha1": "f25431d805bbb4d6263695d3c8c59ebc350f8d16"
+    },
+    {
+      "path": "llava/trl/trainer/model_config.py",
+      "size": 3671,
+      "sha256": "740a04de543a1c34a482c0a1254c63ae3382ebdde245aad06df9d19f1cfac50e",
+      "git_blob_sha1": "8ac4a9fa27a994f220befb508bb7ca059bf6afab"
+    },
+    {
+      "path": "llava/trl/trainer/ppo_config.py",
+      "size": 8207,
+      "sha256": "0f0974adba5fb265a61c7d1fa78e6bb6c0af940202b4ac6093c3cb7572f442a3",
+      "git_blob_sha1": "6564c3833e8bf34f49861b2342c527d6ce490e52"
+    },
+    {
+      "path": "llava/trl/trainer/ppo_trainer.py",
+      "size": 62759,
+      "sha256": "ea61647f24d8461977c895267f81393d80ca7ff3d117b014481d83ab5409aeb7",
+      "git_blob_sha1": "e9873dcf54e466bd1e783d72681aeccc6a2a2775"
+    },
+    {
+      "path": "llava/trl/trainer/reward_config.py",
+      "size": 1623,
+      "sha256": "f566e90ec99ea24331d931b6d59123abd0046bd5e7b6232f93fb5110ba26f02b",
+      "git_blob_sha1": "32c7e264d1fe84e6ea229ec404465d9aba9b391c"
+    },
+    {
+      "path": "llava/trl/trainer/reward_trainer.py",
+      "size": 13709,
+      "sha256": "7fb4b7e917587393311e8e25948553cf2503b8b988d5a2cb68496077b4370d30",
+      "git_blob_sha1": "a6048beb13fee01d8373eb0811471ac9df049f8c"
+    },
+    {
+      "path": "llava/trl/trainer/sft_trainer.py",
+      "size": 24806,
+      "sha256": "0bb16daacf56388b494690c72b9377c0aa79dba2fcb59f43663d3fe2dbbc9754",
+      "git_blob_sha1": "be8c6b453392ffc932189bdbdf11e49d14ef44b0"
+    },
+    {
+      "path": "llava/trl/trainer/utils.py",
+      "size": 31716,
+      "sha256": "2858785f5db27f2398d84ca8517dc32e924aa8e0d26816e4e9eaf3dec95509b3",
+      "git_blob_sha1": "ac43bc69cdd78bb4c66ecee0de10767154e861bf"
+    },
+    {
+      "path": "llava/utils/__init__.py",
+      "size": 21,
+      "sha256": "6a52031819f1587e09bcff945beecdf7db1e0418b4af5195d61f1fd4444505e7",
+      "git_blob_sha1": "16281fe0b66dbac563229823d656ef173736e306"
+    },
+    {
+      "path": "llava/utils/distributed.py",
+      "size": 1108,
+      "sha256": "2094b44b0cabe7a01eca90bd95ca3186274e1e9cf65c645ea2c54754b1482078",
+      "git_blob_sha1": "0fe5708df9a4e34fb8864d1cc800ddab3d5ddb76"
+    },
+    {
+      "path": "llava/utils/io.py",
+      "size": 4523,
+      "sha256": "83f1fe2c390bb087d1f752beb5c5b038842c37abbf2abbd1611fca23cbd6a780",
+      "git_blob_sha1": "910ed9c6b21763089b2b062d0bd3c56cc3b78794"
+    },
+    {
+      "path": "llava/utils/logging.py",
+      "size": 223,
+      "sha256": "5ad8ae727987c9e4611459be7aa52e7a8e9db7a1f868673b95701de7dc63caf1",
+      "git_blob_sha1": "fdabdece598d98ea2711c9a24ea26ea844b00405"
+    },
+    {
+      "path": "llava/utils/media.py",
+      "size": 2721,
+      "sha256": "112127ffeeb8b11bf02ad8d69eeeb513bf3b8f1d944fc61383732e8889097bff",
+      "git_blob_sha1": "2a28cabb769f9f4a819141ad82a3389f955e99a7"
+    },
+    {
+      "path": "llava/utils/merge_lora_weights_and_save_hf_model.py",
+      "size": 3552,
+      "sha256": "6350aa949492208e2da9ea6223611563f9b758465b23b21c88e100cc6e819ce8",
+      "git_blob_sha1": "e80a3f0989b2fa130acb72c0cd126b837e26f004"
+    },
+    {
+      "path": "llava/utils/tokenizer.py",
+      "size": 6597,
+      "sha256": "d201bcc29da3a8cf7c17f625454fd08322202bec4015c98d0939730baf3e1a7f",
+      "git_blob_sha1": "9c387b9d2bc97795b52c87bd7427c5a62fafedbb"
+    },
+    {
+      "path": "llava/utils/utils.py",
+      "size": 4648,
+      "sha256": "7a64449eda7a4abad68c3cb153f0ffb08c228e0481bb2c60176bb44127cd667c",
+      "git_blob_sha1": "8544c7b86b6197026b16efcf595a7e8f3ad78d9c"
+    },
+    {
+      "path": "llava/wids/__init__.py",
+      "size": 307,
+      "sha256": "510a6c5bc15247a28df0fcf1008a8cec2b34df991dd7450593a33792f62596f6",
+      "git_blob_sha1": "6b9b3a40e4fb67ee9b2b9eb91798542cdeb8e7a0"
+    },
+    {
+      "path": "llava/wids/wids.py",
+      "size": 27769,
+      "sha256": "d33067585d004b4148bbd195658c77128d3eb208a84102d4ca62f6b28406cd6a",
+      "git_blob_sha1": "f34f53514a24d9ae85bede2054807d735b04acfe"
+    },
+    {
+      "path": "llava/wids/wids_bench.py",
+      "size": 1221,
+      "sha256": "2015fbd53fd05e6f44dfc79f920d9a043bb620401e33a9939cdccf3b0c4dda6f",
+      "git_blob_sha1": "92044b694bbcba23e0b21a1aafacfd9681806558"
+    },
+    {
+      "path": "llava/wids/wids_cleanup.py",
+      "size": 3166,
+      "sha256": "67bbfefdf494299fd6dc09e5498979d02813dfc5e60384601e8c328b24e94fa9",
+      "git_blob_sha1": "efddf2941baceac1edfccc3688968419ffe34744"
+    },
+    {
+      "path": "llava/wids/wids_dir.py",
+      "size": 647,
+      "sha256": "109592b07d09ed9064a50c118fdd935349cb280a4b750161ef193d925f8c6e3d",
+      "git_blob_sha1": "dd53dac71c5bb4f07bb64bad3d049a2a9f0b95b8"
+    },
+    {
+      "path": "llava/wids/wids_dl.py",
+      "size": 4782,
+      "sha256": "c819a67305d625cee08b4cd241f3ab2c1c7720980fdfa0b8184e98690638005b",
+      "git_blob_sha1": "307248f7e3d792b5885a6ef04f375acb0e9d489f"
+    },
+    {
+      "path": "llava/wids/wids_index.py",
+      "size": 11602,
+      "sha256": "f0f9676e7abd37225e0afc9afc45fe02b5b1457f3284ef5762082a0d1efaa406",
+      "git_blob_sha1": "8b522b58ba20cdd0515ebdd9edba9acfe8c4794b"
+    },
+    {
+      "path": "llava/wids/wids_lru.py",
+      "size": 2069,
+      "sha256": "97057e2a482fba7124788e5af0ca10b2d2e642450800123918082ed57f00914c",
+      "git_blob_sha1": "b288094f3f8e67ebbeedca19f0b6895e22e9dbf6"
+    },
+    {
+      "path": "llava/wids/wids_mmtar.py",
+      "size": 4839,
+      "sha256": "a99d0f692e7b1501ff6946766d77cec7035b31b7555bbe4b2583e6bb85cced4f",
+      "git_blob_sha1": "d8a3590d4cac3481593a66e842bcad99279744cf"
+    },
+    {
+      "path": "llava/wids/wids_specs.py",
+      "size": 5706,
+      "sha256": "f0d9c7c91bc56dfd7fd7166065327e57cf431363662f453cb4b75503793865d1",
+      "git_blob_sha1": "7a3aa11c237ec839b8af9bc0d16080182ec49f57"
+    },
+    {
+      "path": "llava/wids/wids_tar.py",
+      "size": 2646,
+      "sha256": "11f95f5951d559248b231dd653bfb3341a15b10444076bab1d20bb068fb4963c",
+      "git_blob_sha1": "7a62fd0ea630bcc8c39d42be9149cd6590da4dcd"
+    },
+    {
+      "path": "merge.py",
+      "size": 1455,
+      "sha256": "dbb1354f486374a19ab9d1daaebb3f3886724d4db645fa4b60ff1eee703833d1",
+      "git_blob_sha1": "6bf56aae6bcd7f5e2e60f60374804c3ff9a185f4"
+    },
+    {
+      "path": "mobilevla/__init__.py",
+      "size": 60,
+      "sha256": "b6446996bd92e1926c286ae7a1b106bd919f9ef9bffc67d61c7f8c0687cd8843",
+      "git_blob_sha1": "55f4a18b223ac07dc6734eeb4d6d18ef83f49c72"
+    },
+    {
+      "path": "mobilevla/actions.py",
+      "size": 7583,
+      "sha256": "36da42238183b4774ce359cae52dc84f0f757694c4de0780ba053465d7f85618",
+      "git_blob_sha1": "62f49147c7cd68a654070451a5f6b6f02ad02775"
+    },
+    {
+      "path": "mobilevla/checkpoints.py",
+      "size": 1148,
+      "sha256": "e5dc32da7d1af9309cfac62d29758c8756192b432c6f25eaff210b8bc2f772f9",
+      "git_blob_sha1": "60be4add0a7a76f5719e88396c503710194642a4"
+    },
+    {
+      "path": "mobilevla/data.py",
+      "size": 4729,
+      "sha256": "ec0d58fbd2c0cd34e172ee43742f4ab1b9897b686b05dbb50e2bb489acf194f9",
+      "git_blob_sha1": "f50211cf70adf8166a4d078d42c5e5d238da7ae6"
+    },
+    {
+      "path": "mobilevla/grpo.py",
+      "size": 7378,
+      "sha256": "d83a24e126bc8a852cf9bb00c6f1db7b839904e86281bb2c1fadc8fab0e3077c",
+      "git_blob_sha1": "33e530aaa2a1aad9dafcc6a72424e3d623701b22"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1969,
+      "sha256": "94269c9871cf186e5f5e435457ea32dd3354c6cfa4ce5c1e41023603be9b9f9e",
+      "git_blob_sha1": "959b662bfa2be105bca140a2614cc6ff279d66e7"
+    },
+    {
+      "path": "ref_server.py",
+      "size": 2875,
+      "sha256": "e2d7d11b442abc0a3450962332dc51360c6e8ced8c81a560458d1b89b8d08c7f",
+      "git_blob_sha1": "278601f01a581f1bb2b95e7d3a1c92d494773780"
+    },
+    {
+      "path": "scripts/extract_rawframes.py",
+      "size": 1344,
+      "sha256": "31a464f6e9c09c58a9c6651a4f3a552cf3b3cc6014b3391245f647ff5b65270f",
+      "git_blob_sha1": "17e6314487a973d0edb77280d4913a5e384ff6df"
+    },
+    {
+      "path": "scripts/prepare_cot_annotations.py",
+      "size": 2773,
+      "sha256": "57e857f77d627605b87c919d16316aa0e25d18a5b0b5cce5c757cb94b2f3cc95",
+      "git_blob_sha1": "6791d02ad45a35b645600c46df1db21c4bf026d4"
+    },
+    {
+      "path": "scripts/train/sft_8frames.sh",
+      "size": 2362,
+      "sha256": "4e2c986006e085d563d33d53b31e5e66aec90046170c5dfd37210511df815a57",
+      "git_blob_sha1": "8b72d027185ea8265ae9b95250b8300c0864077a"
+    },
+    {
+      "path": "scripts/train/sft_cold_start.sh",
+      "size": 1443,
+      "sha256": "705a06e0ff695f2e0d5f98484f1a178d0f2301496bdeb65732c3e326af563baa",
+      "git_blob_sha1": "a0f63c69991d2af55593979f789906f0ffa39ced"
+    },
+    {
+      "path": "scripts/zero3.json",
+      "size": 802,
+      "sha256": "97bb46f841ad91fd29f2b8b03fff2e48e6ee316de9ee769e265833b3dbecb651",
+      "git_blob_sha1": "14b7b3e92421662a8724ddc61026236acb7a2a3d"
+    },
+    {
+      "path": "test_remote.py",
+      "size": 7869,
+      "sha256": "d90e8affba3562b01f99895dc5c3a3096fc842c61575138bcabaed4c38229f16",
+      "git_blob_sha1": "ab9ca20a33f30f5c56a22705fb7a7e25d6d23d7a"
+    },
+    {
+      "path": "tests/test_grpo_math.py",
+      "size": 3356,
+      "sha256": "0a7706ddbe026eba86b3740ff2caedcbeda0ac7385b137038891e7115e9da171",
+      "git_blob_sha1": "e833c27d2dbbadf3d91241d2b03f95071a09dd2a"
+    },
+    {
+      "path": "tests/test_mobilevla_contracts.py",
+      "size": 11801,
+      "sha256": "129dec7dfceaf09b0208553aa89827cc120b244c6990370249bbc37aeb236cbe",
+      "git_blob_sha1": "e1b74a9cbada2c0a74654895c1929ae159e774a5"
+    },
+    {
+      "path": "train.py",
+      "size": 5045,
+      "sha256": "85c2f22be3ac50a4595c4b5b5d5fcd8159757108f3cf2da4e6513687e88d2f47",
+      "git_blob_sha1": "1a57241e326d7ffe78ffdbf8cad9df2362096ee3"
+    }
+  ],
+  "execution": "not executed; only pure stdlib protocol modules may be imported separately"
+}

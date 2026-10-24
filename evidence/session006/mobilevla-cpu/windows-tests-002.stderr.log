@@ -1,0 +1,32 @@
+test_depth_not_implemented (test_mobilevla_session006.ConfigTests.test_depth_not_implemented) ... ok
+test_feature_layer_not_silently_changed (test_mobilevla_session006.ConfigTests.test_feature_layer_not_silently_changed) ... ok
+test_no_cls_is_dropped_from_siglip (test_mobilevla_session006.ConfigTests.test_no_cls_is_dropped_from_siglip) ... ok
+test_nonsquare_patch_counts_rejected (test_mobilevla_session006.ConfigTests.test_nonsquare_patch_counts_rejected) ... ok
+test_plugin_registered_as_lazy_custom_implementation (test_mobilevla_session006.ConfigTests.test_plugin_registered_as_lazy_custom_implementation) ... ok
+test_real_pinned_checkpoint_contract (test_mobilevla_session006.ConfigTests.test_real_pinned_checkpoint_contract) ... ok
+test_s2_is_not_same_model (test_mobilevla_session006.ConfigTests.test_s2_is_not_same_model) ... ok
+test_safetensors_header_truncated_rejected (test_mobilevla_session006.ConfigTests.test_safetensors_header_truncated_rejected) ... ok
+test_weight_prefix_sources (test_mobilevla_session006.ConfigTests.test_weight_prefix_sources) ... ok
+test_chat_template_tamper_also_checked_without_weight_hashing (test_mobilevla_session006.DerivedSealTests.test_chat_template_tamper_also_checked_without_weight_hashing) ... ok
+test_derived_file_symlink_rejected (test_mobilevla_session006.DerivedSealTests.test_derived_file_symlink_rejected) ... ok
+test_derived_preparation_path_drift_rejected (test_mobilevla_session006.DerivedSealTests.test_derived_preparation_path_drift_rejected) ... ok
+test_derived_source_path_edit_rejected (test_mobilevla_session006.DerivedSealTests.test_derived_source_path_edit_rejected) ... ok
+test_derived_tokenizer_tamper_rejected_with_source_unchanged (test_mobilevla_session006.DerivedSealTests.test_derived_tokenizer_tamper_rejected_with_source_unchanged) ... ok
+test_invalid_null_derived_digest_rejected (test_mobilevla_session006.DerivedSealTests.test_invalid_null_derived_digest_rejected) ... ok
+test_receipt_missing_derived_entry_rejected (test_mobilevla_session006.DerivedSealTests.test_receipt_missing_derived_entry_rejected) ... ok
+test_unchanged_source_and_eight_derived_files_pass (test_mobilevla_session006.DerivedSealTests.test_unchanged_source_and_eight_derived_files_pass) ... ok
+test_even_grid_actual_source_equivalence (test_mobilevla_session006.ProjectorSourceParity.test_even_grid_actual_source_equivalence) ... ok
+test_explicit_flattening_order (test_mobilevla_session006.ProjectorSourceParity.test_explicit_flattening_order) ... ok
+test_full_projector_source_numerical_equivalence (test_mobilevla_session006.ProjectorSourceParity.test_full_projector_source_numerical_equivalence) ... ok
+test_odd_grid_padding_actual_source_equivalence (test_mobilevla_session006.ProjectorSourceParity.test_odd_grid_padding_actual_source_equivalence) ... ok
+test_real_27_grid_eight_frame_order (test_mobilevla_session006.ProjectorSourceParity.test_real_27_grid_eight_frame_order) ... ok
+test_derived_sentinel_preserves_all_other_token_ids (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_derived_sentinel_preserves_all_other_token_ids) ... ok
+test_native_prompt_replacement_is_exact_196_per_frame (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_native_prompt_replacement_is_exact_196_per_frame) ... ok
+test_real_tokenizer_source_image_sentinel_equivalence (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_real_tokenizer_source_image_sentinel_equivalence) ... ok
+test_siglip_preprocess_fixed_pixels_source_equivalence (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_siglip_preprocess_fixed_pixels_source_equivalence) ... ok
+test_source_chat_single_and_multiturn_exact_text (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_source_chat_single_and_multiturn_exact_text) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 20.895s
+
+OK

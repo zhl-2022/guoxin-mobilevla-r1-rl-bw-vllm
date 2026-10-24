@@ -1,0 +1,11 @@
+test_actual_fixed_locks (test_mobilevla_selected_download_006.SelectedDownloadTests.test_actual_fixed_locks) ... ok
+test_path_traversal_and_other_checkpoint_rejected (test_mobilevla_selected_download_006.SelectedDownloadTests.test_path_traversal_and_other_checkpoint_rejected) ... ok
+test_real_zip64_header_and_stream_readback (test_mobilevla_selected_download_006.SelectedDownloadTests.test_real_zip64_header_and_stream_readback) ... ok
+test_truncated_deflate_preserved_as_failed (test_mobilevla_selected_download_006.SelectedDownloadTests.test_truncated_deflate_preserved_as_failed) ... ok
+test_wrong_central_directory_crc_rejected_before_download (test_mobilevla_selected_download_006.SelectedDownloadTests.test_wrong_central_directory_crc_rejected_before_download) ... ok
+test_wrong_expanded_size_rejected (test_mobilevla_selected_download_006.SelectedDownloadTests.test_wrong_expanded_size_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.126s
+
+OK

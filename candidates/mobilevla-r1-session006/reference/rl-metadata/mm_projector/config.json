@@ -1,0 +1,10 @@
+{
+  "_name_or_path": "./checkpoints/vila-long-8b-8f-scanqa-rxr-real-v1-seed10-bs10-1e4/mm_projector",
+  "architectures": [
+    "MultimodalProjector"
+  ],
+  "mm_projector_type": "mlp_downsample",
+  "model_type": "v2l_projector",
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.37.2"
+}

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "GPU_used": false,
+  "source_revision": "007-eos004",
+  "checks": [
+    {
+      "name": "bench.sh",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "env.sh",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "env_check.sh",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "run.sh",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "smoke.sh",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "stop.sh",
+      "returncode": 0,
+      "output": ""
+    },
+    {
+      "name": "run.sh dry-run",
+      "returncode": 0,
+      "output": "{\n  \"dry_run\": true,\n  \"task\": \"/mnt/e/hg20261019/deliverables/mobilevla-session007-004-staging/tasks/mobilevla-r1-rl-bw-vllm\",\n  \"framework\": \"vllm\",\n  \"precision\": \"bf16\",\n  \"model_id\": \"AIGeeksGroup/MobileVLA-R1\",\n  \"model_revision\": \"0c757f3e9d1b95d8416b42e7089e1c04f3e6118a\",\n  \"contest_alias\": \"BAAI/MobileVLA-R1\",\n  \"contest_alias_equivalence_verified\": false,\n  \"model_path\": \"/tmp/mobilevla-eos004-dryrun-only\",\n  \"served_name\": \"mobilevla-r1-rgb-rl006\",\n  \"host\": \"127.0.0.1\",\n  \"port\": 30139,\n  \"tp\": 1,\n  \"max_len\": 4096,\n  \"mem_frac\": 0.8,\n  \"max_num_seqs\": 1,\n  \"load_timeout\": 900,\n  \"max_runtime\": 1800,\n  \"stop_grace\": 30,\n  \"command\": [\n    \"/usr/bin/python3\",\n    \"-m\",\n    \"vllm.entrypoints.openai.api_server\",\n    \"--model\",\n    \"/tmp/mobilevla-eos004-dryrun-only\",\n    \"--tokenizer\",\n    \"/tmp/mobilevla-eos004-dryrun-only\",\n    \"--served-model-name\",\n    \"mobilevla-r1-rgb-rl006\",\n    \"--host\",\n    \"127.0.0.1\",\n    \"--port\",\n    \"30139\",\n    \"--dtype\",\n    \"bfloat16\",\n    \"--tensor-parallel-size\",\n    \"1\",\n    \"--max-model-len\",\n    \"4096\",\n    \"--gpu-memory-utilization\",\n    \"0.8\",\n    \"--max-num-seqs\",\n    \"1\",\n    \"--max-num-batched-tokens\",\n    \"4096\",\n    \"--enforce-eager\",\n    \"--limit-mm-per-prompt\",\n    \"{\\\"image\\\":8,\\\"video\\\":0}\",\n    \"--chat-template\",\n    \"/tmp/mobilevla-eos004-dryrun-only/mobilevla-chat-template.jinja\",\n    \"--chat-template-content-format\",\n    \"string\",\n    \"--generation-config\",\n    \"vllm\"\n  ],\n  \"url\": \"http://127.0.0.1:30139\",\n  \"plugin\": \"mobilevla_bw006\",\n  \"architecture\": \"MobileVLAForConditionalGeneration006\",\n  \"scope\": \"Published RGB RL checkpoint; no depth/point modules or fabricated evaluation\",\n  \"GPU_verified\": false,\n  \"official_accuracy_verified\": false,\n  \"official_performance_verified\": false,\n  \"standard_submission_ready\": false,\n  \"run_id\": \"7e6f2d9822ad4bdc915f28c230004004\"\n}\n"
+    },
+    {
+      "name": "env_check.sh dry-run",
+      "returncode": 0,
+      "output": "{\n  \"configuration\": {\n    \"task\": \"/mnt/e/hg20261019/deliverables/mobilevla-session007-004-staging/tasks/mobilevla-r1-rl-bw-vllm\",\n    \"framework\": \"vllm\",\n    \"precision\": \"bf16\",\n    \"model_id\": \"AIGeeksGroup/MobileVLA-R1\",\n    \"model_revision\": \"0c757f3e9d1b95d8416b42e7089e1c04f3e6118a\",\n    \"contest_alias\": \"BAAI/MobileVLA-R1\",\n    \"contest_alias_equivalence_verified\": false,\n    \"model_path\": \"/tmp/mobilevla-eos004-dryrun-only\",\n    \"served_name\": \"mobilevla-r1-rgb-rl006\",\n    \"host\": \"127.0.0.1\",\n    \"port\": 30139,\n    \"tp\": 1,\n    \"max_len\": 4096,\n    \"mem_frac\": 0.8,\n    \"max_num_seqs\": 1,\n    \"load_timeout\": 900,\n    \"max_runtime\": 1800,\n    \"stop_grace\": 30,\n    \"command\": [\n      \"/usr/bin/python3\",\n      \"-m\",\n      \"vllm.entrypoints.openai.api_server\",\n      \"--model\",\n      \"/tmp/mobilevla-eos004-dryrun-only\",\n      \"--tokenizer\",\n      \"/tmp/mobilevla-eos004-dryrun-only\",\n      \"--served-model-name\",\n      \"mobilevla-r1-rgb-rl006\",\n      \"--host\",\n      \"127.0.0.1\",\n      \"--port\",\n      \"30139\",\n      \"--dtype\",\n      \"bfloat16\",\n      \"--tensor-parallel-size\",\n      \"1\",\n      \"--max-model-len\",\n      \"4096\",\n      \"--gpu-memory-utilization\",\n      \"0.8\",\n      \"--max-num-seqs\",\n      \"1\",\n      \"--max-num-batched-tokens\",\n      \"4096\",\n      \"--enforce-eager\",\n      \"--limit-mm-per-prompt\",\n      \"{\\\"image\\\":8,\\\"video\\\":0}\",\n      \"--chat-template\",\n      \"/tmp/mobilevla-eos004-dryrun-only/mobilevla-chat-template.jinja\",\n      \"--chat-template-content-format\",\n      \"string\",\n      \"--generation-config\",\n      \"vllm\"\n    ],\n    \"url\": \"http://127.0.0.1:30139\",\n    \"plugin\": \"mobilevla_bw006\",\n    \"architecture\": \"MobileVLAForConditionalGeneration006\",\n    \"scope\": \"Published RGB RL checkpoint; no depth/point modules or fabricated evaluation\",\n    \"GPU_verified\": false,\n    \"official_accuracy_verified\": false,\n    \"official_performance_verified\": false,\n    \"standard_submission_ready\": false\n  },\n  \"metadata_only\": true,\n  \"packages\": {\n    \"torch\": null,\n    \"vllm\": null,\n    \"vllm-hcu\": null,\n    \"transformers\": null,\n    \"Pillow\": null\n  }\n}\n"
+    }
+  ],
+  "wrappers_GPU_replayed": false
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "mobilevla-comparison-auditor-negative-control007-v1",
+  "original_failed_archive_sha256": "73bdfcb76a37e78ffa369bae1982a85396abcb4c18d5f29d733fd3905f040bdc",
+  "old_failed_run_not_reclassified_as003_success": true,
+  "refusal_reason": "Requires exact003 source lock",
+  "original_bytes_unchanged": true,
+  "GPU_used": false
+}

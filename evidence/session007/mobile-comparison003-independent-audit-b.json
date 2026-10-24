@@ -1,0 +1,251 @@
+{
+  "schema": "mobilevla-comparison007-004-independent-audit-v1",
+  "audit_integrity_passed": true,
+  "same_input_1_and_8_frame_comparison_completed": true,
+  "raw_generated_tokens_equal": true,
+  "run_id": "b10e5daa57e83d115258adf97d496377",
+  "controller_elapsed_seconds": 613.0550420652144,
+  "comparisons": [
+    {
+      "case": "1",
+      "frames": 1,
+      "expanded_input_tokens": 269,
+      "raw_generated_tokens": 32,
+      "native_finish_reason": "length",
+      "HF_finish_reason": "length",
+      "raw_generated_token_ids_equal": true,
+      "first_divergence": null,
+      "native_stop_boundary_coverage": {
+        "max_new_tokens": 32,
+        "generated_tokens": 32,
+        "token128001_positions": [],
+        "continued_after_nonpublisher128001": false,
+        "publisher128009_terminal_EOS_observed": false,
+        "stop_boundary_exercised": false
+      },
+      "reference_stop_boundary_coverage": {
+        "max_new_tokens": 32,
+        "generated_tokens": 32,
+        "token128001_positions": [],
+        "continued_after_nonpublisher128001": false,
+        "publisher128009_terminal_EOS_observed": false,
+        "stop_boundary_exercised": false
+      }
+    },
+    {
+      "case": "8",
+      "frames": 8,
+      "expanded_input_tokens": 1648,
+      "raw_generated_tokens": 32,
+      "native_finish_reason": "length",
+      "HF_finish_reason": "length",
+      "raw_generated_token_ids_equal": true,
+      "first_divergence": null,
+      "native_stop_boundary_coverage": {
+        "max_new_tokens": 32,
+        "generated_tokens": 32,
+        "token128001_positions": [],
+        "continued_after_nonpublisher128001": false,
+        "publisher128009_terminal_EOS_observed": false,
+        "stop_boundary_exercised": false
+      },
+      "reference_stop_boundary_coverage": {
+        "max_new_tokens": 32,
+        "generated_tokens": 32,
+        "token128001_positions": [],
+        "continued_after_nonpublisher128001": false,
+        "publisher128009_terminal_EOS_observed": false,
+        "stop_boundary_exercised": false
+      }
+    },
+    {
+      "case": "eos-1",
+      "frames": 1,
+      "expanded_input_tokens": 263,
+      "raw_generated_tokens": 13,
+      "native_finish_reason": "stop",
+      "HF_finish_reason": "stop",
+      "raw_generated_token_ids_equal": true,
+      "first_divergence": null,
+      "native_stop_boundary_coverage": {
+        "max_new_tokens": 128,
+        "generated_tokens": 13,
+        "token128001_positions": [
+          11
+        ],
+        "continued_after_nonpublisher128001": true,
+        "publisher128009_terminal_EOS_observed": true,
+        "stop_boundary_exercised": true
+      },
+      "reference_stop_boundary_coverage": {
+        "max_new_tokens": 128,
+        "generated_tokens": 13,
+        "token128001_positions": [
+          11
+        ],
+        "continued_after_nonpublisher128001": true,
+        "publisher128009_terminal_EOS_observed": true,
+        "stop_boundary_exercised": true
+      }
+    }
+  ],
+  "source_lock_sha256": "63e70e6a2fff22b7339e70878ecab85844bbca822574da3038fbe1fc686be414",
+  "derived_adapter_source_modules_bound": 7,
+  "original16_source_and_extraction_receipt_SHA_match_verified003": true,
+  "actual_native_source_files": {
+    "backend": {
+      "path": "/root/private_data/guoxin-mobilevla-tools-007-004/candidates/mobilevla-r1-session006/mobilevla_bw006/backend.py",
+      "sha256": "5d529bd662867463d2f7f3fabb24dc5c8629976a136cbdeab5aff8b349e2c0d8"
+    },
+    "native_tokens_main": {
+      "path": "/usr/local/lib/python3.10/dist-packages/vllm/multimodal/processing/processor.py",
+      "sha256": "900283f4fabd65449ac76b8a08d3d8e546321d4c88d046c3d510cfc5fabde1bf"
+    },
+    "native_tokenizer_class": {
+      "path": "/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_tokenizers.py",
+      "sha256": "2a41b4e2ab5a3f467ce6ab9efa818cbd9442260c08b2d6e16eec33a4a56b3883"
+    }
+  },
+  "actual_tokenizer_classes": {
+    "publisher": "TokenizersBackend",
+    "derived": "TokenizersBackend"
+  },
+  "actual_native_package_versions": {
+    "transformers": "5.5.0",
+    "tokenizers": "0.22.2",
+    "vllm": "0.18.1+das.fa71803.dtk2604",
+    "vllm-hcu": "0.18.1+das.dtk2604"
+  },
+  "new_derived_receipt_schema": "mobilevla-derived-hf-view-007-eos004-v1",
+  "cleanup_records": {
+    "native-stop": {
+      "status": "PASS",
+      "captured_utc": "2026-10-24T08:09:09.917252+00:00",
+      "run_id": "b10e5daa57e83d115258adf97d496377",
+      "terminal_state_recorded": true,
+      "processes": {
+        "supervisor": {
+          "status": "absent",
+          "pid": 13136,
+          "running": false,
+          "expected_start_token": "285650841",
+          "same_owned_process_running": false
+        },
+        "server": {
+          "status": "absent",
+          "pid": 13137,
+          "running": false,
+          "expected_start_token": "285650851",
+          "same_owned_process_running": false
+        }
+      },
+      "owned_process_group_live_members": [],
+      "process_probe_errors": [],
+      "loopback_port": 30139,
+      "connect_ex": 111,
+      "port_refused_connection": true,
+      "GPU_memory_idle_claimed": false,
+      "stop_error": null
+    },
+    "final-stop": {
+      "status": "PASS",
+      "captured_utc": "2026-10-24T08:12:16.503847+00:00",
+      "run_id": "b10e5daa57e83d115258adf97d496377",
+      "terminal_state_recorded": true,
+      "processes": {
+        "supervisor": {
+          "status": "absent",
+          "pid": 13136,
+          "running": false,
+          "expected_start_token": "285650841",
+          "same_owned_process_running": false
+        },
+        "server": {
+          "status": "absent",
+          "pid": 13137,
+          "running": false,
+          "expected_start_token": "285650851",
+          "same_owned_process_running": false
+        }
+      },
+      "owned_process_group_live_members": [],
+      "process_probe_errors": [],
+      "loopback_port": 30139,
+      "connect_ex": 111,
+      "port_refused_connection": true,
+      "GPU_memory_idle_claimed": false,
+      "stop_error": null
+    }
+  },
+  "EOS_runtime_trigger_observed": true,
+  "publisher_stop_boundary_exercised": true,
+  "actual_native_EOS_configuration_probe": {
+    "status": "passed_publisher_EOS_configuration",
+    "native_source_files": {
+      "model_config": {
+        "path": "/usr/local/lib/python3.10/dist-packages/vllm/config/model.py",
+        "sha256": "82c0879b0670a5883e1c5e844e1ebf20bf21ee1f5764ff6a799ca97856d5ad38"
+      },
+      "renderer": {
+        "path": "/usr/local/lib/python3.10/dist-packages/vllm/renderers/base.py",
+        "sha256": "651c88721014c71e24645ce36676413c181146f7a6cca20a711d0cfd2bde0b4d"
+      },
+      "input_processor": {
+        "path": "/usr/local/lib/python3.10/dist-packages/vllm/v1/engine/input_processor.py",
+        "sha256": "951cc1a8809ad296e8a61ddfd5d4759d4b2f6ecbd19de6667a03ad8cee7193fe"
+      },
+      "sampling_params": {
+        "path": "/usr/local/lib/python3.10/dist-packages/vllm/sampling_params.py",
+        "sha256": "b4cec6df516e594ef3d2024ceddd8773e885d520eba5efc15ec352d28f7558a0"
+      }
+    },
+    "generation_config_mode": "vllm",
+    "ordinary_sampling_defaults": {},
+    "actual_generation_config_special_tokens": {
+      "max_length": 4096,
+      "do_sample": true,
+      "temperature": 0.6,
+      "top_p": 0.9,
+      "bos_token_id": 128000,
+      "eos_token_id": 128009,
+      "transformers_version": "5.5.0"
+    },
+    "renderer_primary_eos_token_id": 128009,
+    "effective_eos_token_id": 128009,
+    "effective_stop_token_ids": [
+      128009
+    ],
+    "historical003_source_generation_effective_stop_token_ids": [
+      128001,
+      128009
+    ],
+    "derived_root_and_text_eos": [
+      128009,
+      128009
+    ],
+    "actual_config_object_eos": {
+      "HF_AutoConfig_root": 128009,
+      "HF_AutoConfig_get_text_config": 128009,
+      "vllm_get_config_root": 128009,
+      "vllm_get_hf_text_config": 128009
+    },
+    "source_original_LLM_config_eos": 128009,
+    "source_original_generation_config_eos": [
+      128001,
+      128009
+    ],
+    "model_weights_loaded": false
+  },
+  "navigation_accuracy_verified": false,
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "official_acceptance": false,
+  "submitted": false,
+  "scope": "Downloaded actual BW records audited locally; no new GPU execution, no local rehash of remote17GB weights, no official evaluator",
+  "raw_archive": {
+    "path": "E:\\hg20261019\\dist\\000-session007-mobile-comparison003.zip",
+    "bytes": 64762,
+    "sha256": "deba391bfd4da82ddc1799e4c303507ed88a41782efb4bd9f4c0e3bcd0595057",
+    "verified_payload_files": 52
+  }
+}

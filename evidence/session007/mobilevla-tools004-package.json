@@ -1,0 +1,20 @@
+{
+  "output": "E:\\hg20261019\\dist\\session007-mobilevla-tools-004.zip",
+  "bytes": 2719259,
+  "sha256": "f248a692df9ae69af29dae264e4ef6e659269593b25057b26eb17e18e2ad2336",
+  "manifest_sha256": "08b0c2d0ff90b3651db278b6b531593487b2290905accae39a8358786b299043",
+  "payload_files": 104,
+  "archive_members": 105,
+  "source_identity": {
+    "status": "PASS",
+    "verified_payload_file_counts": {
+      "frozen": 70,
+      "comparison": 5
+    },
+    "lock_sha256": "63e70e6a2fff22b7339e70878ecab85844bbca822574da3038fbe1fc686be414"
+  },
+  "CRC_and_all_payload_readback": true,
+  "source_unchanged": true,
+  "GPU004_verified": false,
+  "submitted": false
+}

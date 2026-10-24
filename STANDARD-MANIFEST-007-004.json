@@ -1,0 +1,1143 @@
+{
+  "schema": "mobilevla-standard-development-delivery007-004-v1",
+  "adapter_revision": "007-eos004",
+  "development_evidence_sealed": true,
+  "model_weights_included": false,
+  "source_identity": {
+    "status": "PASS",
+    "verified_payload_file_counts": {
+      "frozen": 70,
+      "comparison": 5
+    },
+    "lock_sha256": "63e70e6a2fff22b7339e70878ecab85844bbca822574da3038fbe1fc686be414"
+  },
+  "same_input_reference_completed": true,
+  "native_task_GPU_replayed": true,
+  "standard_wrapper_GPU_replayed": false,
+  "EOS_comparison_runtime_trigger_observed": true,
+  "comparison_crossed_nonpublisher128001": true,
+  "publisher_stop_boundary_exercised": true,
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "official_acceptance": false,
+  "submission_ready": false,
+  "submitted": false,
+  "files": {
+    ".gitattributes": {
+      "bytes": 85,
+      "sha256": "75c433b15a9acf7f23c148972ae6a51c6026e4e265e9f60d5aad39c201b50295"
+    },
+    ".gitignore": {
+      "bytes": 131,
+      "sha256": "7bcc0e5c6bfea36e580109b708401e3ed5e8f606a49c261ca136abc9a26de122"
+    },
+    "README.md": {
+      "bytes": 17833,
+      "sha256": "385722757f574a38402f62fcf17c40520f0918d65e654fb693e089605c8ddc25"
+    },
+    "TOOLS-MANIFEST-007-004.json": {
+      "bytes": 19540,
+      "sha256": "08b0c2d0ff90b3651db278b6b531593487b2290905accae39a8358786b299043"
+    },
+    "candidates/mobilevla-r1-session006/README.md": {
+      "bytes": 1415,
+      "sha256": "bae791929b380f487b66c4fae21acd2cbeb5306472db2b4afe4420a1e0e7f83a"
+    },
+    "candidates/mobilevla-r1-session006/framework-source/source-lock.json": {
+      "bytes": 2883,
+      "sha256": "8ac8bc08cf8569524af1aa11ed8b8175c738293ce9c7669cdf6d319852c05a95"
+    },
+    "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-model_loader-default_loader.py": {
+      "bytes": 15360,
+      "sha256": "1be5d0050149866076430fd98ab3360edf7f88da1e3a722397acb45df9cf4626"
+    },
+    "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-models-interfaces.py": {
+      "bytes": 47196,
+      "sha256": "14a21297a8d3039261ec8ea7b86f6f8e83d5b6140208120b6a04043798163c28"
+    },
+    "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-models-siglip.py": {
+      "bytes": 44031,
+      "sha256": "7e5495036d87ce48c20cf5b085e7faf4cd353eba7cf981120f06c80d7a577b24"
+    },
+    "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-models-utils.py": {
+      "bytes": 29457,
+      "sha256": "a6ddd032155f76b4a96efcfea3bbc80de45a6b8747662eebedaf0b29af5faa2d"
+    },
+    "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-models-vision.py": {
+      "bytes": 21178,
+      "sha256": "dd601bc683916074a47fe37efea2a197a7207c347709a2a2908a8b9c6ff8cf8e"
+    },
+    "candidates/mobilevla-r1-session006/framework-source/vllm-multimodal-processing-processor.py": {
+      "bytes": 57414,
+      "sha256": "900283f4fabd65449ac76b8a08d3d8e546321d4c88d046c3d510cfc5fabde1bf"
+    },
+    "candidates/mobilevla-r1-session006/framework-source/vllm-plugins-__init__.py": {
+      "bytes": 2902,
+      "sha256": "4be66190ceaee9d0465f62ade801a8e94a907d7ab9fdb0a67fa14ce87448ae9f"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006-0.0.6.dist-info/METADATA": {
+      "bytes": 106,
+      "sha256": "e945ea7ebf2f46738f6c9b25d9026eab6c600c5ed58d0a9a281076258f3f95f0"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006-0.0.6.dist-info/entry_points.txt": {
+      "bytes": 66,
+      "sha256": "829172ef5522fe630236ad037f38db73626dcb186a99fa5f061abf9d56b70dd6"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/__init__.py": {
+      "bytes": 395,
+      "sha256": "93632222f57eb2c92f08c4bb50b200c1b5bc37840ee868a6f434174b640c6afb"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/backend.py": {
+      "bytes": 6670,
+      "sha256": "5d529bd662867463d2f7f3fabb24dc5c8629976a136cbdeab5aff8b349e2c0d8"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/contract.py": {
+      "bytes": 5786,
+      "sha256": "f1715295826533a71f3e5319f2dab6bfcfadc2db843c7ae84d76e82cbb677143"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/prepare.py": {
+      "bytes": 14343,
+      "sha256": "f14f765a4e347fe4ecc8eb00e83c8a76954b27b283358893f3148f83d7463e00"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/projector.py": {
+      "bytes": 1718,
+      "sha256": "65dc2f13fc8be9c132425f5e8c15de54a183c3535d7986e86d70db45dbafa245"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/reference_rgb.py": {
+      "bytes": 6735,
+      "sha256": "48a493df3f42a01a2c06aaa1d62564862dd1edbb93a260fa0919077e00a72f22"
+    },
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/runtime.py": {
+      "bytes": 10956,
+      "sha256": "2c6cac6370c39d78e0598d47d0f4bc509514a13c38e28ad36cce187643ca462a"
+    },
+    "candidates/mobilevla-r1-session006/reference/UPSTREAM-LICENSE-APACHE-2.0.txt": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "candidates/mobilevla-r1-session006/reference/llava/conversation.py": {
+      "bytes": 19436,
+      "sha256": "5995bc8d45e153395bdeaa31ca7f6c0d1f637135c24e66a1947e9d56ebaa39a1"
+    },
+    "candidates/mobilevla-r1-session006/reference/llava/mm_utils.py": {
+      "bytes": 17802,
+      "sha256": "117d382783c3eba5f6336ff1ee6ee7adedec737fa440a2f8834f40f7ddf7de81"
+    },
+    "candidates/mobilevla-r1-session006/reference/llava/model/multimodal_encoder/vision_encoder.py": {
+      "bytes": 8808,
+      "sha256": "9a24c3a46758bc611e4babbc5eee5bb79bb9164f61439249e311c4904c4e0f7e"
+    },
+    "candidates/mobilevla-r1-session006/reference/llava/model/multimodal_projector/base_projector.py": {
+      "bytes": 4160,
+      "sha256": "52f699c2839870959c68f72b86a686cca07e81036a2ef4e0bc85930b91e064f4"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/config.json": {
+      "bytes": 7365,
+      "sha256": "a4ff86c1c374895ef3ef4cceb4041542a5e7d29ebcec2b8377efc4b6f09ac44f"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/config.json": {
+      "bytes": 843,
+      "sha256": "be33b351410a341de1a8b4b4cf8f4604a702ad22d5516225521704e3fa48ee1a"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/generation_config.json": {
+      "bytes": 194,
+      "sha256": "37e2904bb4bc0d9a49c8d0fade95c0a7c887a6658880563afe1140274c2fe6eb"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/model.safetensors.index.json": {
+      "bytes": 23950,
+      "sha256": "ce350cea18b4668fef697710325e81cf7974430444764275558a06dd9460a734"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/special_tokens_map.json": {
+      "bytes": 434,
+      "sha256": "214dd83efd2bfad51e3e87df20334fdcdcc6192d0118779efb86ef5a83cac5e4"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/tokenizer.json": {
+      "bytes": 9086220,
+      "sha256": "5f73571014de620e0f67384ff0193a5a4aa5bdc332b6e1ae5fce7f99a001116d"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/tokenizer_config.json": {
+      "bytes": 51539,
+      "sha256": "8fce1247f7d4b166d1dfd4114892dd9369e13cdabd174959f96abd8897316a4b"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/mm_projector/config.json": {
+      "bytes": 294,
+      "sha256": "197f034b36aa17ac67cbf9dfea4015445378569120d87158b92f8ea76ef6fb49"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/vision_tower/config.json": {
+      "bytes": 582,
+      "sha256": "6f335f2b406b661cc0fc5419c209729cd1b179d4193a2037deddf6a77829be59"
+    },
+    "candidates/mobilevla-r1-session006/reference/rl-metadata/vision_tower/preprocessor_config.json": {
+      "bytes": 368,
+      "sha256": "f59da2f87c3cd079bd4f8f3037e81b277c60c498e279a8020331f67a5a3157e8"
+    },
+    "candidates/mobilevla-r1-session006/reference/tokenizer-range-record.json": {
+      "bytes": 1115,
+      "sha256": "591af685153ec21932277edc9748106c60aa4e3b1057b9070360d67a92b1a273"
+    },
+    "candidates/mobilevla-r1-session006/rl-entry-plan.json": {
+      "bytes": 6052,
+      "sha256": "95f4551a87fe6f693d6ffb8a22e3bff633e895c38d1b51824d576a4a5da15462"
+    },
+    "dist/000-session007-mobile-comparison001.zip": {
+      "bytes": 43034,
+      "sha256": "73bdfcb76a37e78ffa369bae1982a85396abcb4c18d5f29d733fd3905f040bdc"
+    },
+    "dist/000-session007-mobile-comparison002.zip": {
+      "bytes": 82473,
+      "sha256": "df35fd6707b67956b573130c71f394f84df57b496b6c6df7bbd870892a233634"
+    },
+    "dist/000-session007-mobile-comparison003.zip": {
+      "bytes": 64762,
+      "sha256": "deba391bfd4da82ddc1799e4c303507ed88a41782efb4bd9f4c0e3bcd0595057"
+    },
+    "dist/000-session007-mobile-pilot001.zip": {
+      "bytes": 26522,
+      "sha256": "f417ddaf51c2a312db922fd755fbefe53cbad3975002d4ba97149a4fc8898414"
+    },
+    "dist/000-session007-mobile-pilot003b.zip": {
+      "bytes": 45876,
+      "sha256": "cdb16ce39102beb8037ebf0f26b9527c61d3b3df84482f681f5b25cec19940e8"
+    },
+    "dist/000-session007-mobile-pilot004.zip": {
+      "bytes": 52432,
+      "sha256": "e2ad816cc70109f4ba83646eb4fa59e105c159ce261ef60987b11899bc360530"
+    },
+    "dist/session006-mobilevla-tools-002.zip": {
+      "bytes": 2489279,
+      "sha256": "e116b10853b11fc81e5dcdc0dbd3c2d85fe36c4b8b38500a120a88c4552b92d2"
+    },
+    "dist/session006-mobilevla-volume-proof-001.zip": {
+      "bytes": 21873,
+      "sha256": "16a16770514dcc9089284d3277efa5181e4f63410ca4bac539d4a78557fcd342"
+    },
+    "dist/session007-mobilevla-tools-003.zip": {
+      "bytes": 2608812,
+      "sha256": "aa62f6e5dde19cd5fcd4ed6c1cfb599a8a7739d32b9a58bbd8e1fe83522018e6"
+    },
+    "dist/session007-mobilevla-tools-004.zip": {
+      "bytes": 2719259,
+      "sha256": "f248a692df9ae69af29dae264e4ef6e659269593b25057b26eb17e18e2ad2336"
+    },
+    "docs/mobilevla-bos003-source-alignment.md": {
+      "bytes": 3613,
+      "sha256": "33e9648cf63052fa0092d75a25c6194bfa8298339e6aab5310f756ba3b4983ff"
+    },
+    "docs/mobilevla-eos004-stop-contract.md": {
+      "bytes": 4021,
+      "sha256": "ff25159db9feaaa74441cc8869f05c423734d9c39b95e039b33877d9dac949c9"
+    },
+    "docs/mobilevla-license-provenance007.md": {
+      "bytes": 2329,
+      "sha256": "6c779f00223fd2a5a3754165d7957524bb75db9c1bd56fde3441b08b46d8550a"
+    },
+    "docs/mobilevla-session007-003-technical-report.md": {
+      "bytes": 12510,
+      "sha256": "830d9f7d26ddd2e2ef8c38a0c100cded55cef48a4deb07ea48f86c6d62601113"
+    },
+    "docs/mobilevla-session007-004-technical-report-final.md": {
+      "bytes": 17833,
+      "sha256": "385722757f574a38402f62fcf17c40520f0918d65e654fb693e089605c8ddc25"
+    },
+    "docs/mobilevla-session007-004-technical-report.md": {
+      "bytes": 14671,
+      "sha256": "ceacfc4eccafa4c8e1775f54c718dc84eae47163eb26d5b5b178249c5bc2dc76"
+    },
+    "docs/mobilevla-session007-technical-report-draft.md": {
+      "bytes": 15301,
+      "sha256": "dd7ae4597ecfe5431edc19d9acc1485c5567cda7c075c1bc69cd70632ddd60af"
+    },
+    "evidence/mobilevla-preflight-20261023/framework-source/vllm-v0.18.1-llava.py": {
+      "bytes": 28874,
+      "sha256": "d4ac2f99f96b51cbe2d3c09be0f72b6e8a3a27bc91ad4a424e587e3101615a9b"
+    },
+    "evidence/mobilevla-preflight-20261023/hf-README.md": {
+      "bytes": 33,
+      "sha256": "f35ac7b30195da3b9b01d156fe7f0626e0ae4ac7f6d5757eb0b6ee3b8f31dcab"
+    },
+    "evidence/mobilevla-preflight-20261023/hf-model.json": {
+      "bytes": 6613,
+      "sha256": "df0e9d964e6a2c8ddda2fc5b656db1c4ed41eeef2c194449563aa9c6a2032e45"
+    },
+    "evidence/mobilevla-preflight-20261023/source-file-lock.json": {
+      "bytes": 67756,
+      "sha256": "1b8ff6fe82d1b9d36a88a1c0c11e65ac37c6fbee9e5f237f1c88a75fbdfd05a5"
+    },
+    "evidence/mobilevla-preflight-20261023/source/LICENSE": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "evidence/mobilevla-preflight-20261023/source/inference.py": {
+      "bytes": 15088,
+      "sha256": "0586180f1d9805200f5946ee7d5a8e85a03bbb55771c563e7726c45f7a2e8d98"
+    },
+    "evidence/mobilevla-preflight-20261023/source/llava/conversation.py": {
+      "bytes": 19436,
+      "sha256": "5995bc8d45e153395bdeaa31ca7f6c0d1f637135c24e66a1947e9d56ebaa39a1"
+    },
+    "evidence/mobilevla-preflight-20261023/source/llava/mm_utils.py": {
+      "bytes": 17802,
+      "sha256": "117d382783c3eba5f6336ff1ee6ee7adedec737fa440a2f8834f40f7ddf7de81"
+    },
+    "evidence/mobilevla-preflight-20261023/source/llava/model/language_model/builder.py": {
+      "bytes": 4400,
+      "sha256": "90847af5a9353ea002589c528b63b1a1f47fee55cc20b4d6709831ef86acccf8"
+    },
+    "evidence/mobilevla-preflight-20261023/source/llava/model/llava_arch.py": {
+      "bytes": 45301,
+      "sha256": "bcc8243c58add2d501b1b70c442ee57bbe2bb056ced25be5e02f21a85334d542"
+    },
+    "evidence/mobilevla-preflight-20261023/source/pyproject.toml": {
+      "bytes": 1969,
+      "sha256": "94269c9871cf186e5f5e435457ea32dd3354c6cfa4ce5c1e41023603be9b9f9e"
+    },
+    "evidence/session006/auk-actual-originals007/models/mobile-extraction-receipt.json": {
+      "bytes": 6249,
+      "sha256": "df5333808e098d78ed0afb9bac168d33c7752c7e55f1e7e259d461d9ade1c4fe"
+    },
+    "evidence/session006/mobilevla-cpu/downloader-original-recheck.stderr.log": {
+      "bytes": 1021,
+      "sha256": "971b606d90c88d68f4506864848b9a8ded70dab46380510ab5d3b3f3d4f61b67"
+    },
+    "evidence/session006/mobilevla-cpu/downloader-original-recheck.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/session006/mobilevla-cpu/downloader-review.stderr.log": {
+      "bytes": 1127,
+      "sha256": "3704b5446ed7f39d10d3d6ea861a93712acf8acf91b642051478039583696b45"
+    },
+    "evidence/session006/mobilevla-cpu/downloader-review.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/session006/mobilevla-cpu/validation-002.json": {
+      "bytes": 1476,
+      "sha256": "cd14c5c6e41ffc3a74b37ff9bd94723fb2f829aa47f0edc4d061004fc547261e"
+    },
+    "evidence/session006/mobilevla-cpu/validation.json": {
+      "bytes": 1618,
+      "sha256": "8e9bd1f2e01e4ecee1a2269fa993ba4b54fb03f2acd8cd75daa686fc3aa96577"
+    },
+    "evidence/session006/mobilevla-cpu/windows-tests-002.stderr.log": {
+      "bytes": 3942,
+      "sha256": "90439729c0dd3fb0aecf49fba10411b89c4ab484594cdb76c520aefff62a6702"
+    },
+    "evidence/session006/mobilevla-cpu/windows-tests-002.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/session006/mobilevla-cpu/windows-tests.stderr.log": {
+      "bytes": 2760,
+      "sha256": "40300603ef3ced0a163ebe8c98511dc226e2cff64c9ef43651b73bd91c2e9ac1"
+    },
+    "evidence/session006/mobilevla-cpu/windows-tests.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/session006/mobilevla-cpu/wsl-derived-seal-002.stderr.log": {
+      "bytes": 1436,
+      "sha256": "7f9f9bd17f5e13ca2894cfbcfcce6c91ad5cefc6b41df88b5773ec9eecb4d67a"
+    },
+    "evidence/session006/mobilevla-cpu/wsl-derived-seal-002.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/session006/mobilevla-cpu/wsl-launch-dry-run.stderr.log": {
+      "bytes": 153,
+      "sha256": "e816706cd44ce0c6c65a7a7938be8103514f7c899694c8240d844f74319b7f98"
+    },
+    "evidence/session006/mobilevla-cpu/wsl-launch-dry-run.stdout.log": {
+      "bytes": 1918,
+      "sha256": "9da3e12654a38d3f95ea737892e8161b2c0d881462847e20852400c86f438d2a"
+    },
+    "evidence/session006/mobilevla-cpu/wsl-run-id-negative.stderr.log": {
+      "bytes": 875,
+      "sha256": "41fdc144b53b3e33234b363508318b265131a1d68b5ec2f60204fe99f9961949"
+    },
+    "evidence/session006/mobilevla-cpu/wsl-run-id-negative.stdout.log": {
+      "bytes": 98,
+      "sha256": "e70bf07d6ecbd6e8a9ee51983115dfdb2a838fe82157c7518b29a32463f509b2"
+    },
+    "evidence/session007/mobile-comparison-auditor-negative-control.json": {
+      "bytes": 347,
+      "sha256": "3881270f0d5636b0c74afd6417cbee5323856fdf72a33380798f25d7f8bb38c4"
+    },
+    "evidence/session007/mobile-comparison002-independent-audit-b.json": {
+      "bytes": 4556,
+      "sha256": "10be12bc51dc33298e5af258d833d16b166e2212798c4fe28d27d24c8aea2e5c"
+    },
+    "evidence/session007/mobile-comparison002/after-native-hy-smi-step.json": {
+      "bytes": 227,
+      "sha256": "34e00e1187833a3bab92ed6f14d43ff3b513230d4a68e09e648af1f72cc34a83"
+    },
+    "evidence/session007/mobile-comparison002/after-native-hy-smi.log": {
+      "bytes": 588,
+      "sha256": "cb6dbbf02ff23723804aa5ae75ab7bfa02caa3e6eaf8e066210832414bb29c1b"
+    },
+    "evidence/session007/mobile-comparison002/compare-1-step.json": {
+      "bytes": 630,
+      "sha256": "0c944bb5898ca54e9ec1166a5dc160e2f73a333b4cfe05302cb96d6cf319bbf6"
+    },
+    "evidence/session007/mobile-comparison002/compare-1.log": {
+      "bytes": 867,
+      "sha256": "c92254edec1ce4987f39cc597f1019c655b79bb4a6d5e0f5d12cee0744844058"
+    },
+    "evidence/session007/mobile-comparison002/compare-8-step.json": {
+      "bytes": 630,
+      "sha256": "aaab05f2dc622f06128cb3143c1c2c046903e57606678b0e7a662aacad118f3a"
+    },
+    "evidence/session007/mobile-comparison002/compare-8.log": {
+      "bytes": 867,
+      "sha256": "66c721c225f9b35d6af66900bf47e69c35f77d6eb3d499e8436070f468ec3c7d"
+    },
+    "evidence/session007/mobile-comparison002/comparison-1.json": {
+      "bytes": 940,
+      "sha256": "bd7cbd10c09a1c4cad4519afe5073b01682993c50574799a60aa5f2c9e8313b1"
+    },
+    "evidence/session007/mobile-comparison002/comparison-8.json": {
+      "bytes": 940,
+      "sha256": "0feb815c360f6ba450414e68f459ec24fa384453b54ae1dbbc4be05ee323535e"
+    },
+    "evidence/session007/mobile-comparison002/derived-prepare-receipt.json": {
+      "bytes": 170882,
+      "sha256": "ba41fc9ca72acf320bab5e76d5cabfde9d6436a6024c2bce5ffcef35b045e301"
+    },
+    "evidence/session007/mobile-comparison002/extracted-source.json": {
+      "bytes": 6497,
+      "sha256": "3f599cb0bf6f53284232acf8070610eb481ea9cd6c3b200684011bc82b5b6f7b"
+    },
+    "evidence/session007/mobile-comparison002/final-stop-state.json": {
+      "bytes": 1607,
+      "sha256": "afa62e85b1196c92ccfda96a77feb76eb9d152f4e4f74ddb35aab9fb686489fd"
+    },
+    "evidence/session007/mobile-comparison002/final-stop-step.json": {
+      "bytes": 369,
+      "sha256": "cc473b5f084dc22be24af143da56eccfe5cf44d1c9080a2e6392bff3b9432dcb"
+    },
+    "evidence/session007/mobile-comparison002/final-stop-verification.json": {
+      "bytes": 750,
+      "sha256": "29be03edecc32e8f775b6bd2d26390e06aedaf09ab3bee71909f85c4731bd762"
+    },
+    "evidence/session007/mobile-comparison002/final-stop.log": {
+      "bytes": 71,
+      "sha256": "9cab7f8f9c0c46d44e6e3d8eafea7f7e3595cc906ff7ed47f8fbb2137fedbcf3"
+    },
+    "evidence/session007/mobile-comparison002/hf-1-step.json": {
+      "bytes": 671,
+      "sha256": "e7d76df524bf7fbe30c25e46edd700d0f2271f82670d72cba74b77a688686084"
+    },
+    "evidence/session007/mobile-comparison002/hf-1.json": {
+      "bytes": 6925,
+      "sha256": "3a40ed0293f1f97ed56e785639657df5ae6c4eae47e8ed7e947d0ac29c518446"
+    },
+    "evidence/session007/mobile-comparison002/hf-1.log": {
+      "bytes": 2234,
+      "sha256": "5932bc2aad3d91809c19345e4c1e98510911d761d3a534004e76ddd1e667016b"
+    },
+    "evidence/session007/mobile-comparison002/hf-8-step.json": {
+      "bytes": 1508,
+      "sha256": "8b3f2bf3b5f2c694e43d2b82448f11b52740922ee3da38f3aaa6a4dd1eaff704"
+    },
+    "evidence/session007/mobile-comparison002/hf-8.json": {
+      "bytes": 25254,
+      "sha256": "9fc24e039d4a8033b2cab63956d475f2a03769e6a3fba8e503c534eeb6748fc0"
+    },
+    "evidence/session007/mobile-comparison002/hf-8.log": {
+      "bytes": 2236,
+      "sha256": "35e634073aa1fc139b2d9c1879c5de87c5f3c0d596e43a181e12e422dde578dd"
+    },
+    "evidence/session007/mobile-comparison002/native-1-step.json": {
+      "bytes": 682,
+      "sha256": "35609b696d72cae33187a49f8eebe44d6f497b0e2708285ffd53b8dd0b0ebdc0"
+    },
+    "evidence/session007/mobile-comparison002/native-1.json": {
+      "bytes": 15254,
+      "sha256": "e717990152bd52ba52e94830bcfcdadbb6840a4e1c377c57d548a75bc87b6497"
+    },
+    "evidence/session007/mobile-comparison002/native-1.log": {
+      "bytes": 366,
+      "sha256": "6cf767c90886d32c5acb7be0dba9b3364325fc0618a514fc68456816d33800eb"
+    },
+    "evidence/session007/mobile-comparison002/native-8-step.json": {
+      "bytes": 1519,
+      "sha256": "0c34b955e9cd6bcc7ba73fd51c7397c55bb566a2f5ac900298f9a6b79a954562"
+    },
+    "evidence/session007/mobile-comparison002/native-8.json": {
+      "bytes": 69382,
+      "sha256": "af3bd33541cc5bacf13d75ca2b30eba693f144145f73690178321dfd95aa4015"
+    },
+    "evidence/session007/mobile-comparison002/native-8.log": {
+      "bytes": 368,
+      "sha256": "0bfad2519377320918f6e94a7d66880eb3eda07bb8d802e39e9e653cb4962b64"
+    },
+    "evidence/session007/mobile-comparison002/native-config.json": {
+      "bytes": 1996,
+      "sha256": "5c3f08bea1483c2be55e10df499eaf03f3cf2a319ee2688b64a03dc05fd4f17e"
+    },
+    "evidence/session007/mobile-comparison002/native-ready-state.json": {
+      "bytes": 1495,
+      "sha256": "c29ed32ce50c5b82e9c66897010fb13f1aa5dcc19debf00770653de47a94c189"
+    },
+    "evidence/session007/mobile-comparison002/native-runtime-server.log": {
+      "bytes": 16793,
+      "sha256": "20d19e2658fa730b6c43bc5395bca93df2f2f446b5d00c7ce888248522fae49b"
+    },
+    "evidence/session007/mobile-comparison002/native-runtime-state.json": {
+      "bytes": 1608,
+      "sha256": "ba746e00a7c0ad300cde66aca16e7feb3f0f770fa6639837af3f76cce1689143"
+    },
+    "evidence/session007/mobile-comparison002/native-runtime-supervisor.log": {
+      "bytes": 2770,
+      "sha256": "0b664e52b8bd5553837c2cf9ebe4ced4edd5af9aec17a57f100817a937dabafd"
+    },
+    "evidence/session007/mobile-comparison002/native-start-step.json": {
+      "bytes": 370,
+      "sha256": "3c180403bfa6851993db14a74af91fea7c833821d1d8323353f24143829a26f3"
+    },
+    "evidence/session007/mobile-comparison002/native-start.log": {
+      "bytes": 1565,
+      "sha256": "a5f5fc76b7b7165e6e11634620bdf360fe0a4e65191c72adfac9d4b1a23e4675"
+    },
+    "evidence/session007/mobile-comparison002/native-stop-state.json": {
+      "bytes": 1607,
+      "sha256": "afa62e85b1196c92ccfda96a77feb76eb9d152f4e4f74ddb35aab9fb686489fd"
+    },
+    "evidence/session007/mobile-comparison002/native-stop-step.json": {
+      "bytes": 368,
+      "sha256": "906026e434b42cb9989c2932a7a865e8537bf2aea90638a98089f81852380de5"
+    },
+    "evidence/session007/mobile-comparison002/native-stop-verification.json": {
+      "bytes": 750,
+      "sha256": "bcd361fae5205fd455b810ded884b3a3b0f2f4f18eac40bd9f67114e387ff84c"
+    },
+    "evidence/session007/mobile-comparison002/native-stop.log": {
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    "evidence/session007/mobile-comparison002/native-tokenizer-probe-step.json": {
+      "bytes": 652,
+      "sha256": "ade5f8f939b8030195bed0d100eeedebb49dc06554284da531123291fe103772"
+    },
+    "evidence/session007/mobile-comparison002/native-tokenizer-probe.json": {
+      "bytes": 8436,
+      "sha256": "e33816f99bab822e4c6dd0b2b14863762abe16fdbfc1dace4ad10d8ddc877abe"
+    },
+    "evidence/session007/mobile-comparison002/native-tokenizer-probe.log": {
+      "bytes": 910,
+      "sha256": "3c1aff28e8a7e8b79c027961cee7643c02987f84ad68afcb70ce9c5e3c140e19"
+    },
+    "evidence/session007/mobile-comparison002/orchestrator-plan.json": {
+      "bytes": 738,
+      "sha256": "03d2bd30cf0a30592c8b51d1c7b0d8acda1c86b5cb304adb95ec02adeaf3bddb"
+    },
+    "evidence/session007/mobile-comparison002/orchestrator-result.json": {
+      "bytes": 19370,
+      "sha256": "1278a5c8808e9a1718d7af215258acf500a5925ed3c9c793fed06143d76e875e"
+    },
+    "evidence/session007/mobile-comparison002/prepare-derived-step.json": {
+      "bytes": 589,
+      "sha256": "f1c58458679d3930365a5105517dbb291425a87568a5e7c8c8bea41669fa0c8b"
+    },
+    "evidence/session007/mobile-comparison002/prepare-derived.log": {
+      "bytes": 2792,
+      "sha256": "a7bf56d8da5410dfb7f5c1cbd22efefc2b144ae45ab97856fe3b6006b73aead4"
+    },
+    "evidence/session007/mobile-comparison003-independent-audit-b.json": {
+      "bytes": 8900,
+      "sha256": "b658af48a7b7b28073ec05d9d357f3f6878516dee12a16e79f7800ee8a906f40"
+    },
+    "evidence/session007/mobile-comparison003-independent-audit.json": {
+      "bytes": 8900,
+      "sha256": "b658af48a7b7b28073ec05d9d357f3f6878516dee12a16e79f7800ee8a906f40"
+    },
+    "evidence/session007/mobile-comparison003/EXTRACTION-INDEX.json": {
+      "bytes": 8419,
+      "sha256": "8bdd9e39b96af5b57851d7526bbfe4eefdb6fff96a168e8802e4a18e983f03b2"
+    },
+    "evidence/session007/mobile-comparison003/MANIFEST.json": {
+      "bytes": 8011,
+      "sha256": "5b4d7f34b6fa0b349b0d062f2bdf7812346a9eeb74cf72cc8ff7c4b3aca254e7"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/after-native-hy-smi-step.json": {
+      "bytes": 229,
+      "sha256": "05c6b2a0b60809e29cad7abf28bbbf182d6a0f4e23b48020a701478e508d7663"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/after-native-hy-smi.log": {
+      "bytes": 588,
+      "sha256": "23648d11e7125df0ce58f639a0f4ea1c53f292d0aa2c0cca08b26955644f2118"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/compare-1-step.json": {
+      "bytes": 630,
+      "sha256": "89c3293e93b099335b4cdcbdfc53aaaf58d9be909c969f8362fa02374d301835"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/compare-1.log": {
+      "bytes": 1344,
+      "sha256": "dc604056b1edbb16c2a3584bbcaae50a2e158d37044ce6573d3255bb1136d552"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/compare-8-step.json": {
+      "bytes": 630,
+      "sha256": "3505b986f82b3f2f3f733508e5b3ea7caedbbd1a6c144cb22f6c4ef0f28ae3d7"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/compare-8.log": {
+      "bytes": 1344,
+      "sha256": "77af98b688be2ec216eb92e4336fbe84f23443d5ced171663944411576d79e8f"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/compare-eos-1-step.json": {
+      "bytes": 645,
+      "sha256": "a2312bc9056669a65d9b9517d7fb9c5cb10fc27864f646ec547909d33b7eb4a4"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/compare-eos-1.log": {
+      "bytes": 1352,
+      "sha256": "bcb3db9ccd30ba25b03be0db4e204d95cf5690cf02ddf8fb4e02612bb4ffe296"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/comparison-1.json": {
+      "bytes": 1477,
+      "sha256": "676540d5c1b8585981bdebf65f661d6e024d720e414dcd8cbc73fdb9e20d1ceb"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/comparison-8.json": {
+      "bytes": 1477,
+      "sha256": "d4ecd623b92a5c8a20846146bfd9335832b7a57cb5c1e007b628d2aa57920449"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/comparison-eos-1.json": {
+      "bytes": 1509,
+      "sha256": "2e76082054d15543f6208e85512c779e5488ec239b4ef5c29ef1959d25cc1bb1"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/derived-prepare-receipt.json": {
+      "bytes": 171180,
+      "sha256": "c779ee277298dd7eff85478fd9ac93d255dcea36fa3f7894e13824a9b6824072"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/final-stop-state.json": {
+      "bytes": 1610,
+      "sha256": "4ecceab66079e746e23d33954d6be6df6f2c2b14c3a0b7ae7146071eaeb3bbd8"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/final-stop-step.json": {
+      "bytes": 368,
+      "sha256": "6c120f439e8ad55301451e6fdc66ec6c21cd8b5782ef58e0c73aa11f845a9f7b"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/final-stop-verification.json": {
+      "bytes": 752,
+      "sha256": "b4d7eb08acb27269c46daada2c103788315f94b2acb658e763082be90aeb55ad"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/final-stop.log": {
+      "bytes": 71,
+      "sha256": "9cab7f8f9c0c46d44e6e3d8eafea7f7e3595cc906ff7ed47f8fbb2137fedbcf3"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-1-step.json": {
+      "bytes": 671,
+      "sha256": "cf1b6a75e92a0b3210536d2a969838212c10e26e38a6937f80721b56709a2ee6"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-1.json": {
+      "bytes": 6924,
+      "sha256": "5dd29706fe85e519be81ea22c3ea7bf1eb89d7d90435a07671bb7476a1c91219"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-1.log": {
+      "bytes": 2234,
+      "sha256": "de3bbe39013446656178b18516c87128a4d99338b7651bc8ed906c87243bf306"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-8-step.json": {
+      "bytes": 1509,
+      "sha256": "0717f5ff5e33228424084ddd33299867bbccde2201a7b93fcd449bd6b370182f"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-8.json": {
+      "bytes": 25254,
+      "sha256": "0360808b55601bd41a1ea1c3e39daada6b02455ff2eb7445426ab7bd5797fc4f"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-8.log": {
+      "bytes": 2236,
+      "sha256": "89b6c9d4c619f275180cbc0413f0b297bc85d0ec7ff0b1a937b196ac496122cb"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-eos-1-step.json": {
+      "bytes": 753,
+      "sha256": "d7724e40ea2cb473e69a87b5d583181301860fd6b17dcc1cbac47cdbf3b6f23d"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-eos-1.json": {
+      "bytes": 6444,
+      "sha256": "73fcc4cbd984d756373c4e8f476e0e1d57efc1c4d714bdd8aa44d40d2a223fdb"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/hf-eos-1.log": {
+      "bytes": 2135,
+      "sha256": "48c401344723668770143a100ee10a8bb8cbfc7e28aeed29d1470ac8c91daf4e"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-1-step.json": {
+      "bytes": 682,
+      "sha256": "c0a3e3ac72e13745bad7d95c67bb2e23d6ba41d8b074d78b1e50318a71aa5c84"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-1.json": {
+      "bytes": 15254,
+      "sha256": "8f7e922016f2e7d782492523e25b4c5f15e3208d3d3f7055c14fbf4a694e20a8"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-1.log": {
+      "bytes": 366,
+      "sha256": "0f02438d833da90757c126c7ac460bb57f9edda5f5bb4cad50ba951cd0bdeca6"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-8-step.json": {
+      "bytes": 1519,
+      "sha256": "c87ea718bf9fa7f927b5a68ce3b232bb54a5475bf96832a7e2b3a6a9e81b78d1"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-8.json": {
+      "bytes": 69382,
+      "sha256": "7ed17aac1043cc2931290ffee72132874aa94c1682266b6ff59885f9490db825"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-8.log": {
+      "bytes": 368,
+      "sha256": "ac02bba93475c47e5d28ad335ade6e40746ebd14d5a9c1d5f9fd5412439d2c37"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-config.json": {
+      "bytes": 1996,
+      "sha256": "8d3add67bea61835bb982b98b1040bd37018e844cad8114c185cde9347aff349"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-eos-1-step.json": {
+      "bytes": 764,
+      "sha256": "f7a54238d41096653649fb097985b5335c18fa929bd393fb1de16a2053f74358"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-eos-1.json": {
+      "bytes": 14257,
+      "sha256": "2aab531f7476c442b80af8898738269c3487c1c036b6b507a2d276c12401eb4c"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-eos-1.log": {
+      "bytes": 266,
+      "sha256": "45230eaea8992424215a9b8b340bb282f76102f6ad4f1d30da98c6ffefec3eda"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-ready-state.json": {
+      "bytes": 1497,
+      "sha256": "b9326f96438d979c981ebf483ad57acdd7065b963660f3b4376816afd9c8df24"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-runtime-server.log": {
+      "bytes": 17252,
+      "sha256": "7abcc67346ceb410de5476e3d5fddf884058ad05a326c56efef252cdc4077cff"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-runtime-state.json": {
+      "bytes": 1611,
+      "sha256": "68529acd28f421c1128395d4d6a526be69d81abcfb14692c9dca54a56fdeaba9"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-runtime-supervisor.log": {
+      "bytes": 2774,
+      "sha256": "09b1813681490b4e9d1215261d8483a3d98c100c1bb5796c484d26afe6a7f8e4"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-start-step.json": {
+      "bytes": 370,
+      "sha256": "68f0426af98c2fb8e872b7daab801168cd8c2450f48fc9912a52db6cc034a0f7"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-start.log": {
+      "bytes": 1567,
+      "sha256": "e0605505e3c5db0de7af04058eb8ba44c4f312abd51398fb274eda9f296e8335"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-stop-state.json": {
+      "bytes": 1610,
+      "sha256": "4ecceab66079e746e23d33954d6be6df6f2c2b14c3a0b7ae7146071eaeb3bbd8"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-stop-step.json": {
+      "bytes": 369,
+      "sha256": "f81e9a17cdeab03545655eff5ce03ec0650d8ca6eac5b40ffa74950bb1df09de"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-stop-verification.json": {
+      "bytes": 752,
+      "sha256": "f04254be904b8a17944b3ce2ea973cfbaf4a7c539348d5534c900b40a2c508e6"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-stop.log": {
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-tokenizer-probe-step.json": {
+      "bytes": 651,
+      "sha256": "6fc16d57d9e9afab56fdd3401f67d4e452474181c7eea9863a9c363cd190c5d8"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-tokenizer-probe.json": {
+      "bytes": 10367,
+      "sha256": "50b3d50aa830c9b8d10deed3436ff2a74fe56d7e3db0ffe418f6906a815eb827"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/native-tokenizer-probe.log": {
+      "bytes": 910,
+      "sha256": "83d196feb714ec9dba5043bf4e8d12ebce6f183a8cdd6307282569d3da7c8a25"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/orchestrator-plan.json": {
+      "bytes": 738,
+      "sha256": "91177acbbdf98376db485568459b8fdb9d425792eb3415aa85ecb7b512630dcb"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/orchestrator-result.json": {
+      "bytes": 25985,
+      "sha256": "74adf651f88245d7e10ceed296e1b1c81ed497404ea8126ef5602e308a1bb742"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/prepare-derived-step.json": {
+      "bytes": 590,
+      "sha256": "93dde6f1680bb63487cb4dec358383071b94ce1da27695b2b66d5bbbb30a8b9c"
+    },
+    "evidence/session007/mobile-comparison003/comparison003/prepare-derived.log": {
+      "bytes": 3090,
+      "sha256": "62bb8a3e4e308245989548da11cb8e62a89d5309c4753639c61e0afaec8b624f"
+    },
+    "evidence/session007/mobile-comparison004-auditor-negative-control.json": {
+      "bytes": 229,
+      "sha256": "53ba42e9f76dc422e3ee616b3338ef1d3f4227cfb697ef7d0e88401a3df137ed"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/source-lock.json": {
+      "bytes": 1541,
+      "sha256": "69c720537dde8b06066289b5c824940a55959694f04461bf8bea53184c3bd6b5"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__config__model.py": {
+      "bytes": 84803,
+      "sha256": "7cd5f1fa1bbeb81b42b9a7263f242b612970311e4d755bd31ced0ad34c97efe0"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__renderers__base.py": {
+      "bytes": 28765,
+      "sha256": "651c88721014c71e24645ce36676413c181146f7a6cca20a711d0cfd2bde0b4d"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__sampling_params.py": {
+      "bytes": 37489,
+      "sha256": "b4cec6df516e594ef3d2024ceddd8773e885d520eba5efc15ec352d28f7558a0"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__tokenizers__hf.py": {
+      "bytes": 4493,
+      "sha256": "f462103da34122052402a996c127512d1e1c5d0aa25fc130cf97d4082a92f6f8"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__tokenizers__protocol.py": {
+      "bytes": 3350,
+      "sha256": "6eb7b47b5e0c21b0a51a8307d888cc075742dcee440eac2f6b8bb756a30876dd"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__tokenizers__registry.py": {
+      "bytes": 7814,
+      "sha256": "561cfdef46ef0f77e7512c329ac600d1aa5969988c684091f99c5979761037dd"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__transformers_utils__config.py": {
+      "bytes": 44846,
+      "sha256": "cda0c8582f6c33a40aeede6050f142a4eba1df5c684b30be3dcf7b7f42d42e93"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__v1__core__sched__utils.py": {
+      "bytes": 4115,
+      "sha256": "85e82eae555a03497ad2ac1540ed562a6c36fc26185aa6233725c914816aa1b3"
+    },
+    "evidence/session007/mobile-eos004-vllm-source/vllm__v1__engine__input_processor.py": {
+      "bytes": 18094,
+      "sha256": "951cc1a8809ad296e8a61ddfd5d4759d4b2f6ecbd19de6667a03ad8cee7193fe"
+    },
+    "evidence/session007/mobile-pilot001-independent-audit-b.json": {
+      "bytes": 7554,
+      "sha256": "b56e2be5d38913f5ddfcdd02ad86ae77ce77ae552b0ca07dc2638ae9f94ef54e"
+    },
+    "evidence/session007/mobile-pilot003-independent-audit.json": {
+      "bytes": 6272,
+      "sha256": "6fadfb3d93f02fa6246f6b780fe0e11c42175471c9f53ee89514bef0353c332d"
+    },
+    "evidence/session007/mobile-pilot004-independent-audit.json": {
+      "bytes": 6210,
+      "sha256": "c85f0ecd236fcaa554da6b9568f78ac6454600069fc7332b5dc8c619a4bb6e01"
+    },
+    "evidence/session007/mobile-pilot004/EXTRACTION-INDEX.json": {
+      "bytes": 2246,
+      "sha256": "6cfbb022ae58d3ad6a4616bfd26782ab63b7988652b62af3af7336849229b4ac"
+    },
+    "evidence/session007/mobile-pilot004/RAW-ARCHIVE-MANIFEST.json": {
+      "bytes": 8306,
+      "sha256": "a2b61b824c0efc716c6ce85acae39c374ddedfcedc2ea178a6bf74c9237b0066"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/config.json": {
+      "bytes": 1997,
+      "sha256": "03e1ce98b1daa66d2597c2a44a4963cd8941ac00f62c5e8df2124c5066335a74"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/env.log": {
+      "bytes": 3683,
+      "sha256": "f6425161f0c0c1ccdf24f4ebf76ad92421d60fd358d85c8afa3022630dce23d2"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/pilot-result.json": {
+      "bytes": 3209,
+      "sha256": "beee2a45c5f1d682ede060a543f1caeb086b2eae36cb5a28377ece46a909007b"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/run-id.txt": {
+      "bytes": 33,
+      "sha256": "86f3ea0486623f198308ba992e77853e4d09136c6ddc5b80b9f2d1eaff39b607"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/server.log": {
+      "bytes": 34063,
+      "sha256": "3acf8ef0475f8430c38d94539a3d3e948479c9dde6dddb9a158279fc6b1610a2"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/smoke.log": {
+      "bytes": 9696,
+      "sha256": "833e2c4be649339121819a706956ef1600c5d2aecd0cae460ccd37f6985502cb"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/start.log": {
+      "bytes": 1567,
+      "sha256": "2f40c3ceb47c112550bf9bf4f3ff1504877bd29df879928b1fbf5957209d17db"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/state.json": {
+      "bytes": 1611,
+      "sha256": "bf5bb511131249fdf69045292bad110a713a3efdd3d4f9a2596b682887d1cb28"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/stop.log": {
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    "evidence/session007/mobile-pilot004/mobile-pilot004/supervisor.log": {
+      "bytes": 5548,
+      "sha256": "a2e665d8cf7a8c277a9283cef4d2b4d332ef0b1d7401eee342c497efd6cccdf3"
+    },
+    "evidence/session007/mobile-pilot004/session007/mobile-pilot004-independent-cleanup.json": {
+      "bytes": 373,
+      "sha256": "8d40e87b99e5296faf6433f0936491aea0c0be0e3ab37ee97e8b6d4cff359293"
+    },
+    "evidence/session007/mobile-pilot004/session007/mobile-pilot004-launched.json": {
+      "bytes": 125,
+      "sha256": "e0a7631089773a9d6c89987136640c6c8eb40b168fc2e0189725e7e4cdbcbb6e"
+    },
+    "evidence/session007/mobile-pilot004/session007/mobile-pilot004.log": {
+      "bytes": 173,
+      "sha256": "61769dfb417055ef5e7863b9761662ce52e4d55e04820bdf59b884ca906319a3"
+    },
+    "evidence/session007/mobilevla-003-standard-staging-validation.json": {
+      "bytes": 10587,
+      "sha256": "8c08e0402da6f98e1b2488188effd7b10699a9fccd03c3f9d21f5e27a990245b"
+    },
+    "evidence/session007/mobilevla-004-final-source-validation.json": {
+      "bytes": 12770,
+      "sha256": "45dad88f1cbf6dd8097e3dd40732edf881999704ec3eefef7d59470094ea1fd4"
+    },
+    "evidence/session007/mobilevla-004-gitignore-coverage.json": {
+      "bytes": 194,
+      "sha256": "d9fb719bafb9b405971d5414d779c4f4e2d4faa093e3f4bc2012877db614764d"
+    },
+    "evidence/session007/mobilevla-004-standard-staging-validation.json": {
+      "bytes": 5280,
+      "sha256": "9733830e64c7177348fc35171adbe153298ab0dee0cb23588e6e4e487b6222eb"
+    },
+    "evidence/session007/mobilevla-bos003-source-diagnosis.json": {
+      "bytes": 7338,
+      "sha256": "05140c3a575a1bcb4dfd76b6f547d5cce8941ba7c1d89d5c2b933050b292cf15"
+    },
+    "evidence/session007/mobilevla-eos004-local-validation.json": {
+      "bytes": 520,
+      "sha256": "5796db6c8c7b4d45d58c5840419c6d6087abbfeec623f393569238976c39065e"
+    },
+    "evidence/session007/mobilevla-tools004-package.json": {
+      "bytes": 673,
+      "sha256": "fed0105cc1ee8a201b4f549bdbefa57316914ba90177381ba4c4e7ee14295d83"
+    },
+    "evidence/session007/mobilevla-tools004-unpack-validation.json": {
+      "bytes": 463,
+      "sha256": "4b81813ff2d5e11be6d54831009336024fa3a5d175e9f80828c359c790a311e2"
+    },
+    "scripts/analyze_mobilevla_header_report_006.py": {
+      "bytes": 5375,
+      "sha256": "8d8517af69b3f82474a1fdcc28e461910180b770cd1553c0ccf5be9cf5bc8818"
+    },
+    "scripts/audit_mobilevla_comparison004_007.py": {
+      "bytes": 17681,
+      "sha256": "2ec7e913a372675ca6b790bc18a13260c134883a46684efdb6420b7ff6b35ec9"
+    },
+    "scripts/audit_mobilevla_comparison007.py": {
+      "bytes": 12060,
+      "sha256": "d0582d68a8e254c9539ee03abc74b90df4aebf537fb2563f0a5c44dde1d10205"
+    },
+    "scripts/audit_mobilevla_pilot003_007.py": {
+      "bytes": 11981,
+      "sha256": "2ab89914100bbb261948c07fce710278dcab1de04f25581fb74e23bd2bea7e84"
+    },
+    "scripts/audit_mobilevla_pilot004_007.py": {
+      "bytes": 12113,
+      "sha256": "d9c9f1beb8e4514ec7c5351a958531547d57e7c12d00ecb183fcaf7449ffef70"
+    },
+    "scripts/audit_mobilevla_pilot007.py": {
+      "bytes": 19260,
+      "sha256": "daa99674b02d49593aa8cf2b445fa7cd7faa037381051d05846a8b95c97cdeb6"
+    },
+    "scripts/build_auk_final007.py": {
+      "bytes": 11078,
+      "sha256": "42f8d9e033dd4f19803b5da34578a74fdf724470d889bbe6621744cb32d42940"
+    },
+    "scripts/inspect_mobilevla_headers_006.py": {
+      "bytes": 5808,
+      "sha256": "c1dd2b7d860888b2d3578878c1e767586711904d040f442811b9204ce497371c"
+    },
+    "scripts/mobilevla_compare_policy006_003.py": {
+      "bytes": 7410,
+      "sha256": "d2f713756ef11411824eb7eb74728812b3640a8cad07cb613a0d9c431ac0834b"
+    },
+    "scripts/mobilevla_compare_policy006_004.py": {
+      "bytes": 8258,
+      "sha256": "bac607b294c6def01c5b19e060f091f962e66fffdb8429129f4c68870e9df61b"
+    },
+    "scripts/mobilevla_compare_records006_003.py": {
+      "bytes": 1366,
+      "sha256": "09a70284cc07ebd4893ec4feee27e343b233cd428f875e05c038e85f0ec4476e"
+    },
+    "scripts/mobilevla_compare_records006_004.py": {
+      "bytes": 1366,
+      "sha256": "dd2a558f88e9281ebbe3111aa5688ca4651b67b45d9d0246f7df8b2f18ebc357"
+    },
+    "scripts/mobilevla_comparison_orchestrator007_002.py": {
+      "bytes": 17712,
+      "sha256": "9963d6e9e769932b45b6afdb359b160a44703997a27a822ea24ecfe48fbce876"
+    },
+    "scripts/mobilevla_comparison_orchestrator007_003.py": {
+      "bytes": 18491,
+      "sha256": "b697dbd9eeac91bdfb96e7531473017cbb689b61573180f0ec3ffa524b98007b"
+    },
+    "scripts/mobilevla_orchestrator007_002-lock.json": {
+      "bytes": 14534,
+      "sha256": "f27db0276bc887eeb0c14f5e9deff9af40657017c2caa00cb07d596ac2ef33b9"
+    },
+    "scripts/mobilevla_orchestrator007_003-lock.json": {
+      "bytes": 14618,
+      "sha256": "63e70e6a2fff22b7339e70878ecab85844bbca822574da3038fbe1fc686be414"
+    },
+    "scripts/mobilevla_reference_hf006_003.py": {
+      "bytes": 8186,
+      "sha256": "4118fe8995de6d95efa17aa79ab3dcfe3df069b538148ade847d91555fb7c6ff"
+    },
+    "scripts/mobilevla_reference_hf006_004.py": {
+      "bytes": 8186,
+      "sha256": "aca8f1b933c5975c7c19aac1acc61375151e0cfee09ff351884aa6a6a650f06f"
+    },
+    "scripts/mobilevla_reference_http006_003.py": {
+      "bytes": 6624,
+      "sha256": "5c1a38e567f33dda8304a368e80342d3fdf12900aab06b0692600f57298bd847"
+    },
+    "scripts/mobilevla_reference_http006_004.py": {
+      "bytes": 6624,
+      "sha256": "bc19ea053398c6a1cce33f60f6df081d3e164c2f4de5e966246acef5ceb63a58"
+    },
+    "scripts/package_mobilevla_standard004_007.py": {
+      "bytes": 8779,
+      "sha256": "0b308685426310066c1f26cffb9e4175a0b78310184814bc7fcd9b40c5bcd33b"
+    },
+    "scripts/package_mobilevla_standard007.py": {
+      "bytes": 6213,
+      "sha256": "02a1475a06a7f010cbe6f14ab7333cbf77e5c3b7af7ea8b51dc4cb95bdbafe17"
+    },
+    "scripts/package_mobilevla_tools007_004.py": {
+      "bytes": 4296,
+      "sha256": "9d33e12f5a070a37d3bafe8d1bcc5f96a3ecb4cc42dfdcc1140bf284206d65f3"
+    },
+    "scripts/package_mobilevla_tools_006.py": {
+      "bytes": 4667,
+      "sha256": "1aea3df42cbd31789d8d94619fb6ae5c989a5b4bcb9a922599f666a0a830c614"
+    },
+    "scripts/probe_mobilevla_native_006.py": {
+      "bytes": 6232,
+      "sha256": "294dbb53d2076d9762ba36ed54771f7ef5254785e5dd1cf82f76e39d17b9dd55"
+    },
+    "scripts/probe_mobilevla_tokens007_003.py": {
+      "bytes": 4015,
+      "sha256": "06190b3f9c59164e165a6b345b2a34ec5817e19fb8058b00ec1dd642cb6c34b1"
+    },
+    "scripts/probe_mobilevla_tokens007_004.py": {
+      "bytes": 7907,
+      "sha256": "f150b7f847c5e3f3b9968d7b17fe6760ff6b523cb32a5aed222261d3069fd993"
+    },
+    "scripts/recon2reason_runtime.py": {
+      "bytes": 34890,
+      "sha256": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b"
+    },
+    "scripts/recon2reason_smoke.py": {
+      "bytes": 10802,
+      "sha256": "21d2f90e7a1df414cb260f029a5e42a677cc06867e1222f537487b53b8a1fe2d"
+    },
+    "scripts/unpack_mobilevla_tools007_004.py": {
+      "bytes": 3446,
+      "sha256": "22ce374fc083b1ff804fbc11f28f0da946b0a50f845ef53a97c1ff408076b01a"
+    },
+    "scripts/verify_auk_final007_bundle.py": {
+      "bytes": 3096,
+      "sha256": "0be48026cc3ef404a4d98d8a2e36ce76d1ba64a206aee4b68cd2f9d2e5f9bf7e"
+    },
+    "scripts/verify_mobilevla_standard004_007.py": {
+      "bytes": 3827,
+      "sha256": "2bdd5dd427bb0d45a9f74fc87206719fc0e867dcac2149327b9e7870b6690449"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/README.md": {
+      "bytes": 17833,
+      "sha256": "385722757f574a38402f62fcf17c40520f0918d65e654fb693e089605c8ddc25"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/bench.sh": {
+      "bytes": 178,
+      "sha256": "d9fb4e084aa6e1933f2a38f997f456f373d5438bfb2f94aade7cbe4c26a686f6"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/delivery-state.json": {
+      "bytes": 3336,
+      "sha256": "682df156d71bcd1d30e0ea1cff21fdc772998c65dc9d53171cff82b09c80ba46"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/env.sh": {
+      "bytes": 433,
+      "sha256": "dd0a44b83e81fc2d588415425bdf93ba6af1dfbd0784d92c0227ea8cc5450a83"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/env_check.sh": {
+      "bytes": 182,
+      "sha256": "f22ba798d321a91ab9c45517b95443a592f2cfdc8aaac456e6d83994b793f3e8"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/requirements-extra.txt": {
+      "bytes": 145,
+      "sha256": "d9344560285ce4e6a6d5f35cc2e4c218a0999b910df0e65741978adf6df91cb7"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/run.sh": {
+      "bytes": 176,
+      "sha256": "5ee5770765392cf1c81198f8aeb8d7246ca6e2367d56baec5eb004de34a7548c"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/smoke.sh": {
+      "bytes": 178,
+      "sha256": "87fd9a63eac92452aaf03d2343b94896f299def340baf1697dfb9ba6df479e67"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/stop.sh": {
+      "bytes": 315,
+      "sha256": "0b2cece122826aa6fb8a01d11e3623cacbce1e89f8e65ac341cf6079003f56a6"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm-standard007/verify.py": {
+      "bytes": 352,
+      "sha256": "54f45950fe019729fe6af4ee15ba27c76acdbf19dea333af432708d9dc28e433"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/bench.sh": {
+      "bytes": 210,
+      "sha256": "d3ce0b5dc18dc8eb88bf415fca664f8e1340c23e3b271c35126e5726f1edd84c"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/env.sh": {
+      "bytes": 1788,
+      "sha256": "b09e33eb1fdf72b263ed736afd401f0a3826752038305ce5300ea6df1129dba4"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/env_check.sh": {
+      "bytes": 208,
+      "sha256": "4241287aaac9bcf1e72138fb3796ddb6811d31f769efa8dfd18ffec0c201ff6b"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png": {
+      "bytes": 3463,
+      "sha256": "13588c097bf637a09c571e441392c40f406b81ca0a50e30b3ee2f336585fec2f"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png": {
+      "bytes": 2915,
+      "sha256": "d51437c5bb459fb25f47a9e52e650b3f815d1d9900ec63b651f338e6e73c7165"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/pilot.sh": {
+      "bytes": 2497,
+      "sha256": "00e3e5d3770b15d181d1dbdbfb9812f627c75aa580c2df52c115ae1a7ba6d032"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/run.sh": {
+      "bytes": 211,
+      "sha256": "e047e03f009b4998ceedf1993e3311fe05d913933c1ddd0527f5888632acea21"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/smoke.sh": {
+      "bytes": 402,
+      "sha256": "692935399eb0cc1329b68968c88f1ffe914c398386a2e6a55b4fa1bcd901b4d8"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/stop.sh": {
+      "bytes": 209,
+      "sha256": "6d13a17c78bc027101101f61cf4f81b48177c4ab063b7323fca3a0addd3af9f4"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/task.json": {
+      "bytes": 721,
+      "sha256": "9d010067695c74577813007d5b09eb8b4cd7e98bf84decfa8c01a66856be0fb2"
+    },
+    "tasks/mobilevla-r1-rl-bw-vllm/verify.sh": {
+      "bytes": 211,
+      "sha256": "8bae22fd9bce7872e2f3cbc2cced4b499715aeadce7cd7f22970e62cb444be8a"
+    },
+    "tests/test_mobilevla_eos004.py": {
+      "bytes": 14196,
+      "sha256": "0d759be90837fc7c00253061a93f4349be0dca0bed22669c84a034f2caeae55f"
+    },
+    "tests/test_mobilevla_orchestrator007_003.py": {
+      "bytes": 7066,
+      "sha256": "d239e5fca8f83b62e1408e4bd7884f03c98589ba078d0d2c33e391bc00130dca"
+    },
+    "tests/test_mobilevla_session006.py": {
+      "bytes": 21752,
+      "sha256": "ecc6192beb39f2da4880c8a7fe1c1950bc50597be0c2ff748049aaa489a0c89f"
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "archive_sha256": "deba391bfd4da82ddc1799e4c303507ed88a41782efb4bd9f4c0e3bcd0595057",
+  "selected_members": {
+    "comparison003/after-native-hy-smi-step.json": {
+      "bytes": 229,
+      "sha256": "05c6b2a0b60809e29cad7abf28bbbf182d6a0f4e23b48020a701478e508d7663"
+    },
+    "comparison003/after-native-hy-smi.log": {
+      "bytes": 588,
+      "sha256": "23648d11e7125df0ce58f639a0f4ea1c53f292d0aa2c0cca08b26955644f2118"
+    },
+    "comparison003/compare-1-step.json": {
+      "bytes": 630,
+      "sha256": "89c3293e93b099335b4cdcbdfc53aaaf58d9be909c969f8362fa02374d301835"
+    },
+    "comparison003/compare-1.log": {
+      "bytes": 1344,
+      "sha256": "dc604056b1edbb16c2a3584bbcaae50a2e158d37044ce6573d3255bb1136d552"
+    },
+    "comparison003/compare-8-step.json": {
+      "bytes": 630,
+      "sha256": "3505b986f82b3f2f3f733508e5b3ea7caedbbd1a6c144cb22f6c4ef0f28ae3d7"
+    },
+    "comparison003/compare-8.log": {
+      "bytes": 1344,
+      "sha256": "77af98b688be2ec216eb92e4336fbe84f23443d5ced171663944411576d79e8f"
+    },
+    "comparison003/compare-eos-1-step.json": {
+      "bytes": 645,
+      "sha256": "a2312bc9056669a65d9b9517d7fb9c5cb10fc27864f646ec547909d33b7eb4a4"
+    },
+    "comparison003/compare-eos-1.log": {
+      "bytes": 1352,
+      "sha256": "bcb3db9ccd30ba25b03be0db4e204d95cf5690cf02ddf8fb4e02612bb4ffe296"
+    },
+    "comparison003/comparison-1.json": {
+      "bytes": 1477,
+      "sha256": "676540d5c1b8585981bdebf65f661d6e024d720e414dcd8cbc73fdb9e20d1ceb"
+    },
+    "comparison003/comparison-8.json": {
+      "bytes": 1477,
+      "sha256": "d4ecd623b92a5c8a20846146bfd9335832b7a57cb5c1e007b628d2aa57920449"
+    },
+    "comparison003/comparison-eos-1.json": {
+      "bytes": 1509,
+      "sha256": "2e76082054d15543f6208e85512c779e5488ec239b4ef5c29ef1959d25cc1bb1"
+    },
+    "comparison003/derived-prepare-receipt.json": {
+      "bytes": 171180,
+      "sha256": "c779ee277298dd7eff85478fd9ac93d255dcea36fa3f7894e13824a9b6824072"
+    },
+    "comparison003/final-stop-state.json": {
+      "bytes": 1610,
+      "sha256": "4ecceab66079e746e23d33954d6be6df6f2c2b14c3a0b7ae7146071eaeb3bbd8"
+    },
+    "comparison003/final-stop-step.json": {
+      "bytes": 368,
+      "sha256": "6c120f439e8ad55301451e6fdc66ec6c21cd8b5782ef58e0c73aa11f845a9f7b"
+    },
+    "comparison003/final-stop-verification.json": {
+      "bytes": 752,
+      "sha256": "b4d7eb08acb27269c46daada2c103788315f94b2acb658e763082be90aeb55ad"
+    },
+    "comparison003/final-stop.log": {
+      "bytes": 71,
+      "sha256": "9cab7f8f9c0c46d44e6e3d8eafea7f7e3595cc906ff7ed47f8fbb2137fedbcf3"
+    },
+    "comparison003/hf-1-step.json": {
+      "bytes": 671,
+      "sha256": "cf1b6a75e92a0b3210536d2a969838212c10e26e38a6937f80721b56709a2ee6"
+    },
+    "comparison003/hf-1.json": {
+      "bytes": 6924,
+      "sha256": "5dd29706fe85e519be81ea22c3ea7bf1eb89d7d90435a07671bb7476a1c91219"
+    },
+    "comparison003/hf-1.log": {
+      "bytes": 2234,
+      "sha256": "de3bbe39013446656178b18516c87128a4d99338b7651bc8ed906c87243bf306"
+    },
+    "comparison003/hf-8-step.json": {
+      "bytes": 1509,
+      "sha256": "0717f5ff5e33228424084ddd33299867bbccde2201a7b93fcd449bd6b370182f"
+    },
+    "comparison003/hf-8.json": {
+      "bytes": 25254,
+      "sha256": "0360808b55601bd41a1ea1c3e39daada6b02455ff2eb7445426ab7bd5797fc4f"
+    },
+    "comparison003/hf-8.log": {
+      "bytes": 2236,
+      "sha256": "89b6c9d4c619f275180cbc0413f0b297bc85d0ec7ff0b1a937b196ac496122cb"
+    },
+    "comparison003/hf-eos-1-step.json": {
+      "bytes": 753,
+      "sha256": "d7724e40ea2cb473e69a87b5d583181301860fd6b17dcc1cbac47cdbf3b6f23d"
+    },
+    "comparison003/hf-eos-1.json": {
+      "bytes": 6444,
+      "sha256": "73fcc4cbd984d756373c4e8f476e0e1d57efc1c4d714bdd8aa44d40d2a223fdb"
+    },
+    "comparison003/hf-eos-1.log": {
+      "bytes": 2135,
+      "sha256": "48c401344723668770143a100ee10a8bb8cbfc7e28aeed29d1470ac8c91daf4e"
+    },
+    "comparison003/native-1-step.json": {
+      "bytes": 682,
+      "sha256": "c0a3e3ac72e13745bad7d95c67bb2e23d6ba41d8b074d78b1e50318a71aa5c84"
+    },
+    "comparison003/native-1.json": {
+      "bytes": 15254,
+      "sha256": "8f7e922016f2e7d782492523e25b4c5f15e3208d3d3f7055c14fbf4a694e20a8"
+    },
+    "comparison003/native-1.log": {
+      "bytes": 366,
+      "sha256": "0f02438d833da90757c126c7ac460bb57f9edda5f5bb4cad50ba951cd0bdeca6"
+    },
+    "comparison003/native-8-step.json": {
+      "bytes": 1519,
+      "sha256": "c87ea718bf9fa7f927b5a68ce3b232bb54a5475bf96832a7e2b3a6a9e81b78d1"
+    },
+    "comparison003/native-8.json": {
+      "bytes": 69382,
+      "sha256": "7ed17aac1043cc2931290ffee72132874aa94c1682266b6ff59885f9490db825"
+    },
+    "comparison003/native-8.log": {
+      "bytes": 368,
+      "sha256": "ac02bba93475c47e5d28ad335ade6e40746ebd14d5a9c1d5f9fd5412439d2c37"
+    },
+    "comparison003/native-config.json": {
+      "bytes": 1996,
+      "sha256": "8d3add67bea61835bb982b98b1040bd37018e844cad8114c185cde9347aff349"
+    },
+    "comparison003/native-eos-1-step.json": {
+      "bytes": 764,
+      "sha256": "f7a54238d41096653649fb097985b5335c18fa929bd393fb1de16a2053f74358"
+    },
+    "comparison003/native-eos-1.json": {
+      "bytes": 14257,
+      "sha256": "2aab531f7476c442b80af8898738269c3487c1c036b6b507a2d276c12401eb4c"
+    },
+    "comparison003/native-eos-1.log": {
+      "bytes": 266,
+      "sha256": "45230eaea8992424215a9b8b340bb282f76102f6ad4f1d30da98c6ffefec3eda"
+    },
+    "comparison003/native-ready-state.json": {
+      "bytes": 1497,
+      "sha256": "b9326f96438d979c981ebf483ad57acdd7065b963660f3b4376816afd9c8df24"
+    },
+    "comparison003/native-runtime-server.log": {
+      "bytes": 17252,
+      "sha256": "7abcc67346ceb410de5476e3d5fddf884058ad05a326c56efef252cdc4077cff"
+    },
+    "comparison003/native-runtime-state.json": {
+      "bytes": 1611,
+      "sha256": "68529acd28f421c1128395d4d6a526be69d81abcfb14692c9dca54a56fdeaba9"
+    },
+    "comparison003/native-runtime-supervisor.log": {
+      "bytes": 2774,
+      "sha256": "09b1813681490b4e9d1215261d8483a3d98c100c1bb5796c484d26afe6a7f8e4"
+    },
+    "comparison003/native-start-step.json": {
+      "bytes": 370,
+      "sha256": "68f0426af98c2fb8e872b7daab801168cd8c2450f48fc9912a52db6cc034a0f7"
+    },
+    "comparison003/native-start.log": {
+      "bytes": 1567,
+      "sha256": "e0605505e3c5db0de7af04058eb8ba44c4f312abd51398fb274eda9f296e8335"
+    },
+    "comparison003/native-stop-state.json": {
+      "bytes": 1610,
+      "sha256": "4ecceab66079e746e23d33954d6be6df6f2c2b14c3a0b7ae7146071eaeb3bbd8"
+    },
+    "comparison003/native-stop-step.json": {
+      "bytes": 369,
+      "sha256": "f81e9a17cdeab03545655eff5ce03ec0650d8ca6eac5b40ffa74950bb1df09de"
+    },
+    "comparison003/native-stop-verification.json": {
+      "bytes": 752,
+      "sha256": "f04254be904b8a17944b3ce2ea973cfbaf4a7c539348d5534c900b40a2c508e6"
+    },
+    "comparison003/native-stop.log": {
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    "comparison003/native-tokenizer-probe-step.json": {
+      "bytes": 651,
+      "sha256": "6fc16d57d9e9afab56fdd3401f67d4e452474181c7eea9863a9c363cd190c5d8"
+    },
+    "comparison003/native-tokenizer-probe.json": {
+      "bytes": 10367,
+      "sha256": "50b3d50aa830c9b8d10deed3436ff2a74fe56d7e3db0ffe418f6906a815eb827"
+    },
+    "comparison003/native-tokenizer-probe.log": {
+      "bytes": 910,
+      "sha256": "83d196feb714ec9dba5043bf4e8d12ebce6f183a8cdd6307282569d3da7c8a25"
+    },
+    "comparison003/orchestrator-plan.json": {
+      "bytes": 738,
+      "sha256": "91177acbbdf98376db485568459b8fdb9d425792eb3415aa85ecb7b512630dcb"
+    },
+    "comparison003/orchestrator-result.json": {
+      "bytes": 25985,
+      "sha256": "74adf651f88245d7e10ceed296e1b1c81ed497404ea8126ef5602e308a1bb742"
+    },
+    "comparison003/prepare-derived-step.json": {
+      "bytes": 590,
+      "sha256": "93dde6f1680bb63487cb4dec358383071b94ce1da27695b2b66d5bbbb30a8b9c"
+    },
+    "comparison003/prepare-derived.log": {
+      "bytes": 3090,
+      "sha256": "62bb8a3e4e308245989548da11cb8e62a89d5309c4753639c61e0afaec8b624f"
+    },
+    "MANIFEST.json": {
+      "bytes": 8011,
+      "sha256": "5b4d7f34b6fa0b349b0d062f2bdf7812346a9eeb74cf72cc8ff7c4b3aca254e7"
+    }
+  },
+  "full_original_archive_preserved": true,
+  "scope": "Comparison retains all; pilot selects own owner/prefix and cleanup, unrelated session records remain in original ZIP"
+}

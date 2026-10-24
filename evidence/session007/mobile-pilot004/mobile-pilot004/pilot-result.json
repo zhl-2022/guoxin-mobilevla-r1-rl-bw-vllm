@@ -1,0 +1,59 @@
+{
+  "run_id": "4171b0333672dac2f12a25dbbba9de60",
+  "ended_utc": "2026-10-24T08:22:51.405950+00:00",
+  "controller_exit_code": 0,
+  "stop_exit_code": 0,
+  "source_sha256": {
+    "/root/private_data/guoxin-mobilevla-tools-007-004/candidates/mobilevla-r1-session006/mobilevla_bw006/__init__.py": "93632222f57eb2c92f08c4bb50b200c1b5bc37840ee868a6f434174b640c6afb",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/candidates/mobilevla-r1-session006/mobilevla_bw006/backend.py": "5d529bd662867463d2f7f3fabb24dc5c8629976a136cbdeab5aff8b349e2c0d8",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/candidates/mobilevla-r1-session006/mobilevla_bw006/projector.py": "65dc2f13fc8be9c132425f5e8c15de54a183c3535d7986e86d70db45dbafa245",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/candidates/mobilevla-r1-session006/mobilevla_bw006/reference_rgb.py": "48a493df3f42a01a2c06aaa1d62564862dd1edbb93a260fa0919077e00a72f22",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/candidates/mobilevla-r1-session006/mobilevla_bw006/runtime.py": "2c6cac6370c39d78e0598d47d0f4bc509514a13c38e28ad36cce187643ca462a",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/candidates/mobilevla-r1-session006/mobilevla_bw006/contract.py": "f1715295826533a71f3e5319f2dab6bfcfadc2db843c7ae84d76e82cbb677143",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/candidates/mobilevla-r1-session006/mobilevla_bw006/prepare.py": "f14f765a4e347fe4ecc8eb00e83c8a76954b27b283358893f3148f83d7463e00",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/scripts/recon2reason_runtime.py": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/scripts/recon2reason_smoke.py": "21d2f90e7a1df414cb260f029a5e42a677cc06867e1222f537487b53b8a1fe2d"
+  },
+  "files": {
+    "start.log": {
+      "bytes": 1567,
+      "sha256": "2f40c3ceb47c112550bf9bf4f3ff1504877bd29df879928b1fbf5957209d17db"
+    },
+    "env.log": {
+      "bytes": 3683,
+      "sha256": "f6425161f0c0c1ccdf24f4ebf76ad92421d60fd358d85c8afa3022630dce23d2"
+    },
+    "smoke.log": {
+      "bytes": 9696,
+      "sha256": "833e2c4be649339121819a706956ef1600c5d2aecd0cae460ccd37f6985502cb"
+    },
+    "state.json": {
+      "bytes": 1611,
+      "sha256": "bf5bb511131249fdf69045292bad110a713a3efdd3d4f9a2596b682887d1cb28"
+    },
+    "server.log": {
+      "bytes": 34063,
+      "sha256": "3acf8ef0475f8430c38d94539a3d3e948479c9dde6dddb9a158279fc6b1610a2"
+    },
+    "supervisor.log": {
+      "bytes": 5548,
+      "sha256": "a2e665d8cf7a8c277a9283cef4d2b4d332ef0b1d7401eee342c497efd6cccdf3"
+    },
+    "run-id.txt": {
+      "bytes": 33,
+      "sha256": "86f3ea0486623f198308ba992e77853e4d09136c6ddc5b80b9f2d1eaff39b607"
+    },
+    "stop.log": {
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    "config.json": {
+      "bytes": 1997,
+      "sha256": "03e1ce98b1daa66d2597c2a44a4963cd8941ac00f62c5e8df2124c5066335a74"
+    }
+  },
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "submission_ready": false,
+  "scope": "Raw execution only; inspect response/server/owned cleanup before interpreting result"
+}

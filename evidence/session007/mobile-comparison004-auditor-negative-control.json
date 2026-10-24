@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "negative_control": "Original003 raw refused as004",
+  "reason": "Requires exact004 source lock",
+  "original003_raw_unchanged": true,
+  "GPU_used": false,
+  "positive004_actual_audit_pending": true
+}

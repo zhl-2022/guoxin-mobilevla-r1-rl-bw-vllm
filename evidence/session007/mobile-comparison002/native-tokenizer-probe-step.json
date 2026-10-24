@@ -1,0 +1,19 @@
+{
+  "name": "native-tokenizer-probe",
+  "command": [
+    "/usr/bin/python",
+    "-B",
+    "/root/private_data/guoxin-mobilevla-tools-007-003/scripts/probe_mobilevla_tokens007_003.py",
+    "--source",
+    "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+    "--derived",
+    "/root/private_data/guoxin-candidates/models/mobilevla-r1-derived007-bos003",
+    "--output",
+    "/root/private_data/mobilevla-comparison-evidence007-run002/native-tokenizer-probe.json"
+  ],
+  "started_utc": "2026-10-24T07:27:26.857724+00:00",
+  "timeout_seconds": 90.0,
+  "status": "PASS",
+  "returncode": 0,
+  "elapsed_seconds": 32.55086748022586
+}

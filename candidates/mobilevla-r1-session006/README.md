@@ -1,0 +1,9 @@
+# MobileVLA 007-bos003 独立原生适配修订
+
+本目录由冻结002的70个payload复制为独立候选，原002、原derived006与第一次失败comparison原件保持不变。003修复OpenAI token-list输入绕过publisher tokenizer_image_token语义的问题：在原生processor的tokens-only路径先无cleanup解码对应文本，再调用相同源tokenization，保留发布方模板自带BOS和tokenizer自动BOS。它不修剪API回包或生成ID。
+
+发布方实际inference.py sample_prepared显式使用tokenizer.eos_token_id=128009。003服务加入--generation-config vllm，比较请求明确greedy、max32、仅128009停止；128001不再额外提前停止。参考HF使用同一publisher greedy策略。
+
+新derived路径为/root/private_data/guoxin-candidates/models/mobilevla-r1-derived007-bos003。prepare仅新建派生视图，原权重不改，receipt绑定adapter_revision及本修订7个Python模块SHA，runtime拒绝旧receipt或源代码漂移。所有权重、8个派生小文件、原生strict加载和owned进程约束继续保留。
+
+使用同包scripts/mobilevla_comparison_orchestrator007_002.py执行新owned run；需要时先在总1800秒预算内prepare新的derived目录，再native1/8、finally精准stop、独立/proc与进程组及端口检查、HF1/8、raw ID比较和最终cleanup。GPU实测结果尚待执行，正式精度、性能、验收、提交均为false。

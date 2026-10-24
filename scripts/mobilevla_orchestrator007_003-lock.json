@@ -1,0 +1,314 @@
+{
+  "frozen": {
+    "base_zip_sha256": "e116b10853b11fc81e5dcdc0dbd3c2d85fe36c4b8b38500a120a88c4552b92d2",
+    "revision": "007-eos004",
+    "files": {
+      "candidates/mobilevla-r1-session006/README.md": {
+        "bytes": 1415,
+        "sha256": "bae791929b380f487b66c4fae21acd2cbeb5306472db2b4afe4420a1e0e7f83a"
+      },
+      "candidates/mobilevla-r1-session006/framework-source/source-lock.json": {
+        "bytes": 2883,
+        "sha256": "8ac8bc08cf8569524af1aa11ed8b8175c738293ce9c7669cdf6d319852c05a95"
+      },
+      "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-model_loader-default_loader.py": {
+        "bytes": 15360,
+        "sha256": "1be5d0050149866076430fd98ab3360edf7f88da1e3a722397acb45df9cf4626"
+      },
+      "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-models-interfaces.py": {
+        "bytes": 47196,
+        "sha256": "14a21297a8d3039261ec8ea7b86f6f8e83d5b6140208120b6a04043798163c28"
+      },
+      "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-models-siglip.py": {
+        "bytes": 44031,
+        "sha256": "7e5495036d87ce48c20cf5b085e7faf4cd353eba7cf981120f06c80d7a577b24"
+      },
+      "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-models-utils.py": {
+        "bytes": 29457,
+        "sha256": "a6ddd032155f76b4a96efcfea3bbc80de45a6b8747662eebedaf0b29af5faa2d"
+      },
+      "candidates/mobilevla-r1-session006/framework-source/vllm-model_executor-models-vision.py": {
+        "bytes": 21178,
+        "sha256": "dd601bc683916074a47fe37efea2a197a7207c347709a2a2908a8b9c6ff8cf8e"
+      },
+      "candidates/mobilevla-r1-session006/framework-source/vllm-multimodal-processing-processor.py": {
+        "bytes": 57414,
+        "sha256": "900283f4fabd65449ac76b8a08d3d8e546321d4c88d046c3d510cfc5fabde1bf"
+      },
+      "candidates/mobilevla-r1-session006/framework-source/vllm-plugins-__init__.py": {
+        "bytes": 2902,
+        "sha256": "4be66190ceaee9d0465f62ade801a8e94a907d7ab9fdb0a67fa14ce87448ae9f"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006-0.0.6.dist-info/METADATA": {
+        "bytes": 106,
+        "sha256": "e945ea7ebf2f46738f6c9b25d9026eab6c600c5ed58d0a9a281076258f3f95f0"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006-0.0.6.dist-info/entry_points.txt": {
+        "bytes": 66,
+        "sha256": "829172ef5522fe630236ad037f38db73626dcb186a99fa5f061abf9d56b70dd6"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006/__init__.py": {
+        "bytes": 395,
+        "sha256": "93632222f57eb2c92f08c4bb50b200c1b5bc37840ee868a6f434174b640c6afb"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006/backend.py": {
+        "bytes": 6670,
+        "sha256": "5d529bd662867463d2f7f3fabb24dc5c8629976a136cbdeab5aff8b349e2c0d8"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006/contract.py": {
+        "bytes": 5786,
+        "sha256": "f1715295826533a71f3e5319f2dab6bfcfadc2db843c7ae84d76e82cbb677143"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006/prepare.py": {
+        "bytes": 14343,
+        "sha256": "f14f765a4e347fe4ecc8eb00e83c8a76954b27b283358893f3148f83d7463e00"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006/projector.py": {
+        "bytes": 1718,
+        "sha256": "65dc2f13fc8be9c132425f5e8c15de54a183c3535d7986e86d70db45dbafa245"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006/reference_rgb.py": {
+        "bytes": 6735,
+        "sha256": "48a493df3f42a01a2c06aaa1d62564862dd1edbb93a260fa0919077e00a72f22"
+      },
+      "candidates/mobilevla-r1-session006/mobilevla_bw006/runtime.py": {
+        "bytes": 10956,
+        "sha256": "2c6cac6370c39d78e0598d47d0f4bc509514a13c38e28ad36cce187643ca462a"
+      },
+      "candidates/mobilevla-r1-session006/reference/UPSTREAM-LICENSE-APACHE-2.0.txt": {
+        "bytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      "candidates/mobilevla-r1-session006/reference/llava/conversation.py": {
+        "bytes": 19436,
+        "sha256": "5995bc8d45e153395bdeaa31ca7f6c0d1f637135c24e66a1947e9d56ebaa39a1"
+      },
+      "candidates/mobilevla-r1-session006/reference/llava/mm_utils.py": {
+        "bytes": 17802,
+        "sha256": "117d382783c3eba5f6336ff1ee6ee7adedec737fa440a2f8834f40f7ddf7de81"
+      },
+      "candidates/mobilevla-r1-session006/reference/llava/model/multimodal_encoder/vision_encoder.py": {
+        "bytes": 8808,
+        "sha256": "9a24c3a46758bc611e4babbc5eee5bb79bb9164f61439249e311c4904c4e0f7e"
+      },
+      "candidates/mobilevla-r1-session006/reference/llava/model/multimodal_projector/base_projector.py": {
+        "bytes": 4160,
+        "sha256": "52f699c2839870959c68f72b86a686cca07e81036a2ef4e0bc85930b91e064f4"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/config.json": {
+        "bytes": 7365,
+        "sha256": "a4ff86c1c374895ef3ef4cceb4041542a5e7d29ebcec2b8377efc4b6f09ac44f"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/config.json": {
+        "bytes": 843,
+        "sha256": "be33b351410a341de1a8b4b4cf8f4604a702ad22d5516225521704e3fa48ee1a"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/generation_config.json": {
+        "bytes": 194,
+        "sha256": "37e2904bb4bc0d9a49c8d0fade95c0a7c887a6658880563afe1140274c2fe6eb"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/model.safetensors.index.json": {
+        "bytes": 23950,
+        "sha256": "ce350cea18b4668fef697710325e81cf7974430444764275558a06dd9460a734"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/special_tokens_map.json": {
+        "bytes": 434,
+        "sha256": "214dd83efd2bfad51e3e87df20334fdcdcc6192d0118779efb86ef5a83cac5e4"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/tokenizer.json": {
+        "bytes": 9086220,
+        "sha256": "5f73571014de620e0f67384ff0193a5a4aa5bdc332b6e1ae5fce7f99a001116d"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/llm/tokenizer_config.json": {
+        "bytes": 51539,
+        "sha256": "8fce1247f7d4b166d1dfd4114892dd9369e13cdabd174959f96abd8897316a4b"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/mm_projector/config.json": {
+        "bytes": 294,
+        "sha256": "197f034b36aa17ac67cbf9dfea4015445378569120d87158b92f8ea76ef6fb49"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/vision_tower/config.json": {
+        "bytes": 582,
+        "sha256": "6f335f2b406b661cc0fc5419c209729cd1b179d4193a2037deddf6a77829be59"
+      },
+      "candidates/mobilevla-r1-session006/reference/rl-metadata/vision_tower/preprocessor_config.json": {
+        "bytes": 368,
+        "sha256": "f59da2f87c3cd079bd4f8f3037e81b277c60c498e279a8020331f67a5a3157e8"
+      },
+      "candidates/mobilevla-r1-session006/reference/tokenizer-range-record.json": {
+        "bytes": 1115,
+        "sha256": "591af685153ec21932277edc9748106c60aa4e3b1057b9070360d67a92b1a273"
+      },
+      "candidates/mobilevla-r1-session006/rl-entry-plan.json": {
+        "bytes": 6052,
+        "sha256": "95f4551a87fe6f693d6ffb8a22e3bff633e895c38d1b51824d576a4a5da15462"
+      },
+      "evidence/mobilevla-preflight-20261023/framework-source/vllm-v0.18.1-llava.py": {
+        "bytes": 28874,
+        "sha256": "d4ac2f99f96b51cbe2d3c09be0f72b6e8a3a27bc91ad4a424e587e3101615a9b"
+      },
+      "evidence/session006/mobilevla-cpu/downloader-original-recheck.stderr.log": {
+        "bytes": 1021,
+        "sha256": "971b606d90c88d68f4506864848b9a8ded70dab46380510ab5d3b3f3d4f61b67"
+      },
+      "evidence/session006/mobilevla-cpu/downloader-original-recheck.stdout.log": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "evidence/session006/mobilevla-cpu/downloader-review.stderr.log": {
+        "bytes": 1127,
+        "sha256": "3704b5446ed7f39d10d3d6ea861a93712acf8acf91b642051478039583696b45"
+      },
+      "evidence/session006/mobilevla-cpu/downloader-review.stdout.log": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "evidence/session006/mobilevla-cpu/validation-002.json": {
+        "bytes": 1476,
+        "sha256": "cd14c5c6e41ffc3a74b37ff9bd94723fb2f829aa47f0edc4d061004fc547261e"
+      },
+      "evidence/session006/mobilevla-cpu/validation.json": {
+        "bytes": 1618,
+        "sha256": "8e9bd1f2e01e4ecee1a2269fa993ba4b54fb03f2acd8cd75daa686fc3aa96577"
+      },
+      "evidence/session006/mobilevla-cpu/windows-tests-002.stderr.log": {
+        "bytes": 3942,
+        "sha256": "90439729c0dd3fb0aecf49fba10411b89c4ab484594cdb76c520aefff62a6702"
+      },
+      "evidence/session006/mobilevla-cpu/windows-tests-002.stdout.log": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "evidence/session006/mobilevla-cpu/windows-tests.stderr.log": {
+        "bytes": 2760,
+        "sha256": "40300603ef3ced0a163ebe8c98511dc226e2cff64c9ef43651b73bd91c2e9ac1"
+      },
+      "evidence/session006/mobilevla-cpu/windows-tests.stdout.log": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "evidence/session006/mobilevla-cpu/wsl-derived-seal-002.stderr.log": {
+        "bytes": 1436,
+        "sha256": "7f9f9bd17f5e13ca2894cfbcfcce6c91ad5cefc6b41df88b5773ec9eecb4d67a"
+      },
+      "evidence/session006/mobilevla-cpu/wsl-derived-seal-002.stdout.log": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "evidence/session006/mobilevla-cpu/wsl-launch-dry-run.stderr.log": {
+        "bytes": 153,
+        "sha256": "e816706cd44ce0c6c65a7a7938be8103514f7c899694c8240d844f74319b7f98"
+      },
+      "evidence/session006/mobilevla-cpu/wsl-launch-dry-run.stdout.log": {
+        "bytes": 1918,
+        "sha256": "9da3e12654a38d3f95ea737892e8161b2c0d881462847e20852400c86f438d2a"
+      },
+      "evidence/session006/mobilevla-cpu/wsl-run-id-negative.stderr.log": {
+        "bytes": 875,
+        "sha256": "41fdc144b53b3e33234b363508318b265131a1d68b5ec2f60204fe99f9961949"
+      },
+      "evidence/session006/mobilevla-cpu/wsl-run-id-negative.stdout.log": {
+        "bytes": 98,
+        "sha256": "e70bf07d6ecbd6e8a9ee51983115dfdb2a838fe82157c7518b29a32463f509b2"
+      },
+      "scripts/analyze_mobilevla_header_report_006.py": {
+        "bytes": 5375,
+        "sha256": "8d8517af69b3f82474a1fdcc28e461910180b770cd1553c0ccf5be9cf5bc8818"
+      },
+      "scripts/inspect_mobilevla_headers_006.py": {
+        "bytes": 5808,
+        "sha256": "c1dd2b7d860888b2d3578878c1e767586711904d040f442811b9204ce497371c"
+      },
+      "scripts/package_mobilevla_tools_006.py": {
+        "bytes": 4667,
+        "sha256": "1aea3df42cbd31789d8d94619fb6ae5c989a5b4bcb9a922599f666a0a830c614"
+      },
+      "scripts/probe_mobilevla_native_006.py": {
+        "bytes": 6232,
+        "sha256": "294dbb53d2076d9762ba36ed54771f7ef5254785e5dd1cf82f76e39d17b9dd55"
+      },
+      "scripts/recon2reason_runtime.py": {
+        "bytes": 34890,
+        "sha256": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b"
+      },
+      "scripts/recon2reason_smoke.py": {
+        "bytes": 10802,
+        "sha256": "21d2f90e7a1df414cb260f029a5e42a677cc06867e1222f537487b53b8a1fe2d"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/bench.sh": {
+        "bytes": 210,
+        "sha256": "d3ce0b5dc18dc8eb88bf415fca664f8e1340c23e3b271c35126e5726f1edd84c"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/env.sh": {
+        "bytes": 1788,
+        "sha256": "b09e33eb1fdf72b263ed736afd401f0a3826752038305ce5300ea6df1129dba4"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/env_check.sh": {
+        "bytes": 208,
+        "sha256": "4241287aaac9bcf1e72138fb3796ddb6811d31f769efa8dfd18ffec0c201ff6b"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/fixtures/blue.png": {
+        "bytes": 3463,
+        "sha256": "13588c097bf637a09c571e441392c40f406b81ca0a50e30b3ee2f336585fec2f"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/fixtures/red.png": {
+        "bytes": 2915,
+        "sha256": "d51437c5bb459fb25f47a9e52e650b3f815d1d9900ec63b651f338e6e73c7165"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/pilot.sh": {
+        "bytes": 2497,
+        "sha256": "00e3e5d3770b15d181d1dbdbfb9812f627c75aa580c2df52c115ae1a7ba6d032"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/run.sh": {
+        "bytes": 211,
+        "sha256": "e047e03f009b4998ceedf1993e3311fe05d913933c1ddd0527f5888632acea21"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/smoke.sh": {
+        "bytes": 402,
+        "sha256": "692935399eb0cc1329b68968c88f1ffe914c398386a2e6a55b4fa1bcd901b4d8"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/stop.sh": {
+        "bytes": 209,
+        "sha256": "6d13a17c78bc027101101f61cf4f81b48177c4ab063b7323fca3a0addd3af9f4"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/task.json": {
+        "bytes": 721,
+        "sha256": "9d010067695c74577813007d5b09eb8b4cd7e98bf84decfa8c01a66856be0fb2"
+      },
+      "tasks/mobilevla-r1-rl-bw-vllm/verify.sh": {
+        "bytes": 211,
+        "sha256": "8bae22fd9bce7872e2f3cbc2cced4b499715aeadce7cd7f22970e62cb444be8a"
+      },
+      "tests/test_mobilevla_session006.py": {
+        "bytes": 21752,
+        "sha256": "ecc6192beb39f2da4880c8a7fe1c1950bc50597be0c2ff748049aaa489a0c89f"
+      }
+    },
+    "parent_tools003_sha256": "aa62f6e5dde19cd5fcd4ed6c1cfb599a8a7739d32b9a58bbd8e1fe83522018e6"
+  },
+  "comparison": {
+    "revision": "007-eos004",
+    "files": {
+      "scripts/mobilevla_compare_policy006_004.py": {
+        "bytes": 8258,
+        "sha256": "bac607b294c6def01c5b19e060f091f962e66fffdb8429129f4c68870e9df61b"
+      },
+      "scripts/mobilevla_reference_http006_004.py": {
+        "bytes": 6624,
+        "sha256": "bc19ea053398c6a1cce33f60f6df081d3e164c2f4de5e966246acef5ceb63a58"
+      },
+      "scripts/mobilevla_reference_hf006_004.py": {
+        "bytes": 8186,
+        "sha256": "aca8f1b933c5975c7c19aac1acc61375151e0cfee09ff351884aa6a6a650f06f"
+      },
+      "scripts/mobilevla_compare_records006_004.py": {
+        "bytes": 1366,
+        "sha256": "dd2a558f88e9281ebbe3111aa5688ca4651b67b45d9d0246f7df8b2f18ebc357"
+      },
+      "scripts/probe_mobilevla_tokens007_004.py": {
+        "bytes": 7907,
+        "sha256": "f150b7f847c5e3f3b9968d7b17fe6760ff6b523cb32a5aed222261d3069fd993"
+      }
+    }
+  }
+}

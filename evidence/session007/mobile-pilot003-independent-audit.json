@@ -1,0 +1,170 @@
+{
+  "schema": "mobilevla-standard003-pilot-independent-audit007-v1",
+  "passed": true,
+  "run_id": "1ed4c0d6c350796e0b49df353ed04ba9",
+  "smoke_client_run_id": "69b8189b37e14c8f835d33370e13e559",
+  "source_files_bound_to_frozen003": {
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/backend.py": "5d529bd662867463d2f7f3fabb24dc5c8629976a136cbdeab5aff8b349e2c0d8",
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/contract.py": "f1715295826533a71f3e5319f2dab6bfcfadc2db843c7ae84d76e82cbb677143",
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/projector.py": "65dc2f13fc8be9c132425f5e8c15de54a183c3535d7986e86d70db45dbafa245",
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/__init__.py": "93632222f57eb2c92f08c4bb50b200c1b5bc37840ee868a6f434174b640c6afb",
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/prepare.py": "4d0c9aecd3e13c362959ac019c6e87bbe3008de5a32502bb5946f14158e06c3b",
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/reference_rgb.py": "48a493df3f42a01a2c06aaa1d62564862dd1edbb93a260fa0919077e00a72f22",
+    "candidates/mobilevla-r1-session006/mobilevla_bw006/runtime.py": "9714fa1261aab21a35d0c5013de7817d3be2b6ccaee4bd5701beba080605ed5a",
+    "scripts/recon2reason_runtime.py": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b",
+    "scripts/recon2reason_smoke.py": "21d2f90e7a1df414cb260f029a5e42a677cc06867e1222f537487b53b8a1fe2d"
+  },
+  "HTTP_checks": {
+    "health": {
+      "passed": true,
+      "http_status": 200
+    },
+    "models": {
+      "passed": true,
+      "http_status": 200
+    },
+    "single_image": {
+      "passed": true,
+      "text": "A red square is the main object in the image.",
+      "duration_seconds": 0.6293414137326181,
+      "finish_reason": "stop",
+      "stop_reason": 128001,
+      "answer_truncated": false,
+      "usage": {
+        "prompt_tokens": 260,
+        "total_tokens": 272,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null
+      }
+    },
+    "multiple_images": {
+      "passed": true,
+      "text": "这些图像中的一个相同点是它们都有一个单独的形状和颜色。不同点是形状和颜色。例如，红色的形状是方形，而蓝色的形状是圆形。",
+      "duration_seconds": 1.6872605346143246,
+      "finish_reason": "stop",
+      "stop_reason": 128001,
+      "answer_truncated": false,
+      "usage": {
+        "prompt_tokens": 461,
+        "total_tokens": 510,
+        "completion_tokens": 49,
+        "prompt_tokens_details": null
+      }
+    },
+    "multiturn_first": {
+      "passed": true,
+      "text": "A red square is the main object in the image.",
+      "duration_seconds": 0.42193358996883035,
+      "finish_reason": "stop",
+      "stop_reason": 128001,
+      "answer_truncated": false,
+      "usage": {
+        "prompt_tokens": 260,
+        "total_tokens": 272,
+        "completion_tokens": 12,
+        "prompt_tokens_details": null
+      }
+    },
+    "multiturn_followup": {
+      "passed": true,
+      "text": "The red square is located in the center of the image.",
+      "duration_seconds": 0.4557955376803875,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "answer_truncated": false,
+      "usage": {
+        "prompt_tokens": 299,
+        "total_tokens": 312,
+        "completion_tokens": 13,
+        "prompt_tokens_details": null
+      }
+    },
+    "streaming_image": {
+      "passed": true,
+      "text": "A red square is the main object in the image.",
+      "duration_seconds": 0.4312699972651899,
+      "finish_reasons": [
+        "stop"
+      ],
+      "stop_reasons": [
+        128001
+      ],
+      "SSE_done": true,
+      "events": 13,
+      "answer_truncated": false
+    }
+  },
+  "functional_checks_passed": true,
+  "truncated_cases": [],
+  "observed_stop_reason128001_cases": [
+    "single_image",
+    "multiple_images",
+    "multiturn_first",
+    "streaming_image"
+  ],
+  "publisher_stop_semantics_consistent": false,
+  "publisher_EOS128009_triggered_verified": false,
+  "EOS_scope": "Raw128001 extra stop IDs violate publisher explicit128009; absent terminal raw IDs means null stop_reason alone does not identify EOS. Separate003 comparison max32 finished by length.",
+  "observed_shard_groups": [
+    4,
+    1,
+    1
+  ],
+  "recorded_weight_load_seconds": 7.42,
+  "runtime_environment": {
+    "python": "3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0]",
+    "packages": {
+      "torch": "2.10.0+das.opt1.dtk2604.20260325.g6b060a",
+      "triton": "3.6.0+gitc73250c4.staging",
+      "transformers": "5.5.0",
+      "tokenizers": "0.22.2",
+      "sglang": null,
+      "sglang-das": null,
+      "vllm": "0.18.1+das.fa71803.dtk2604",
+      "vllm-plugin-das": null,
+      "vllm-hcu": "0.18.1+das.dtk2604"
+    },
+    "devices": [
+      "BW"
+    ],
+    "hip": "6.3.26093",
+    "gpu_available": true
+  },
+  "state_stopped_and_owner_bound": true,
+  "independent_cleanup": {
+    "UTC": "2026-10-24T07:46:21.411132+00:00",
+    "run_id": "1ed4c0d6c350796e0b49df353ed04ba9",
+    "processes": {
+      "supervisor": {
+        "pid": 9302,
+        "proc_exists": false,
+        "expected_start_token": "285500162"
+      },
+      "server": {
+        "pid": 9303,
+        "proc_exists": false,
+        "expected_start_token": "285500195"
+      }
+    },
+    "port30139closed": true
+  },
+  "warnings": {
+    "tokenizer_incorrect_regex": true,
+    "ROCm_GELU_fallback": true,
+    "destroy_process_group_not_explicit": true
+  },
+  "navigation_accuracy_verified": false,
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "official_acceptance": false,
+  "submitted": false,
+  "scope": "Downloaded003 standard pilot records audited locally; transport/nonempty output only, not semantic scoring or fresh GPU execution",
+  "raw_archive": {
+    "path": "E:\\hg20261019\\dist\\000-session007-mobile-pilot003b.zip",
+    "bytes": 45876,
+    "sha256": "cdb16ce39102beb8037ebf0f26b9527c61d3b3df84482f681f5b25cec19940e8",
+    "verified_payload_files": 42
+  },
+  "raw_prefix": "mobile-pilot003b",
+  "cleanup_member": "session007/mobile-pilot003b-independent-cleanup.json"
+}

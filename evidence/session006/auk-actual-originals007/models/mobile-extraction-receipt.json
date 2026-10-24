@@ -1,0 +1,158 @@
+{
+  "schema": "mobilevla-selected-rgb-rl-receipt-006-v1",
+  "run_id": "d7c8b49772654897aea8edb8480be529",
+  "repo": "AIGeeksGroup/MobileVLA-R1",
+  "revision": "0c757f3e9d1b95d8416b42e7089e1c04f3e6118a",
+  "central_directory_sha256": "4abb56a8a5710e7a7b2ec6664146ae57bc02d67c7b67a9eefb1bf4ae20a73373",
+  "full_lfs_parts_sha_verified": false,
+  "started_utc": "2026-10-23T15:53:39.827667+00:00",
+  "status": "completed",
+  "files": [
+    {
+      "path": "weight/rl/llm/special_tokens_map.json",
+      "size": 434,
+      "sha256": "214dd83efd2bfad51e3e87df20334fdcdcc6192d0118779efb86ef5a83cac5e4",
+      "crc32": "8f2047a8",
+      "compressed_sha256": "54359a05abf57dd4db534c5e20f081bb86fb6fa43e28af3d5240d067c90b54b9",
+      "compressed_size": 129,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/generation_config.json",
+      "size": 194,
+      "sha256": "37e2904bb4bc0d9a49c8d0fade95c0a7c887a6658880563afe1140274c2fe6eb",
+      "crc32": "372d6432",
+      "compressed_sha256": "5b70c0594a9e72cfe35037c315aae3aa052a66f3bf92a07bdcae71a6b7e48891",
+      "compressed_size": 134,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/vision_tower/preprocessor_config.json",
+      "size": 368,
+      "sha256": "f59da2f87c3cd079bd4f8f3037e81b277c60c498e279a8020331f67a5a3157e8",
+      "crc32": "cb4812cc",
+      "compressed_sha256": "cd1bd753a4b352067db81427fa38f389a66a1050d063202a4835f8cae0ddcb35",
+      "compressed_size": 184,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/mm_projector/config.json",
+      "size": 294,
+      "sha256": "197f034b36aa17ac67cbf9dfea4015445378569120d87158b92f8ea76ef6fb49",
+      "crc32": "406eb8d5",
+      "compressed_sha256": "4bc18ce6770b9f4c95532e70aba6877e05bd2f4f625975bb0830757168cfd318",
+      "compressed_size": 199,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/vision_tower/config.json",
+      "size": 582,
+      "sha256": "6f335f2b406b661cc0fc5419c209729cd1b179d4193a2037deddf6a77829be59",
+      "crc32": "25841162",
+      "compressed_sha256": "0f811cd2c29d275f5602ee0bcff3dde1988b5b2f72d118007036b9a80c34e50f",
+      "compressed_size": 334,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/config.json",
+      "size": 843,
+      "sha256": "be33b351410a341de1a8b4b4cf8f4604a702ad22d5516225521704e3fa48ee1a",
+      "crc32": "dfc70e4f",
+      "compressed_sha256": "48b921ba39e8a8cc9635f47001f7adf25969a700727f1ce95205675007dac8fe",
+      "compressed_size": 442,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/model.safetensors.index.json",
+      "size": 23950,
+      "sha256": "ce350cea18b4668fef697710325e81cf7974430444764275558a06dd9460a734",
+      "crc32": "24141e0c",
+      "compressed_sha256": "3636755ad57c3dcb7557fafc081d3f767c6e51820e979cc345d729afffef0942",
+      "compressed_size": 1135,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/config.json",
+      "size": 7365,
+      "sha256": "a4ff86c1c374895ef3ef4cceb4041542a5e7d29ebcec2b8377efc4b6f09ac44f",
+      "crc32": "1b120725",
+      "compressed_sha256": "6b63198db2414598d2baf3dab02909cf8471a0ed426fa21ee7e59c489780e9ee",
+      "compressed_size": 1467,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/tokenizer_config.json",
+      "size": 51539,
+      "sha256": "8fce1247f7d4b166d1dfd4114892dd9369e13cdabd174959f96abd8897316a4b",
+      "crc32": "6d04a147",
+      "compressed_sha256": "1b39d1a5a559f62f9933036bc0b8940b149311475b065b0529668cde9ba59f77",
+      "compressed_size": 2157,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/tokenizer.json",
+      "size": 9086220,
+      "sha256": "5f73571014de620e0f67384ff0193a5a4aa5bdc332b6e1ae5fce7f99a001116d",
+      "crc32": "e00ca629",
+      "compressed_sha256": "5a5e1b72d204914470e281ade9124462dc7124843cc42b2e2307651a8f45613c",
+      "compressed_size": 2334961,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/mm_projector/model.safetensors",
+      "size": 71338512,
+      "sha256": "0921455072f43bfe67637a6d69faa7248b830c15dc67a6e9798b50e2aed6d376",
+      "crc32": "755f92f7",
+      "compressed_sha256": "d4e47a5af5700b771205e2313487203ee3660901189dfab7926517d0c48c1939",
+      "compressed_size": 56009255,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/vision_tower/model.safetensors",
+      "size": 856506120,
+      "sha256": "1ff7d080a98a3f014b057dca741d7be358b700565493a15dfd82cb98903b0c4b",
+      "crc32": "97d28100",
+      "compressed_sha256": "fd6fe00cb35870a33a5413e8c7412729e2cb57b08058e9ad76cd26c8e7c94b1b",
+      "compressed_size": 681685561,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/model-00004-of-00004.safetensors",
+      "size": 1168163384,
+      "sha256": "f35c5720effc40db734ac67b232e0b97389f802251d5d4d2480987f91f6dc937",
+      "crc32": "d315fef9",
+      "compressed_sha256": "d96dda7c57373121b749246192ee69485b6d2aa00445a95d4957d0f464d8d1ff",
+      "compressed_size": 922412356,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/model-00003-of-00004.safetensors",
+      "size": 4915916176,
+      "sha256": "d53f6cab87861720f85f22af13e756cd7cccf569c2f8c096a7ec38d513be43e4",
+      "crc32": "0fcba740",
+      "compressed_sha256": "409e0986ebe10adfc37ab11c4dce3a34be235baf2fcbd2dd3cf71efcef7eb391",
+      "compressed_size": 3884326780,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/model-00001-of-00004.safetensors",
+      "size": 4976723248,
+      "sha256": "d4df84977665ab9be02f987a4eccd56abb0ac7273f12f6906f50c13bc7110371",
+      "crc32": "1d6ad087",
+      "compressed_sha256": "a091be5bb815e0c5c122def2135d5945ea9d50b14c96a304d6d37d9e6483a94d",
+      "compressed_size": 3935314642,
+      "compression_method": 8
+    },
+    {
+      "path": "weight/rl/llm/model-00002-of-00004.safetensors",
+      "size": 4999802720,
+      "sha256": "42c210a04fc723675f858b383d546d2d5e0d4aa857d4fb321d3e57da241796f9",
+      "crc32": "38568f6c",
+      "compressed_sha256": "d61921e410d42762942d31a8915fe3b62a656d125c9a34543c6a7a3ec709aa90",
+      "compressed_size": 3952515642,
+      "compression_method": 8
+    }
+  ],
+  "verified_crc32_and_size": true,
+  "GPU_imported": false
+}

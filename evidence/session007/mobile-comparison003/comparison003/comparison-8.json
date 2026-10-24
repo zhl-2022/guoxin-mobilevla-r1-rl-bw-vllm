@@ -1,0 +1,39 @@
+{
+  "schema": "mobilevla-development-token-comparison006-v4",
+  "comparable": true,
+  "contract_problems": [],
+  "raw_generated_token_ids_equal": true,
+  "first_generated_divergence": null,
+  "native_generated_tokens": 32,
+  "reference_generated_tokens": 32,
+  "terminal_EOS_comparison": "included in raw token IDs on both sides",
+  "native_stop_boundary_coverage": {
+    "max_new_tokens": 32,
+    "generated_tokens": 32,
+    "token128001_positions": [],
+    "continued_after_nonpublisher128001": false,
+    "publisher128009_terminal_EOS_observed": false,
+    "stop_boundary_exercised": false
+  },
+  "reference_stop_boundary_coverage": {
+    "max_new_tokens": 32,
+    "generated_tokens": 32,
+    "token128001_positions": [],
+    "continued_after_nonpublisher128001": false,
+    "publisher128009_terminal_EOS_observed": false,
+    "stop_boundary_exercised": false
+  },
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "scope": "Exact same-input development comparison; equality is not navigation accuracy or an official score",
+  "input_records": {
+    "native": {
+      "path": "/root/private_data/mobilevla-comparison-evidence007-run003/native-8.json",
+      "sha256": "7ed17aac1043cc2931290ffee72132874aa94c1682266b6ff59885f9490db825"
+    },
+    "reference": {
+      "path": "/root/private_data/mobilevla-comparison-evidence007-run003/hf-8.json",
+      "sha256": "0360808b55601bd41a1ea1c3e39daada6b02455ff2eb7445426ab7bd5797fc4f"
+    }
+  }
+}

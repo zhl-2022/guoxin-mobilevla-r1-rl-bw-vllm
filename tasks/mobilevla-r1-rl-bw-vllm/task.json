@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "task": "mobilevla-r1-rl-bw-vllm",
+  "track": "T02",
+  "model_id": "AIGeeksGroup/MobileVLA-R1",
+  "contest_alias": "BAAI/MobileVLA-R1",
+  "contest_alias_equivalence_verified": false,
+  "model_revision": "0c757f3e9d1b95d8416b42e7089e1c04f3e6118a",
+  "framework": "vllm",
+  "precision": "bf16",
+  "pilot_profile": "RGB-only/4096/TP1",
+  "architecture": "MobileVLAForConditionalGeneration006",
+  "card": "BW",
+  "status": "CPU_prepared_GPU_not_started",
+  "GPU_verified": false,
+  "HTTP_service_GPU_verified": false,
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "formal_ready": false,
+  "submission_ready": false,
+  "submitted": false
+}

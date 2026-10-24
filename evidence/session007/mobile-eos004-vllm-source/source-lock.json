@@ -1,0 +1,50 @@
+{
+  "tag": "v0.18.1",
+  "files": [
+    {
+      "path": "vllm/config/model.py",
+      "bytes": 84803,
+      "sha256": "7cd5f1fa1bbeb81b42b9a7263f242b612970311e4d755bd31ced0ad34c97efe0"
+    },
+    {
+      "path": "vllm/transformers_utils/config.py",
+      "bytes": 44846,
+      "sha256": "cda0c8582f6c33a40aeede6050f142a4eba1df5c684b30be3dcf7b7f42d42e93"
+    },
+    {
+      "path": "vllm/v1/engine/input_processor.py",
+      "bytes": 18094,
+      "sha256": "951cc1a8809ad296e8a61ddfd5d4759d4b2f6ecbd19de6667a03ad8cee7193fe"
+    },
+    {
+      "path": "vllm/tokenizers/registry.py",
+      "bytes": 7814,
+      "sha256": "561cfdef46ef0f77e7512c329ac600d1aa5969988c684091f99c5979761037dd"
+    },
+    {
+      "path": "vllm/tokenizers/protocol.py",
+      "bytes": 3350,
+      "sha256": "6eb7b47b5e0c21b0a51a8307d888cc075742dcee440eac2f6b8bb756a30876dd"
+    },
+    {
+      "path": "vllm/tokenizers/hf.py",
+      "bytes": 4493,
+      "sha256": "f462103da34122052402a996c127512d1e1c5d0aa25fc130cf97d4082a92f6f8"
+    },
+    {
+      "path": "vllm/renderers/base.py",
+      "bytes": 28765,
+      "sha256": "651c88721014c71e24645ce36676413c181146f7a6cca20a711d0cfd2bde0b4d"
+    },
+    {
+      "path": "vllm/sampling_params.py",
+      "bytes": 37489,
+      "sha256": "b4cec6df516e594ef3d2024ceddd8773e885d520eba5efc15ec352d28f7558a0"
+    },
+    {
+      "path": "vllm/v1/core/sched/utils.py",
+      "bytes": 4115,
+      "sha256": "85e82eae555a03497ad2ac1540ed562a6c36fc26185aa6233725c914816aa1b3"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "archive_sha256": "e2ad816cc70109f4ba83646eb4fa59e105c159ce261ef60987b11899bc360530",
+  "selected_members": {
+    "mobile-pilot004/config.json": {
+      "bytes": 1997,
+      "sha256": "03e1ce98b1daa66d2597c2a44a4963cd8941ac00f62c5e8df2124c5066335a74"
+    },
+    "mobile-pilot004/env.log": {
+      "bytes": 3683,
+      "sha256": "f6425161f0c0c1ccdf24f4ebf76ad92421d60fd358d85c8afa3022630dce23d2"
+    },
+    "mobile-pilot004/pilot-result.json": {
+      "bytes": 3209,
+      "sha256": "beee2a45c5f1d682ede060a543f1caeb086b2eae36cb5a28377ece46a909007b"
+    },
+    "mobile-pilot004/run-id.txt": {
+      "bytes": 33,
+      "sha256": "86f3ea0486623f198308ba992e77853e4d09136c6ddc5b80b9f2d1eaff39b607"
+    },
+    "mobile-pilot004/server.log": {
+      "bytes": 34063,
+      "sha256": "3acf8ef0475f8430c38d94539a3d3e948479c9dde6dddb9a158279fc6b1610a2"
+    },
+    "mobile-pilot004/smoke.log": {
+      "bytes": 9696,
+      "sha256": "833e2c4be649339121819a706956ef1600c5d2aecd0cae460ccd37f6985502cb"
+    },
+    "mobile-pilot004/start.log": {
+      "bytes": 1567,
+      "sha256": "2f40c3ceb47c112550bf9bf4f3ff1504877bd29df879928b1fbf5957209d17db"
+    },
+    "mobile-pilot004/state.json": {
+      "bytes": 1611,
+      "sha256": "bf5bb511131249fdf69045292bad110a713a3efdd3d4f9a2596b682887d1cb28"
+    },
+    "mobile-pilot004/stop.log": {
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    "mobile-pilot004/supervisor.log": {
+      "bytes": 5548,
+      "sha256": "a2e665d8cf7a8c277a9283cef4d2b4d332ef0b1d7401eee342c497efd6cccdf3"
+    },
+    "session007/mobile-pilot004-independent-cleanup.json": {
+      "bytes": 373,
+      "sha256": "8d40e87b99e5296faf6433f0936491aea0c0be0e3ab37ee97e8b6d4cff359293"
+    },
+    "session007/mobile-pilot004-launched.json": {
+      "bytes": 125,
+      "sha256": "e0a7631089773a9d6c89987136640c6c8eb40b168fc2e0189725e7e4cdbcbb6e"
+    },
+    "session007/mobile-pilot004.log": {
+      "bytes": 173,
+      "sha256": "61769dfb417055ef5e7863b9761662ce52e4d55e04820bdf59b884ca906319a3"
+    }
+  },
+  "full_original_archive_preserved": true,
+  "scope": "Comparison retains all; pilot selects own owner/prefix and cleanup, unrelated session records remain in original ZIP"
+}

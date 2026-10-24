@@ -1,0 +1,12 @@
+test_changed_range_rejected_before_accepting_body (test_mobilevla_download_review006.ReviewCases.test_changed_range_rejected_before_accepting_body) ... ok
+test_cross_volume_range_exact_request_order (test_mobilevla_download_review006.ReviewCases.test_cross_volume_range_exact_request_order) ... ok
+test_deadline_prevents_new_request (test_mobilevla_download_review006.ReviewCases.test_deadline_prevents_new_request) ... ok
+test_exact_boundary_starts_next_volume (test_mobilevla_download_review006.ReviewCases.test_exact_boundary_starts_next_volume) ... ok
+test_full_real_plan_and_modelscope_lock_compatible (test_mobilevla_download_review006.ReviewCases.test_full_real_plan_and_modelscope_lock_compatible) ... ok
+test_resume_owned_partial_downloads_only_remaining_payload (test_mobilevla_download_review006.ReviewCases.test_resume_owned_partial_downloads_only_remaining_payload) ... ok
+test_zip64_only_uncompressed_sentinel (test_mobilevla_download_review006.ReviewCases.test_zip64_only_uncompressed_sentinel) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.985s
+
+OK

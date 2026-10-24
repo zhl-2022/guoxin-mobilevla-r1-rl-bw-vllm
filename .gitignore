@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.pkl
+*.so
+*.pyd
+**/runtime/
+**/pilot-evidence/
+/tasks/**/smoke.log
+.venv/
+venv/

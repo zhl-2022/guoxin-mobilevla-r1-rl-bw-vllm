@@ -1,0 +1,29 @@
+{
+  "schema": "mobilevla-cpu-validation006-v1",
+  "utc": "2026-10-23T16:01:25.022076+00:00",
+  "windows_numeric_source_tests": {
+    "passed": 19,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_mobilevla_session006.py -v"
+  },
+  "wsl_shell_syntax": {
+    "files": 8,
+    "passed": true
+  },
+  "wsl_launch_dry_run": {
+    "run_id": "654118905a9e4fd8a5d5abe88a0ca97a",
+    "passed": true
+  },
+  "wsl_numeric_tests_run": false,
+  "wsl_reason": "No torch or transformers installed; native GPU runtime reserved for SCNet",
+  "GPU_verified": false,
+  "source_files": {
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\backend.py": "29b3acdd56ca533b15baaa9409ceb9a40e0cfc1a29a4234df2afd0991557c104",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\contract.py": "b9265aef81a5867bdcb07ccf2318e5cd834037b39e9e2936e2f242978a71d46a",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\prepare.py": "fa160f595c5e65b98bc2d07cddbbcb4ddeb3baa47a372a57ee5f26a20d1a32d2",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\projector.py": "65dc2f13fc8be9c132425f5e8c15de54a183c3535d7986e86d70db45dbafa245",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\reference_rgb.py": "48a493df3f42a01a2c06aaa1d62564862dd1edbb93a260fa0919077e00a72f22",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\runtime.py": "018bb193b2482a8e3ae70e16d3fe9cec310b6810baad40307a9b26920ae87c60",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\__init__.py": "93632222f57eb2c92f08c4bb50b200c1b5bc37840ee868a6f434174b640c6afb"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checked_source_and_future_pilot_log_paths": 203,
+  "unexpected_Git_ignored_payloads": [],
+  "future_sealed_evidence_smoke_log_trackable": true,
+  "GPU_used": false
+}

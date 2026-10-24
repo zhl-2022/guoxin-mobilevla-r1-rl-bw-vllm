@@ -1,0 +1,25 @@
+{
+  "schema": "mobilevla-cpu-validation006-v2",
+  "utc": "2026-10-23T16:18:05.691485+00:00",
+  "windows_source_and_derived_seal_tests": {
+    "passed": 27,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -p test_mobilevla_session006.py -v"
+  },
+  "wsl_derived_seal_only_tests": {
+    "passed": 8,
+    "failed": 0,
+    "torch_numeric_tests_run": false
+  },
+  "native_import_tested": false,
+  "GPU_verified": false,
+  "source_files": {
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\backend.py": "29b3acdd56ca533b15baaa9409ceb9a40e0cfc1a29a4234df2afd0991557c104",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\contract.py": "d9ba27be37023c3438ad3a8ad8069a96f8d7848d18c03a0031de7f592078582d",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\prepare.py": "9350bc6ed73b1aa73a95d482fecc5ba2410c1b54f3d35771c4152499e5badd0f",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\projector.py": "65dc2f13fc8be9c132425f5e8c15de54a183c3535d7986e86d70db45dbafa245",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\reference_rgb.py": "48a493df3f42a01a2c06aaa1d62564862dd1edbb93a260fa0919077e00a72f22",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\runtime.py": "5a1756257cc20437553c14ea2ee03f52303d69bf4027b3fc1b0fc6983f98999a",
+    "candidates\\mobilevla-r1-session006\\mobilevla_bw006\\__init__.py": "93632222f57eb2c92f08c4bb50b200c1b5bc37840ee868a6f434174b640c6afb"
+  }
+}

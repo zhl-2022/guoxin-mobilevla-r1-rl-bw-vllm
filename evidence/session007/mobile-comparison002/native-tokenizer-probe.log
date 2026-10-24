@@ -1,0 +1,6 @@
+INFO 10-24 15:27:45 [__init__.py:44] Available plugins for group vllm.platform_plugins:
+INFO 10-24 15:27:45 [__init__.py:46] - hcu -> vllm_hcu:hcu_platform_plugin
+INFO 10-24 15:27:45 [__init__.py:49] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+INFO 10-24 15:27:45 [__init__.py:239] Platform plugin hcu is activated
+The tokenizer you are loading from '/root/private_data/guoxin-candidates/models/mobilevla-r1-derived007-bos003' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+{"output": "/root/private_data/mobilevla-comparison-evidence007-run002/native-tokenizer-probe.json", "status": "passed_tokenizer_only", "error": null}

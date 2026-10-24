@@ -1,0 +1,2 @@
+[vllm.general_plugins]
+mobilevla_bw006 = mobilevla_bw006:register

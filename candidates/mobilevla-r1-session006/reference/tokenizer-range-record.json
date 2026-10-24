@@ -1,0 +1,35 @@
+{
+  "source_revision": "0c757f3e9d1b95d8416b42e7089e1c04f3e6118a",
+  "network_bytes": 2335047,
+  "requests": [
+    {
+      "offset": 18294886122,
+      "bytes": 30,
+      "sha256": "1f57a05750d6833b2bdb342730c2e8d564b9ba0c6aa633a09f80003f90d476ce"
+    },
+    {
+      "offset": 18294886152,
+      "bytes": 56,
+      "sha256": "8db2fd1723369d38e29f2110f3f4d81e1f98b54a2b9292f481a0095f5dd7597d"
+    },
+    {
+      "offset": 18294886208,
+      "bytes": 1048576,
+      "sha256": "b18042f099c8dfd0908fb9918449e0c0331d88423302876035ce438a880764ee"
+    },
+    {
+      "offset": 18295934784,
+      "bytes": 1048576,
+      "sha256": "7c3c959b61c8d078b6db7b8c80518e707ffaa369b5b0c1def7a269979a297330"
+    },
+    {
+      "offset": 18296983360,
+      "bytes": 237809,
+      "sha256": "27a7c3be132f0b5067b3cf9c5f02a362b80f46e727101be6b9142537a0c113b7"
+    }
+  ],
+  "compressed_sha256": "5a5e1b72d204914470e281ade9124462dc7124843cc42b2e2307651a8f45613c",
+  "sha256": "5f73571014de620e0f67384ff0193a5a4aa5bdc332b6e1ae5fce7f99a001116d",
+  "crc32": "e00ca629",
+  "full_parts_sha_verified": false
+}

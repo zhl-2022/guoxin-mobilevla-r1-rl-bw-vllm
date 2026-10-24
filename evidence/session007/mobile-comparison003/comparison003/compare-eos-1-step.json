@@ -1,0 +1,19 @@
+{
+  "name": "compare-eos-1",
+  "command": [
+    "/usr/bin/python",
+    "-B",
+    "/root/private_data/guoxin-mobilevla-tools-007-004/scripts/mobilevla_compare_records006_004.py",
+    "--native",
+    "/root/private_data/mobilevla-comparison-evidence007-run003/native-eos-1.json",
+    "--reference",
+    "/root/private_data/mobilevla-comparison-evidence007-run003/hf-eos-1.json",
+    "--output",
+    "/root/private_data/mobilevla-comparison-evidence007-run003/comparison-eos-1.json"
+  ],
+  "started_utc": "2026-10-24T08:12:16.156158+00:00",
+  "timeout_seconds": 15.0,
+  "status": "PASS",
+  "returncode": 0,
+  "elapsed_seconds": 0.0677006603218615
+}

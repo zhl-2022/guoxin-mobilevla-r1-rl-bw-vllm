@@ -1,0 +1,216 @@
+{
+  "files": {
+    "mobile-pilot004/config.json": {
+      "bytes": 1997,
+      "sha256": "03e1ce98b1daa66d2597c2a44a4963cd8941ac00f62c5e8df2124c5066335a74"
+    },
+    "mobile-pilot004/env.log": {
+      "bytes": 3683,
+      "sha256": "f6425161f0c0c1ccdf24f4ebf76ad92421d60fd358d85c8afa3022630dce23d2"
+    },
+    "mobile-pilot004/pilot-result.json": {
+      "bytes": 3209,
+      "sha256": "beee2a45c5f1d682ede060a543f1caeb086b2eae36cb5a28377ece46a909007b"
+    },
+    "mobile-pilot004/run-id.txt": {
+      "bytes": 33,
+      "sha256": "86f3ea0486623f198308ba992e77853e4d09136c6ddc5b80b9f2d1eaff39b607"
+    },
+    "mobile-pilot004/server.log": {
+      "bytes": 34063,
+      "sha256": "3acf8ef0475f8430c38d94539a3d3e948479c9dde6dddb9a158279fc6b1610a2"
+    },
+    "mobile-pilot004/smoke.log": {
+      "bytes": 9696,
+      "sha256": "833e2c4be649339121819a706956ef1600c5d2aecd0cae460ccd37f6985502cb"
+    },
+    "mobile-pilot004/start.log": {
+      "bytes": 1567,
+      "sha256": "2f40c3ceb47c112550bf9bf4f3ff1504877bd29df879928b1fbf5957209d17db"
+    },
+    "mobile-pilot004/state.json": {
+      "bytes": 1611,
+      "sha256": "bf5bb511131249fdf69045292bad110a713a3efdd3d4f9a2596b682887d1cb28"
+    },
+    "mobile-pilot004/stop.log": {
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    "mobile-pilot004/supervisor.log": {
+      "bytes": 5548,
+      "sha256": "a2e665d8cf7a8c277a9283cef4d2b4d332ef0b1d7401eee342c497efd6cccdf3"
+    },
+    "session007/mobile-comparison001-launched.json": {
+      "bytes": 85,
+      "sha256": "2e6764e99e96b56edbac9fd599e54c6bf61eabfdd5d948c68a597aad3cdabd8f"
+    },
+    "session007/mobile-comparison001.log": {
+      "bytes": 842,
+      "sha256": "248261b3843abe24ec4013bc96e1d0c1c04b15770de60810d619e76c715b377c"
+    },
+    "session007/mobile-comparison002-launched.json": {
+      "bytes": 171,
+      "sha256": "a849bc6020cb51c0d05c556404fd5a986b13600635ebf902a6b354323cba4204"
+    },
+    "session007/mobile-comparison002.log": {
+      "bytes": 833,
+      "sha256": "065d52f993524041e171aa78bfc7daada13b2893255d26b8da843b8a686f9c2c"
+    },
+    "session007/mobile-comparison003-launched.json": {
+      "bytes": 342,
+      "sha256": "910201c29417a3d069a07393fca1f55f03448133a4553d859c13e6a0ec627c41"
+    },
+    "session007/mobile-comparison003.log": {
+      "bytes": 835,
+      "sha256": "abd772900edc31f5f4d78d864f9ec1ef721c65057835d9d45f3295e5cc01e1cc"
+    },
+    "session007/mobile-covering-volume-proof001.json": {
+      "bytes": 38554,
+      "sha256": "b57521555a10b5ce609fbfaf5224d86be65ee9b51ebb9482721404f0458f2142"
+    },
+    "session007/mobile-pilot001-engine-later-check.json": {
+      "bytes": 202,
+      "sha256": "195917cfc89dc40bcc548d13eb4e09e717cf6caa4ba59809575b150e2a1caa80"
+    },
+    "session007/mobile-pilot001-independent-cleanup.json": {
+      "bytes": 278,
+      "sha256": "509cf5687474b07926ea4e31bb4852d28200644b02223d78725a437be1e0fa57"
+    },
+    "session007/mobile-pilot001-launched.json": {
+      "bytes": 168,
+      "sha256": "fdab0f28f0bf50ee13393d1aa5446e394d07159155fb83974a3535dc712f6c57"
+    },
+    "session007/mobile-pilot001.log": {
+      "bytes": 173,
+      "sha256": "1b5150179987d93c7982de4fc3fc40d7a221934621bf3d75cfa96e0db9a53272"
+    },
+    "session007/mobile-pilot003-first-launch-path-error.json": {
+      "bytes": 264,
+      "sha256": "889cf7b3f5f4e9972d2084698f7bd78a735f84024222a32e6b4a9b4db141e022"
+    },
+    "session007/mobile-pilot003.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "session007/mobile-pilot003b-independent-cleanup.json": {
+      "bytes": 371,
+      "sha256": "a67116f1602efd2fe9bb1b64e177b4bf431caff73c70e7824384676e23389995"
+    },
+    "session007/mobile-pilot003b-launched.json": {
+      "bytes": 124,
+      "sha256": "8e320e2e3de30fdc11c8ca419d591eef528fb63f1497d1e5b84367e11ffb999f"
+    },
+    "session007/mobile-pilot003b.log": {
+      "bytes": 173,
+      "sha256": "7cbbc05bb4134bebe258c67bb9e82600f9425b680befbecf6044585296d4ef2e"
+    },
+    "session007/mobile-pilot004-independent-cleanup.json": {
+      "bytes": 373,
+      "sha256": "8d40e87b99e5296faf6433f0936491aea0c0be0e3ab37ee97e8b6d4cff359293"
+    },
+    "session007/mobile-pilot004-launched.json": {
+      "bytes": 125,
+      "sha256": "e0a7631089773a9d6c89987136640c6c8eb40b168fc2e0189725e7e4cdbcbb6e"
+    },
+    "session007/mobile-pilot004.log": {
+      "bytes": 173,
+      "sha256": "61769dfb417055ef5e7863b9761662ce52e4d55e04820bdf59b884ca906319a3"
+    },
+    "session007/mobile-volume-proof001-launched.json": {
+      "bytes": 61,
+      "sha256": "fa0302bbdbbf08c3d0fae0658dc5e0df2f9f873e6b41a425b4ddd2f2edc5071b"
+    },
+    "session007/mobile-volume-proof001.log": {
+      "bytes": 1811,
+      "sha256": "748d5c957a97ed53741c6f5cc17f849cff9d6a2d95880756e9b8eecc9d2e4f5b"
+    },
+    "session007/qwen21-core005-launched.json": {
+      "bytes": 94,
+      "sha256": "dc218b0280ef125f3c25e4beb59196f810c4abfbf2cb1aec91a0693ff40f88fa"
+    },
+    "session007/qwen21-core005.log": {
+      "bytes": 858,
+      "sha256": "863261c5d70385be9ed83ca3c5fba8c628b7272173470e85c6aea2bdb3182ce0"
+    },
+    "session007/qwen21-core007-launched.json": {
+      "bytes": 441,
+      "sha256": "b8595670af7b5a792dcfe7fe746dd829322679d81c12acabcffab5ea0b8f52da"
+    },
+    "session007/qwen21-core007.log": {
+      "bytes": 858,
+      "sha256": "d812a05f4d7e311589d99c5ef3f0bbd9184517a26c9843dcac9828a00118b64b"
+    },
+    "session007/wan-004-real-parser.json": {
+      "bytes": 7833,
+      "sha256": "ff5188ec4c84778ae4cfe2ac9d2ee035b7bc65991649832624c3c861cb55d288"
+    },
+    "session007/wan-004-real-parser.log": {
+      "bytes": 979,
+      "sha256": "7b84c43de210eae63a164e807fb4e291562687e753b23a8c20cc307358247376"
+    },
+    "session007/wan-download001-handoff-complete.json": {
+      "bytes": 260,
+      "sha256": "16e40e133fc75654cd93da1f77a08a82c0b0071727e30ab86d9b2da2247f44ef"
+    },
+    "session007/wan-download001-handoff-signal.json": {
+      "bytes": 387,
+      "sha256": "775442affa55c50dab9fc8ba9ca46226d730803e63475e109da24eb90829a934"
+    },
+    "session007/wan-download001-launched.json": {
+      "bytes": 157,
+      "sha256": "f14e3fbf9e5f8be3d76ff54f1564235faddd8adddf5561111189bd9c90d1acac"
+    },
+    "session007/wan-download001.log": {
+      "bytes": 10204,
+      "sha256": "c9197f5a3ec6ea072ca3c177f648f9a3e79aef3615a7a5bd7b7dbd5e5c466089"
+    },
+    "session007/wan-download002-identity.json": {
+      "bytes": 449,
+      "sha256": "acc09535aa51376cf8abc5281e4cd1f661610c328eb457734e1461a39410a977"
+    },
+    "session007/wan-download002-launched.json": {
+      "bytes": 101,
+      "sha256": "71e0b0b0a72330ad308c86f35af318e97f15c0e7d0be61f3121599ee8fe70531"
+    },
+    "session007/wan-download002.log": {
+      "bytes": 14004,
+      "sha256": "f083ca6237f014139fa7ed34f43cd828bcc1b39534ff3c68b5ffd823cfac22b1"
+    },
+    "session007/wan-jobwatcher001-launched.json": {
+      "bytes": 635,
+      "sha256": "e65a3f7360b1a6b8416ba0a8690bebf5ea9d2637c56d8f5bdec6166529bb4f73"
+    },
+    "session007/wan-jobwatcher001.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "session007/wan-kernels001.json": {
+      "bytes": 4137,
+      "sha256": "2f556e3be1736fc09d37d6aa776343b97adc02e4d75add7a5e3989c6a6161095"
+    },
+    "session007/wan-kernels001.log": {
+      "bytes": 1144,
+      "sha256": "d4bc81c6e10e9b4c38617e7452e227df685dd89f0002857905aaaea593145572"
+    },
+    "session007/wan-kernels002.json": {
+      "bytes": 2485,
+      "sha256": "f8f2c80db2cc6229f7f2a9e76747e484df7fdcaf84721548b19bef3bf8cdf40b"
+    },
+    "session007/wan-kernels002.log": {
+      "bytes": 1484,
+      "sha256": "1880eb22dba6ddc95c10d68e169684a79ebaffb9e5a8333a44b3f5f962b14d18"
+    },
+    "session007/wan-runtime-probe003.json": {
+      "bytes": 6478,
+      "sha256": "f2762d15e7de6367781deaf2112fa0fb8e729ec3ed1947f866e155c8b0712fb7"
+    },
+    "session007/wan-runtime-probe004.json": {
+      "bytes": 7638,
+      "sha256": "e5757dabfb215c709f1f7fe720dfb15e70d4f1d40a9433e9316c1d15bd688bde"
+    },
+    "session007/wan-runtime-probe004.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "mobilevla-003-standard-staging-validation007-v1",
+  "staging_root": "E:\\hg20261019\\deliverables\\mobilevla-session007-003-staging",
+  "passed": true,
+  "GPU_used": false,
+  "standard_wrappers_GPU_replayed": false,
+  "checks": [
+    {
+      "case": "bash-n:bench.sh",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "case": "bash-n:env.sh",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "case": "bash-n:env_check.sh",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "case": "bash-n:run.sh",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "case": "bash-n:smoke.sh",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "case": "bash-n:stop.sh",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "case": "003-standard-launch-dryrun",
+      "returncode": 0,
+      "expected": 0,
+      "stdout": "{\n  \"dry_run\": true,\n  \"task\": \"/mnt/e/hg20261019/deliverables/mobilevla-session007-003-staging/tasks/mobilevla-r1-rl-bw-vllm\",\n  \"framework\": \"vllm\",\n  \"precision\": \"bf16\",\n  \"model_id\": \"AIGeeksGroup/MobileVLA-R1\",\n  \"model_revision\": \"0c757f3e9d1b95d8416b42e7089e1c04f3e6118a\",\n  \"contest_alias\": \"BAAI/MobileVLA-R1\",\n  \"contest_alias_equivalence_verified\": false,\n  \"model_path\": \"/tmp/mobilevla-003-draft-dryrun-only\",\n  \"served_name\": \"mobilevla-r1-rgb-rl006\",\n  \"host\": \"127.0.0.1\",\n  \"port\": 30139,\n  \"tp\": 1,\n  \"max_len\": 4096,\n  \"mem_frac\": 0.8,\n  \"max_num_seqs\": 1,\n  \"load_timeout\": 900,\n  \"max_runtime\": 1800,\n  \"stop_grace\": 30,\n  \"command\": [\n    \"/usr/bin/python3\",\n    \"-m\",\n    \"vllm.entrypoints.openai.api_server\",\n    \"--model\",\n    \"/tmp/mobilevla-003-draft-dryrun-only\",\n    \"--tokenizer\",\n    \"/tmp/mobilevla-003-draft-dryrun-only\",\n    \"--served-model-name\",\n    \"mobilevla-r1-rgb-rl006\",\n    \"--host\",\n    \"127.0.0.1\",\n    \"--port\",\n    \"30139\",\n    \"--dtype\",\n    \"bfloat16\",\n    \"--tensor-parallel-size\",\n    \"1\",\n    \"--max-model-len\",\n    \"4096\",\n    \"--gpu-memory-utilization\",\n    \"0.8\",\n    \"--max-num-seqs\",\n    \"1\",\n    \"--max-num-batched-tokens\",\n    \"4096\",\n    \"--enforce-eager\",\n    \"--limit-mm-per-prompt\",\n    \"{\\\"image\\\":8,\\\"video\\\":0}\",\n    \"--chat-template\",\n    \"/tmp/mobilevla-003-draft-dryrun-only/mobilevla-chat-template.jinja\",\n    \"--chat-template-content-format\",\n    \"string\",\n    \"--generation-config\",\n    \"vllm\"\n  ],\n  \"url\": \"http://127.0.0.1:30139\",\n  \"plugin\": \"mobilevla_bw006\",\n  \"architecture\": \"MobileVLAForConditionalGeneration006\",\n  \"scope\": \"Published RGB RL checkpoint; no depth/point modules or fabricated evaluation\",\n  \"GPU_verified\": false,\n  \"official_accuracy_verified\": false,\n  \"official_performance_verified\": false,\n  \"standard_submission_ready\": false,\n  \"run_id\": \"654118905a9e4fd8a5d5abe88a0ca97a\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "case": "003-official-gate-dryrun",
+      "returncode": 2,
+      "expected": 2,
+      "stdout": "{\n  \"kind\": \"verify\",\n  \"track\": \"T02\",\n  \"selfcheck_only\": false,\n  \"dry_run\": true,\n  \"official_acceptance\": false,\n  \"identity_expected\": {\n    \"MODEL_ID\": \"AIGeeksGroup/MobileVLA-R1\",\n    \"CARD\": \"BW\",\n    \"FRAMEWORK\": \"vllm\",\n    \"PRECISION\": \"bf16\"\n  },\n  \"script\": null,\n  \"baseline\": null,\n  \"data\": null,\n  \"command\": null,\n  \"selfcheck_command\": null,\n  \"timeout_seconds\": 3600.0,\n  \"selfcheck_timeout_seconds\": 120.0,\n  \"expected_outputs\": [\n    \"verify_result.json\"\n  ],\n  \"selfcheck_observed_output_paths\": [],\n  \"outputs_required\": true,\n  \"problems\": [\n    \"missing OFFICIAL_VERIFY_SCRIPT\",\n    \"missing OFFICIAL_BASELINE\",\n    \"missing OFFICIAL_DATA_DIR\"\n  ],\n  \"material_schema\": \"not_assumed\",\n  \"result_interpretation\": \"execution_only; task-specific scoring contract still required\",\n  \"service_health_checked\": false,\n  \"subprocess_executed\": false,\n  \"filesystem_mutated\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "case": "003-standalone-all-CPU-tests",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_failed_real_HTTP_raw_is_reproduced_and_new_path_fixes_upstream_input (test_mobilevla_bos003.SourceTokenPathTests.test_failed_real_HTTP_raw_is_reproduced_and_new_path_fixes_upstream_input) ... ok\ntest_old_derived_receipt_and_unbound_source_are_rejected_before_loading (test_mobilevla_bos003.SourceTokenPathTests.test_old_derived_receipt_and_unbound_source_are_rejected_before_loading) ... ok\ntest_publisher_actual_tokenizer_preserves_two_BOS (test_mobilevla_bos003.SourceTokenPathTests.test_publisher_actual_tokenizer_preserves_two_BOS) ... ok\ntest_publisher_loader_source_and_files_match_fixed_Git_lock (test_mobilevla_bos003.SourceTokenPathTests.test_publisher_loader_source_and_files_match_fixed_Git_lock) ... ok\ntest_publisher_sampling_EOS_is_single_and_native_ignores_file_defaults (test_mobilevla_bos003.SourceTokenPathTests.test_publisher_sampling_EOS_is_single_and_native_ignores_file_defaults) ... ok\ntest_real_native_tokens_main_path_matches_publisher_one_and_eight_frames (test_mobilevla_bos003.SourceTokenPathTests.test_real_native_tokens_main_path_matches_publisher_one_and_eight_frames) ... ok\ntest_failed_owned_cleanup_blocks_HF (test_mobilevla_orchestrator007_002.OrchestratorTests.test_failed_owned_cleanup_blocks_HF) ... ok\ntest_full_original_source_and_helper_locks_match_local_files (test_mobilevla_orchestrator007_002.OrchestratorTests.test_full_original_source_and_helper_locks_match_local_files) ... ok\ntest_missing_003_derived_view_is_prepared_before_native_launch (test_mobilevla_orchestrator007_002.OrchestratorTests.test_missing_003_derived_view_is_prepared_before_native_launch) ... ok\ntest_native_failure_still_stops_and_never_starts_HF (test_mobilevla_orchestrator007_002.OrchestratorTests.test_native_failure_still_stops_and_never_starts_HF) ... ok\ntest_native_then_verified_cleanup_then_HF_and_both_comparisons (test_mobilevla_orchestrator007_002.OrchestratorTests.test_native_then_verified_cleanup_then_HF_and_both_comparisons) ... ok\ntest_parent_traversal_is_rejected (test_mobilevla_orchestrator007_002.OrchestratorTests.test_parent_traversal_is_rejected) ... ok\ntest_stop_refuses_to_signal_a_different_run (test_mobilevla_orchestrator007_002.OrchestratorTests.test_stop_refuses_to_signal_a_different_run) ... ok\ntest_depth_not_implemented (test_mobilevla_session006.ConfigTests.test_depth_not_implemented) ... ok\ntest_feature_layer_not_silently_changed (test_mobilevla_session006.ConfigTests.test_feature_layer_not_silently_changed) ... ok\ntest_no_cls_is_dropped_from_siglip (test_mobilevla_session006.ConfigTests.test_no_cls_is_dropped_from_siglip) ... ok\ntest_nonsquare_patch_counts_rejected (test_mobilevla_session006.ConfigTests.test_nonsquare_patch_counts_rejected) ... ok\ntest_plugin_registered_as_lazy_custom_implementation (test_mobilevla_session006.ConfigTests.test_plugin_registered_as_lazy_custom_implementation) ... ok\ntest_real_pinned_checkpoint_contract (test_mobilevla_session006.ConfigTests.test_real_pinned_checkpoint_contract) ... ok\ntest_s2_is_not_same_model (test_mobilevla_session006.ConfigTests.test_s2_is_not_same_model) ... ok\ntest_safetensors_header_truncated_rejected (test_mobilevla_session006.ConfigTests.test_safetensors_header_truncated_rejected) ... ok\ntest_weight_prefix_sources (test_mobilevla_session006.ConfigTests.test_weight_prefix_sources) ... ok\ntest_chat_template_tamper_also_checked_without_weight_hashing (test_mobilevla_session006.DerivedSealTests.test_chat_template_tamper_also_checked_without_weight_hashing) ... ok\ntest_derived_file_symlink_rejected (test_mobilevla_session006.DerivedSealTests.test_derived_file_symlink_rejected) ... ok\ntest_derived_preparation_path_drift_rejected (test_mobilevla_session006.DerivedSealTests.test_derived_preparation_path_drift_rejected) ... ok\ntest_derived_source_path_edit_rejected (test_mobilevla_session006.DerivedSealTests.test_derived_source_path_edit_rejected) ... ok\ntest_derived_tokenizer_tamper_rejected_with_source_unchanged (test_mobilevla_session006.DerivedSealTests.test_derived_tokenizer_tamper_rejected_with_source_unchanged) ... ok\ntest_invalid_null_derived_digest_rejected (test_mobilevla_session006.DerivedSealTests.test_invalid_null_derived_digest_rejected) ... ok\ntest_receipt_missing_derived_entry_rejected (test_mobilevla_session006.DerivedSealTests.test_receipt_missing_derived_entry_rejected) ... ok\ntest_unchanged_source_and_eight_derived_files_pass (test_mobilevla_session006.DerivedSealTests.test_unchanged_source_and_eight_derived_files_pass) ... ok\ntest_even_grid_actual_source_equivalence (test_mobilevla_session006.ProjectorSourceParity.test_even_grid_actual_source_equivalence) ... ok\ntest_explicit_flattening_order (test_mobilevla_session006.ProjectorSourceParity.test_explicit_flattening_order) ... ok\ntest_full_projector_source_numerical_equivalence (test_mobilevla_session006.ProjectorSourceParity.test_full_projector_source_numerical_equivalence) ... ok\ntest_odd_grid_padding_actual_source_equivalence (test_mobilevla_session006.ProjectorSourceParity.test_odd_grid_padding_actual_source_equivalence) ... ok\ntest_real_27_grid_eight_frame_order (test_mobilevla_session006.ProjectorSourceParity.test_real_27_grid_eight_frame_order) ... ok\ntest_derived_sentinel_preserves_all_other_token_ids (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_derived_sentinel_preserves_all_other_token_ids) ... ok\ntest_native_prompt_replacement_is_exact_196_per_frame (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_native_prompt_replacement_is_exact_196_per_frame) ... ok\ntest_real_tokenizer_source_image_sentinel_equivalence (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_real_tokenizer_source_image_sentinel_equivalence) ... ok\ntest_siglip_preprocess_fixed_pixels_source_equivalence (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_siglip_preprocess_fixed_pixels_source_equivalence) ... ok\ntest_source_chat_single_and_multiturn_exact_text (test_mobilevla_session006.TokenizerAndTemplateSourceParity.test_source_chat_single_and_multiturn_exact_text) ... ok\n\n----------------------------------------------------------------------\nRan 40 tests in 18.636s\n\nOK\n"
+    }
+  ],
+  "final_sealed": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "mobilevla-owned-comparison-orchestrator007-v3",
+  "run_id": "b10e5daa57e83d115258adf97d496377",
+  "started_utc": "2026-10-24T08:02:38.139090+00:00",
+  "total_timeout_seconds": 1800,
+  "source_identity_before": {
+    "status": "PASS",
+    "verified_payload_file_counts": {
+      "frozen": 70,
+      "comparison": 5
+    },
+    "lock_sha256": "63e70e6a2fff22b7339e70878ecab85844bbca822574da3038fbe1fc686be414"
+  },
+  "source": "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+  "model": "/root/private_data/guoxin-candidates/models/mobilevla-r1-derived007-eos004",
+  "frozen": "/root/private_data/guoxin-mobilevla-tools-007-004",
+  "comparison": "/root/private_data/guoxin-mobilevla-tools-007-004"
+}

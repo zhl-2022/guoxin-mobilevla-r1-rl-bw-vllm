@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "captured_utc": "2026-10-24T08:09:09.917252+00:00",
+  "run_id": "b10e5daa57e83d115258adf97d496377",
+  "terminal_state_recorded": true,
+  "processes": {
+    "supervisor": {
+      "status": "absent",
+      "pid": 13136,
+      "running": false,
+      "expected_start_token": "285650841",
+      "same_owned_process_running": false
+    },
+    "server": {
+      "status": "absent",
+      "pid": 13137,
+      "running": false,
+      "expected_start_token": "285650851",
+      "same_owned_process_running": false
+    }
+  },
+  "owned_process_group_live_members": [],
+  "process_probe_errors": [],
+  "loopback_port": 30139,
+  "connect_ex": 111,
+  "port_refused_connection": true,
+  "GPU_memory_idle_claimed": false,
+  "stop_error": null
+}

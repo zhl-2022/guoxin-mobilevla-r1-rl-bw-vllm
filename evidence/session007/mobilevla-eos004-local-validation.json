@@ -1,0 +1,13 @@
+{
+  "schema": "mobilevla-eos004-local-validation-v1",
+  "utc": "2026-10-24T07:59:55.159154+00:00",
+  "command": "python -B -m unittest discover -s revisions/mobilevla-eos004/tests -p 'test*.py' -v",
+  "returncode": 0,
+  "tests_run": 45,
+  "elapsed_seconds": 23.649,
+  "passed": true,
+  "GPU_used": false,
+  "source_Git_commit": "9d98cce3b623dfddf479740d78869ec30364b75a",
+  "frozen003_unchanged_sha256": "aa62f6e5dde19cd5fcd4ed6c1cfb599a8a7739d32b9a58bbd8e1fe83522018e6",
+  "runtime_stopping_validation_pending": true
+}

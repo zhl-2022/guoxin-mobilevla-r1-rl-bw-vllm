@@ -1,0 +1,20 @@
+{
+  "name": "prepare-derived",
+  "command": [
+    "/usr/bin/python",
+    "-B",
+    "-m",
+    "mobilevla_bw006.prepare",
+    "--source",
+    "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+    "--receipt",
+    "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/extraction-receipt.json",
+    "--output",
+    "/root/private_data/guoxin-candidates/models/mobilevla-r1-derived007-bos003"
+  ],
+  "started_utc": "2026-10-24T07:26:27.979744+00:00",
+  "timeout_seconds": 240.0,
+  "status": "PASS",
+  "returncode": 0,
+  "elapsed_seconds": 58.85232506599277
+}

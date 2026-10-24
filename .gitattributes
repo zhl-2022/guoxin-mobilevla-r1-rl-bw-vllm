@@ -1,0 +1,2 @@
+# Preserve sealed source and raw evidence bytes across Windows/Linux clones.
+* -text

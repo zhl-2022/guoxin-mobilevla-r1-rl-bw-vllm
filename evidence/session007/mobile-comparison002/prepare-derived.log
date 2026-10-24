@@ -1,0 +1,63 @@
+{
+  "schema": "mobilevla-derived-hf-view-007-bos003-v1",
+  "adapter_revision": "007-bos003",
+  "adapter_source_files": {
+    "__init__.py": "93632222f57eb2c92f08c4bb50b200c1b5bc37840ee868a6f434174b640c6afb",
+    "backend.py": "5d529bd662867463d2f7f3fabb24dc5c8629976a136cbdeab5aff8b349e2c0d8",
+    "contract.py": "f1715295826533a71f3e5319f2dab6bfcfadc2db843c7ae84d76e82cbb677143",
+    "prepare.py": "4d0c9aecd3e13c362959ac019c6e87bbe3008de5a32502bb5946f14158e06c3b",
+    "projector.py": "65dc2f13fc8be9c132425f5e8c15de54a183c3535d7986e86d70db45dbafa245",
+    "reference_rgb.py": "48a493df3f42a01a2c06aaa1d62564862dd1edbb93a260fa0919077e00a72f22",
+    "runtime.py": "9714fa1261aab21a35d0c5013de7817d3be2b6ccaee4bd5701beba080605ed5a"
+  },
+  "created_utc": "2026-10-24T07:27:26.765353+00:00",
+  "source": "/root/private_data/guoxin-candidates/models/mobilevla-r1-rl006/weight/rl",
+  "derived": "/root/private_data/guoxin-candidates/models/mobilevla-r1-derived007-bos003",
+  "source_unchanged": true,
+  "derived_small_files": {
+    "config.json": {
+      "bytes": 2519,
+      "sha256": "434e6ec2348acafba0d954ae301f1450d2c7ca528feb3b5d97da09a6f703e320"
+    },
+    "generation_config.json": {
+      "bytes": 194,
+      "sha256": "37e2904bb4bc0d9a49c8d0fade95c0a7c887a6658880563afe1140274c2fe6eb"
+    },
+    "mobilevla-chat-template.jinja": {
+      "bytes": 793,
+      "sha256": "4387bf5957708f96398c9de093879c4c7f20cb3ad40996eb8aaed6ed97b75d9b"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 23950,
+      "sha256": "ce350cea18b4668fef697710325e81cf7974430444764275558a06dd9460a734"
+    },
+    "preprocessor_config.json": {
+      "bytes": 368,
+      "sha256": "f59da2f87c3cd079bd4f8f3037e81b277c60c498e279a8020331f67a5a3157e8"
+    },
+    "special_tokens_map.json": {
+      "bytes": 434,
+      "sha256": "214dd83efd2bfad51e3e87df20334fdcdcc6192d0118779efb86ef5a83cac5e4"
+    },
+    "tokenizer.json": {
+      "bytes": 6623067,
+      "sha256": "84dec969d42ed0f08948e7601200f65e43c8e756b781a4a3e1dfdfd57062f8b5"
+    },
+    "tokenizer_config.json": {
+      "bytes": 51713,
+      "sha256": "8cd28e78ba450f60688d60eb1de465016871ba1289678d9c1f2c6860ccb5f3bb"
+    }
+  },
+  "source_weights_were_not_rewritten": true,
+  "extraction_receipt_sha256": "df5333808e098d78ed0afb9bac168d33c7752c7e55f1e7e259d461d9ade1c4fe",
+  "full_lfs_parts_sha_verified": false,
+  "partial_archive_integrity_scope": "Fixed-revision HTTPS exact Range, ZIP local-header + central-directory size/name/method/CRC32; locally calculated compressed and extracted SHA256 recorded. Partial ranges cannot verify publisher full-part LFS SHA256.",
+  "sentinel_adaptation": {
+    "source": -200,
+    "runtime": 128259,
+    "no_embedding_rows_added": true
+  },
+  "gpu_loaded": false,
+  "formal_ready": false,
+  "submitted": false
+}
