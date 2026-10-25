@@ -60,6 +60,12 @@ EOS修复依据见 `docs/mobilevla-eos004-stop-contract.md`，历史 BOS 来源�
 
 ## 4. 服务启动脚本
 
+### 提交前审计修订008
+
+新增仓库根目录的标准入口，委托原标准目录和已封存的004原生任务。根目录可执行 `bash run.sh --dry-run --run-id 654118905a9e4fd8a5d5abe88a0ca97a`、`bash env_check.sh --dry-run`、`python verify.py --selfcheck --dry-run` 和 `bash bench.sh --dry-run`。正式材料缺失时verify/bench应返回2，不能将此退出码改成通过。
+
+这些入口修订的验证范围为CPU和Linux脚本合同；没有把旧GPU日志改标成008 GPU复跑。原适配器、checkpoint与实验原件未修改。新增 `verify_bundle.py` 核对本修订的精确文件集合，旧manifest和旧README保存在 `evidence/prior-delivery008/`。完整镜像、干净环境GPU复跑、官方精度/性能和评审访问仍待补齐，`submission_ready=false`。
+
 源码树的主要目录如下。权重保存在外部 `private_data`，不包含在代码包或 Git 仓库中。
 
 | 目录 | 用途 |

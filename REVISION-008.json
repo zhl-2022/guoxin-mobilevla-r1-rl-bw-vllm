@@ -1,0 +1,16 @@
+{
+  "schema": "submission-entrypoint-review008-v1",
+  "source_archive": {
+    "path": "dist/session007-mobilevla-standard-004.zip",
+    "bytes": 11036478,
+    "sha256": "f2d8dc8d0c6bcde88b2ea7f38d94fb97c28624822953588f5b77c8e180e15474"
+  },
+  "previous_GitHub_commit": "e34dc92d20b362a164c4dc0f89d1037f34d4b7b5",
+  "old_GPU_evidence_unchanged": true,
+  "new_entrypoints_GPU_replayed": false,
+  "official_accuracy_verified": false,
+  "official_performance_verified": false,
+  "submission_ready": false,
+  "submitted": false,
+  "scope": "Root entrypoint repair and explicit diagnostic limits; no model math change"
+}
